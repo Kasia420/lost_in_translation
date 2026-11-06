@@ -1,0 +1,26 @@
+# Tested with Python 3.12 on macOS x86_64 (Intel).
+# torch 2.2.2 is the last release with Intel-macOS wheels, which in turn needs numpy<2.
+
+# data + statistics
+numpy==1.26.4
+pandas==3.0.6
+scipy==1.17.1
+
+# figures
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# embeddings (LaBSE) + sentiment (XLM-RoBERTa)
+torch==2.2.2
+transformers==4.46.3
+sentence-transformers==3.2.1
+tokenizers==0.20.3
+sentencepiece==0.2.0
+protobuf==7.36.2
+
+# data collection
+# anthropic < 1.0 still accepts `temperature=` and sends API version 2023-06-01;
+# API version 2026-10-21 (SDK >= 2.0) rejects temperature on every model.
+anthropic==0.125.0
+wikipedia-api==0.16.0
+python-dotenv==1.2.4

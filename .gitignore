@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# model caches / scratch output
+.cache/
+hf_cache/
+scratch/
+
+# OS / editor
+.DS_Store
+Icon?
+.idea/
+.vscode/

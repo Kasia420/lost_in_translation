@@ -1,0 +1,23 @@
+LOST IN TRANSLATION — podsumowanie statystyczne
+====================================================
+
+[1] HOMOGENIZACJA: cosine(EN-odpowiedz, PL-odpowiedz)
+    cala proba: median=0.811  mean=0.809  sd=0.034
+    Contested history : median=0.820 (n=9)
+    Literature        : median=0.809 (n=8)
+    Social norms      : median=0.784 (n=8)
+
+[2] ANGIELSKA SOCZEWKA: native_pull(EN) vs native_pull(PL)
+    native_pull = sim(odpowiedz, wiki-wlasny-jezyk) - sim(odpowiedz, wiki-obcy-jezyk)
+    median native_pull(EN)=+0.091  native_pull(PL)=+0.067
+    Wilcoxon native_pull EN vs PL: n=24  median(A)=+0.091  median(B)=+0.067  W=127.0  p=0.5271  rank-biserial=+0.153
+
+[3] SENTYMENT: polarity = P(pos)-P(neg)
+    median EN=-0.190  PL=-0.100
+    Wilcoxon sentyment PL vs EN: n=25  median(A)=-0.100  median(B)=-0.190  W=39.0  p=0.0004  rank-biserial=+0.760
+    Contested history : EN=-0.398  PL=-0.161  diff=+0.198
+    Literature        : EN=-0.190  PL=-0.079  diff=+0.106
+    Social norms      : EN=-0.063  PL=-0.082  diff=-0.031
+
+[4] DLUGOSC ODPOWIEDZI (kontrola):
+    median slow EN=211  PL=165
