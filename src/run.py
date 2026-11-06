@@ -45,6 +45,8 @@ def main(argv=None):
                         help="analyze: write processed data, stats and figures to this directory")
     parser.add_argument("--overwrite", action="store_true",
                         help="analyze: allow replacing existing results for the run")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="collect: print the prompts and settings that would be sent, call nothing")
     args = parser.parse_args(argv)
 
     _load_dotenv()
@@ -58,7 +60,7 @@ def main(argv=None):
         build_prompts(paths)
     if args.command in ("collect", "all"):
         from .collect import collect_llm
-        collect_llm(paths)
+        collect_llm(paths, dry_run=args.dry_run)
     if args.command in ("wiki", "all"):
         from .wiki import fetch_wikipedia
         fetch_wikipedia(paths)

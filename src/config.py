@@ -37,6 +37,25 @@ RUNS = {
         # Wikipedia baseline fetched together with v1.
         "wiki_dir": "v1",
     },
+    "v2": {
+        "description": ("Length set in the prompt itself; max_tokens high enough not to cut "
+                        "answers; dated model snapshot; extended per-row logging."),
+        # Dated snapshot behind the v1 alias (deprecated; retires 2026-11-30).
+        "model": "claude-sonnet-4-5-20250929",
+        "temperature": 0.0,
+        "max_tokens": 2000,
+        # Appended to the prompt after a single space.
+        "length_instruction": {
+            "en": "Answer in about 150 words.",
+            "pl": "Odpowiedz w około 150 słowach.",
+        },
+        # Also log returned model id, stop_reason, token usage, message/request ids.
+        "extended_logging": True,
+        # Same Wikipedia baseline as v1 (not re-fetched), so only the answers change.
+        "wiki_dir": "v1",
+        # Seed for strip-plot jitter in figures (v1 had none).
+        "jitter_seed": 2026,
+    },
 }
 
 # --------------------------------------------------------------------------- #

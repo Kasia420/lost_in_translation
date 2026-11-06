@@ -2,6 +2,31 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## v2 run (2026-11)
+
+### Collection settings (step 3a/3b)
+
+| Setting | v1 | v2 |
+|---|---|---|
+| Model requested | `claude-sonnet-4-5` (alias) | `claude-sonnet-4-5-20250929` (dated snapshot) |
+| temperature | 0.0 | 0.0 |
+| max_tokens | 600 | 2000 |
+| Prompt text | prompt only | prompt + `" Answer in about 150 words."` (EN) / `" Odpowiedz w około 150 słowach."` (PL) |
+| Wikipedia baseline | fetched for v1 | same v1 files, not re-fetched |
+| API version / SDK | not recorded | `anthropic-version: 2023-06-01`, `anthropic` 0.125.0 |
+| Figure jitter | unseeded | seeded (`jitter_seed=2026`) |
+
+Base prompts (`data/raw/v2/prompts.csv`) are identical to v1.
+
+New columns logged per row in `data/raw/v2/llm_responses.csv`: `model_requested`,
+`model_returned` (model id reported by the API), `stop_reason`, `input_tokens`,
+`output_tokens`, `message_id`, `request_id`, `anthropic_version`, `sdk_version`,
+`temperature`, `max_tokens`, `length_instruction`. In v2 `model_requested` replaces v1's
+`model` column.
+
+New option: `python -m src.run collect --run v2 --dry-run` prints the exact prompts and
+settings without calling the API.
+
 ## Repository restructure (portfolio, 2026-11)
 
 This repository was created from the course submission. The graded version is kept as
