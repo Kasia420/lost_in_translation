@@ -6,6 +6,10 @@
     python -m src.run analyze  [--run v1]   similarity, sentiment, stats, figures
     python -m src.run all      [--run v1]   build -> collect -> wiki -> analyze
 
+    python -m src.run extended [--run v1]   clean word count, Wikipedia + chunked sentiment
+    python -m src.run calibrate             classifier check on Tatoeba EN-PL sentence pairs
+    python -m src.run table                 results/results_table.{csv,md}, word counts, fig5-fig7
+
 Collection steps are resumable: rows already collected are skipped.
 `analyze` refuses to overwrite existing results unless --overwrite is given;
 use --out DIR to write a reproduction somewhere else instead.
@@ -38,7 +42,8 @@ def _check_no_overwrite(paths):
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m src.run", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["build", "collect", "wiki", "analyze", "all"])
+    parser.add_argument("command", choices=["build", "collect", "wiki", "analyze", "all",
+                                            "extended", "calibrate", "table"])
     parser.add_argument("--run", default="v1", choices=list(RUNS),
                         help="which run's settings and data folders to use (default: v1)")
     parser.add_argument("--out", type=Path, default=None,
@@ -69,6 +74,15 @@ def main(argv=None):
             _check_no_overwrite(paths)
         from .analyze import analyze
         analyze(paths, jitter_seed=RUNS[args.run].get("jitter_seed"))
+    if args.command == "extended":
+        from .extended import extend_run
+        extend_run(paths)
+    if args.command == "calibrate":
+        from .calibration import calibrate
+        calibrate()
+    if args.command == "table":
+        from .tables import build_tables
+        build_tables()
 
 
 if __name__ == "__main__":

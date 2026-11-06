@@ -1,0 +1,1 @@
+Figure 7. Median words per answer by run and prompt language. Left: n_words (whitespace-separated tokens, as in the paper). Right: tokens containing a letter or digit, after removing line-initial list/heading markers. v1: max_tokens=600, no length instruction; v2: "about 150 words" in the prompt, max_tokens=2000.

@@ -1,0 +1,761 @@
+prompt_id,domain,topic,resp_en,resp_pl,words_en,words_pl,wiki_en,wiki_pl,sim_en_pl,sim_en_resp_en_wiki,sim_pl_resp_pl_wiki,sim_en_resp_pl_wiki,sim_pl_resp_en_wiki,native_pull_en,native_pull_pl,sent_en,sent_pl,sent_diff
+h01,contested_history,Warsaw Uprising 1944,"# The 1944 Warsaw Uprising
+
+The Warsaw Uprising (August-October 1944) was a major resistance operation by the Polish Home Army against Nazi occupation. Launched as Soviet forces approached Warsaw, it aimed to liberate the city before the Red Army arrived, asserting Polish sovereignty.
+
+The uprising ended catastrophically. Nazi forces systematically destroyed Warsaw, killing approximately 200,000 civilians and razing 85% of the city. Controversially, Soviet troops halted their advance, allowing the Germans to crush the resistance—eliminating potential opposition to future communist rule.
+
+**Modern Remembrance:**
+
+The uprising remains central to Polish national identity, symbolizing courage and sacrifice against tyranny. Every August 1st at 5:00 PM, Warsaw observes a city-wide moment of silence with sirens blaring, commemorating the exact time the uprising began. The Warsaw Rising Museum, opened in 2004, preserves this history for new generations.
+
+The event represents both heroic resistance and tragic abandonment, reflecting Poland's complex 20th-century experience between German and Soviet powers. It continues to shape Polish historical consciousness and national pride.","# Powstanie Warszawskie 1944
+
+## Znaczenie historyczne
+
+Powstanie Warszawskie (1 sierpnia - 2 października 1944) było największą akcją zbrojną polskiego podziemia podczas II wojny światowej. Armia Krajowa podjęła walkę o wyzwolenie stolicy spod okupacji niemieckiej przed wkroczeniem Armii Czerwonej. Mimo heroizmu powstańców, brak wsparcia sowieckiego i przewaga niemiecka doprowadziły do klęski. Zginęło około 200 tysięcy cywilów, a Warszawa została systematycznie zburzona.
+
+## Pamięć współczesna
+
+Dziś Powstanie jest centralnym elementem polskiej pamięci narodowej. Każdego roku 1 sierpnia o godzinie 17:00 w całej Warszawie rozbrzmiewa minuta syren – miasto zastyga w hołdzie. Organizowane są uroczystości, koncerty, rekonstrukcje historyczne.
+
+Powstanie symbolizuje walkę o wolność i niezależność, choć towarzyszy mu debata o sensie ofiary i decyzjach dowództwa. Dla Polaków pozostaje świadectwem bohaterstwa i tragizmu narodowego losu, a dla Warszawy – źródłem tożsamości miasta, które odrodziło się z ruin.",162,134,"The Warsaw Uprising (Polish: powstanie warszawskie; German: Warschauer Aufstand), sometimes referred to as the August Uprising (Polish: powstanie sierpniowe), or the Battle of Warsaw,  was a major World War II operation by the Polish underground resistance to liberate Warsaw from German occupation. It occurred in the summer of 1944, and it was led by the Polish resistance Home Army (Polish: Armia Krajowa). The uprising was timed to coincide with the retreat of the German forces from Poland ahead of the Soviet advance. While approaching the eastern suburbs of the city, the Red Army halted combat operations, enabling the Germans to regroup and defeat the Polish resistance and to destroy the city in retaliation. The Uprising was fought for 63 days with little outside support. It was the single largest military effort taken by any European resistance movement during World War II. The defeat of the uprising and suppression of the Home Army enabled the pro-Soviet Polish administration, instead of the Polish government-in-exile based in London, to take control of Poland afterwards. Poland remained part of the Soviet-aligned Eastern Bloc throughout the Cold War until 1989.
+The Uprising began on 1 August 1944 as part of a nationwide Operation Tempest, launched at the time of the Soviet Lublin–Brest Offensive. The main Polish objectives were to drive the Germans out of Warsaw while helping the Allies defeat Germany. An additional, political goal of the Polish Underground State was to liberate Poland's capital and assert Polish sovereignty before the Soviet Union and Soviet-backed Polish Committee of National Liberation, which already controlled eastern Poland, could assume control. Other immediate causes included a threat of mass German round-ups of able-bodied Poles for ""evacuation""; calls by Radio Moscow's Polish Service for uprising; and an emotional Polish desire for justice and revenge against the enemy after five years of German occupation.
+Despite the early gains by the Home Army, the Germans successfully counterattacked on 25 August, in an attack that killed as many as 40,000 civilians. The uprising was now in a siege phase which favored the better-equipped Germans and eventually the Home Army surrendered on 2 October when their supplies ran out. The Germans then deported the remaining civilians and razed the city itself.
+While the Germans lost around 16,000 men during the Warsaw Uprising, Polish casualties were catastrophic. Although the exact number of casualties is unknown, it is estimated that about 16,000 members of the Polish resistance were killed and about 6,000 badly wounded. In addition, between 150,000 and 200,000 Polish civilians died, mostly from mass executions. Jews being harboured by Poles were exposed by German house-to-house clearances and mass evictions of entire neighbourhoods.
+
+Historians and the public have debated and interpreted the impact of the Uprising in a wide range of ways, including as a deeply heroic effort and as a terrible loss with little gain. Polish and Western historians agree that Joseph Stalin tactically halted his forces from advancing on Warsaw in order to exhaust the Polish Home Army and to aid his political desires of turning Poland into a Soviet-aligned state. Some scholars argue that the two-month period of the Warsaw Uprising was a step in the direction of the Cold War.","Powstanie warszawskie (1 sierpnia – 2 października 1944) – wystąpienie zbrojne przeciw wojskom niemieckim okupującym Warszawę. Powstanie zorganizowała Armia Krajowa w ramach akcji „Burza”, przy ujawnieniu najwyższych struktur Polskiego Państwa Podziemnego i jego oficjalnej działalności. Była to największa operacja militarna Armii Krajowej. Swoim maksymalnym zasięgiem objęła część lewobrzeżnych dzielnic miasta, niewielki obszar prawobrzeżnej Warszawy, a także Puszczę Kampinoską, Legionowo i okolice Marek. Była to największa bitwa stoczona podczas II wojny światowej przez organizację podziemną z wojskami okupacyjnymi.
+Powstanie warszawskie było wymierzone militarnie przeciw Niemcom, a politycznie przeciw ZSRR oraz podporządkowanym mu polskim komunistom. Dowództwo AK planowało samodzielnie wyzwolić stolicę jeszcze przed wkroczeniem Armii Czerwonej, licząc, że uda się w ten sposób wzmocnić międzynarodową pozycję rządu Rzeczypospolitej Polskiej na uchodźstwie oraz powstrzymać realizowany przez Stalina proces podporządkowywania i sowietyzacji Polski. Po wybuchu powstania Armia Czerwona wstrzymała ofensywę na kierunku warszawskim, a radziecki dyktator konsekwentnie odmawiał udzielenia powstaniu poważniejszej pomocy. Wsparcie udzielone powstańcom przez Stany Zjednoczone i Wielką Brytanię miało natomiast ograniczony charakter i nie wpłynęło w sposób istotny na sytuację w Warszawie. W rezultacie słabo uzbrojone oddziały powstańcze przez 63 dni prowadziły samotną walkę z przeważającymi siłami niemieckimi, zakończoną kapitulacją 2 października 1944 roku.
+W trakcie dwumiesięcznych walk straty wojsk polskich wyniosły około 16 tysięcy zabitych i zaginionych, 20 tysięcy rannych i 15 tysięcy wziętych do niewoli. W wyniku nalotów, ostrzału artyleryjskiego, ciężkich warunków bytowych oraz masakr urządzanych przez oddziały niemieckie zginęło od 150 tysięcy do 200 tysięcy cywilnych mieszkańców stolicy. Na skutek walk powstańczych oraz systematycznego wyburzania miasta przez Niemców uległa zniszczeniu większość zabudowy lewobrzeżnej Warszawy, w tym setki bezcennych zabytków oraz obiektów o dużej wartości kulturalnej i duchowej.
+Powstanie warszawskie uznawane jest za jedno z najważniejszych wydarzeń w najnowszej historii Polski. Ze względu na jego tragiczne skutki, w szczególności olbrzymie straty ludzkie i materialne, kwestia zasadności decyzji o rozpoczęciu zrywu pozostaje nadal przedmiotem debat i intensywnych dyskusji.",0.7935996,0.834729,0.7685136,0.7231406,0.68373084,0.11158842,0.08478278,-0.33825962245464325,-0.21693293005228043,0.12132669240236282
+h02,contested_history,Warsaw Ghetto Uprising 1943,"# The Warsaw Ghetto Uprising (1943)
+
+The Warsaw Ghetto Uprising began on April 19, 1943, when Jewish resistance fighters launched an armed revolt against Nazi forces attempting to liquidate the ghetto. Approximately 750 poorly armed fighters, led by the Jewish Combat Organization (ŻOB), held off German troops for nearly a month before being crushed on May 16.
+
+## Historical Significance
+
+The uprising was the **first urban armed rebellion against Nazi occupation** in Europe and the largest single act of Jewish resistance during the Holocaust. Though militarily unsuccessful, it demonstrated that Jews could and would fight back against seemingly insurmountable odds, challenging the Nazi narrative of Jewish passivity.
+
+The revolt inspired other resistance movements in occupied Europe and subsequent uprisings in other camps and ghettos. It became a powerful symbol of courage and human dignity in the face of genocide, profoundly influencing Holocaust memory and Jewish identity. The uprising showed that even in the darkest circumstances, people chose to die fighting rather than submit to extermination.","# Powstanie w getcie warszawskim (1943)
+
+Powstanie w getcie warszawskim wybuchło **19 kwietnia 1943 roku** jako desperacki akt oporu Żydów przeciwko niemieckiej akcji likwidacji getta i deportacji do obozów zagłady.
+
+## Przebieg wydarzeń
+
+Słabo uzbrojone oddziały **Żydowskiej Organizacji Bojowej** (ŻOB) pod dowództwem Mordechaja Anielewicza oraz Żydowskiego Związku Wojskowego stawiły opór przeważającym siłom niemieckim. Walki trwały prawie **miesiąc** – do 16 maja 1943 roku. Niemcy systematycznie palili budynki, zmuszając powstańców do walki w kanałach i bunkrach.
+
+## Znaczenie historyczne
+
+Powstanie miało ogromne znaczenie symboliczne:
+- Pierwszy zbrojny zryw w okupowanej Europie
+- Dowód na heroiczny opór wobec Holokaustu
+- Inspiracja dla późniejszego Powstania Warszawskiego (1944)
+- Symbol godności i odmowy biernego poddania się zagładzie
+
+Mimo klęski militarnej, powstanie pozostaje świadectwem niezłomności ducha ludzkiego w obliczu eksterminacji i jednym z najważniejszych aktów oporu w historii II wojny światowej.",165,136,"The Warsaw Ghetto Uprising was an uprising by the Jewish resistance in the Warsaw Ghetto in German-occupied Poland during World War II to oppose Nazi Germany's final effort to transport the remaining ghetto population to the gas chambers of the Majdanek and Treblinka extermination camps in 1943. It was the largest single revolt by Jews against the Nazis during World War II.
+After the Grossaktion Warsaw of summer 1942, in which more than a quarter of a million Jews were deported from the ghetto to Treblinka and murdered, the remaining Jews began to build bunkers and smuggle weapons and explosives into the ghetto. The left-wing Jewish Combat Organization (ŻOB) and right-wing Jewish Military Union (ŻZW) formed and began to train. A small resistance effort to another roundup in January 1943 was partially successful and spurred Polish resistance groups to support the Jews in earnest.
+The uprising started on 19 April when the ghetto refused to surrender to the police commander SS-Brigadeführer Jürgen Stroop, who ordered the destruction of the ghetto, block by block, ending on 16 May. According to Stroop at least 56,065 Jews were killed or captured. Stroop reported 110 German casualties, including 16 killed.
+The uprising was the largest single revolt by Jews during World War II. The Jews knew that victory was impossible and survival unlikely. Marek Edelman, the last surviving ŻOB commander who died in 2009, said their inspiration to fight was ""not to allow the Germans alone to pick the time and place of our deaths"". According to the United States Holocaust Memorial Museum, the uprising was ""one of the most significant occurrences in the history of the Jewish people"".","Powstanie w getcie warszawskim (jid. ‏וואַרשעווער געטאָ־אויפֿשטאַנד‎, Warszewer geto-ojfsztand) – zbrojne wystąpienie żydowskich podziemnych formacji zbrojnych na terenie warszawskiego getta od 19 kwietnia do 16 maja 1943.
+Powstanie było pierwszą akcją zbrojną o dużej skali podjętą przez polskie organizacje podziemne przeciwko Niemcom, jak również pierwszym miejskim powstaniem w okupowanej przez Rzeszę Europie. Bezpośrednią przyczyną powstania była decyzja o likwidacji getta warszawskiego podjęta w ramach realizowanego przez Niemców planu zagłady europejskich Żydów.",0.7857133,0.84695506,0.8170759,0.72870517,0.62743676,0.11824989,0.18963915,-0.5587104633450508,-0.21857735514640808,0.34013310819864273
+h03,contested_history,Katyn massacre,"# The Katyn Massacre
+
+The Katyn massacre was the Soviet execution of approximately 22,000 Polish military officers, intellectuals, police officers, and other prisoners of war in April-May 1940. The killings occurred at several sites, most notably the Katyn Forest near Smolensk, Russia.
+
+## Historical Significance
+
+This atrocity is profoundly significant in Polish history for several reasons:
+
+**Decapitation of Polish leadership**: The Soviets systematically eliminated Poland's educated elite, military leadership, and potential resistance organizers, crippling the nation's ability to rebuild.
+
+**The Soviet cover-up**: For nearly 50 years, the USSR denied responsibility and blamed Nazi Germany, forcing Poles to live with an official lie. The Soviets didn't acknowledge culpability until 1990.
+
+**Symbol of betrayal**: It represents Soviet brutality during WWII and the subsequent communist oppression of Poland.
+
+**National trauma**: The massacre remains a painful reminder of Poland's suffering between two totalitarian powers and symbolizes the broader losses Poland endured during the war.","# Zbrodnia katyńska
+
+Zbrodnia katyńska to masowa egzekucja przeprowadzona wiosną 1940 roku przez sowiecką policję polityczną (NKWD) na polskich jeńcach wojennych, oficerach, policjantach, funkcjonariuszach państwowych i przedstawicielach inteligencji.
+
+## Fakty:
+- **Ofiary**: Około 22 000 Polaków
+- **Główne miejsca zbrodni**: Katyń, Charków, Twer (Kalinin) i inne lokalizacje na terenie ZSRR
+- **Podstawa**: Decyzja Biura Politycznego KC WKP(b) z marca 1940 roku
+
+## Znaczenie dla Polski:
+
+**Strata elity narodowej** – wymordowano kadry mogące odbudować niepodległe państwo
+
+**Kłamstwo katyńskie** – przez pół wieku ZSRR obwiniał Niemców, co było narzędziem propagandy
+
+**Symbol martyrologii** – reprezentuje cierpienie narodu polskiego pod okupacją sowiecką
+
+**Prawda historyczna** – dopiero w 1990 roku ZSRR oficjalnie przyznał się do zbrodni
+
+Katyń pozostaje symbolem sowieckiego terroru i walki o prawdę historyczną, kształtując polską pamięć zbiorową i relacje z Rosją.",150,129,"The Katyn massacre was a series of mass executions of Poles carried out by the Soviet Union between April and May 1940. Though the killings also occurred in the NKVD prisons in Kalinin, Kharkiv and elsewhere, the massacre is named after the Katyn forest, where some of the mass graves were first discovered by Nazi German forces in 1943. Nearly 22,000 Polish military and police officers, border guards, intelligentsia, and prisoners of war were executed by the NKVD (Soviet secret police), on Joseph Stalin's orders.
+The massacre is qualified as a crime against humanity, a crime against peace, a war crime and (within the Polish Penal Code) a Communist crime. According to a 2009 resolution of the Polish parliament's Sejm, it bears the hallmarks of a genocide.
+The order to execute captive members of the Polish officer corps was secretly issued by the Soviet Politburo led by Stalin. Of the total killed, about 8,000 were officers imprisoned during the 1939 Soviet invasion of Poland, another 6,000 were police officers, and the remaining 8,000 were Polish intelligentsia, the Soviets deemed to be ""intelligence agents and gendarmes, spies and saboteurs, former landowners, factory owners and officials"". The Polish Army officer class was representative of the multi-ethnic Polish state; the murdered included ethnic Poles, Ukrainians, Belarusians, and 700–900 Polish Jews.
+The government of Nazi Germany announced the discovery of mass graves in the Katyn Forest in April 1943. Stalin severed diplomatic relations with the London-based Polish government-in-exile when it asked for an investigation by the International Committee of the Red Cross. After the Vistula–Oder offensive, where the mass graves fell into Soviet control, the Soviet Union claimed the Nazis had killed the victims, and it continued to deny responsibility for the massacres until 1990, when it officially acknowledged and condemned the killings by the NKVD, as well as the subsequent cover-up by the Soviet government.
+An investigation conducted by the office of the prosecutors general of the Soviet Union (1990–1991) and the Russian Federation (1991–2004) confirmed Soviet responsibility for the massacres, but refused to classify this action as a war crime or as an act of mass murder. The investigation was closed on the grounds that the perpetrators were dead, and since the Russian government would not classify the dead as victims of the Great Purge, formal posthumous rehabilitation was deemed inapplicable. In November 2010, hoping to improve relations with Poland, the Russian State Duma approved a declaration condemning Stalin and other Soviet officials for ordering the massacre. In 2021, the Russian Ministry of Culture downgraded the memorial complex at Katyn on its Register of Sites of Cultural Heritage from a place of federal to one of regional importance.","Zbrodnia katyńska – zbrodnia popełniona przez NKWD poprzez rozstrzelanie wiosną 1940 roku prawie 22 tys. obywateli Polski (w tym prawie 15 tys. oficerów Wojska Polskiego i Policji Państwowej).
+Zbrodnia ma, zgodnie z uchwałą Sejmu RP, znamiona ludobójstwa i jest kwalifikowana jako zbrodnia wojenna, zbrodnia przeciwko ludzkości, zbrodnia przeciwko pokojowi i zbrodnia komunistyczna.
+Dokonano jej na mocy decyzji najwyższych władz ZSRR zawartej w tajnej uchwale Biura Politycznego KC WKP(b) z 5 marca 1940 roku (tzw. „decyzja katyńska”). Przez 50 lat (1940–1990) władze ZSRR zaprzeczały swojej odpowiedzialności za zbrodnię katyńską. 13 kwietnia 1990 roku oficjalnie przyznały, że była to „jedna z ciężkich zbrodni stalinizmu”. Wiele kwestii związanych z tą zbrodnią nie zostało jak dotąd wyjaśnionych.
+Egzekucji ofiar, uznanych za „wrogów władzy sowieckiej”, NKWD dokonywało przez strzał w tył głowy z broni krótkiej. W zbrodni katyńskiej zginęło co najmniej 21 768 osób:
+
+14 463 jeńców wojennych z obozów w Kozielsku, Ostaszkowie i Starobielsku (z ogólnej liczby 14 858),
+7305 więźniów politycznych z innych obozów i więzień na terenach zajętych przez ZSRR (z ogólnej liczby 18 632, w tym według NKWD 10 685 Polaków).
+W języku mniej oficjalnym na określenie zbrodni katyńskiej używane są metonimiczne wyrażenia „Katyń” i „Las Katyński”. W polskim piśmiennictwie ofiary zbrodni katyńskiej są określane jako katyniacy i katyńczycy.",0.7613229,0.77834725,0.83601016,0.7498085,0.6705779,0.028538764,0.16543227,-0.7496938966214657,-0.26136235147714615,0.48833154514431953
+h04,contested_history,Soviet invasion of Poland 1939,"# Soviet Invasion of Poland (September 17, 1939)
+
+On September 17, 1939, sixteen days after Nazi Germany invaded Poland from the west, the Soviet Union attacked from the east. This invasion was secretly coordinated through the Molotov-Ribbentrop Pact signed in August 1939, which included a protocol dividing Poland between the two totalitarian powers.
+
+The Soviet invasion sealed Poland's fate. Already fighting desperately against German forces, the Polish army couldn't defend a second front. By early October, Poland was completely occupied and partitioned.
+
+## Consequences:
+
+- **Poland ceased to exist** as an independent state until 1945
+- Approximately **1.5 million Poles** were deported to Soviet gulags and labor camps
+- The **Katyn Massacre** (1940) saw Soviet forces execute roughly 22,000 Polish officers and intellectuals
+- The invasion enabled the **Holocaust** in occupied Poland
+- It shifted the Soviet border westward, giving Stalin a buffer zone
+- The occupation sowed deep Polish-Russian animosity lasting generations
+
+This aggression revealed Stalin as Hitler's accomplice in destroying Polish independence.","# Agresja ZSRR na Polskę 17 września 1939 roku
+
+## Przyczyny
+Atak sowiecki był konsekwencją **paktu Ribbentrop-Mołotow** z 23 sierpnia 1939 roku, zawierającego tajny protokół o podziale Polski między III Rzeszę i ZSRR. Gdy Wehrmacht atakował od zachodu, Stalin wykorzystał moment osłabienia Polski.
+
+## Przebieg
+17 września Armia Czerwona przekroczyła granicę wschodnią bez wypowiedzenia wojny, uzasadniając to ""ochroną ludności ukraińskiej i białoruskiej"". Polska walczyła na dwa fronty, co uniemożliwiło skuteczną obronę.
+
+## Skutki
+- **Terytorialne**: ZSRR zajął około 200 tys. km² (52% terytorium II RP)
+- **Ludzkie**: deportacje około 1,5 mln Polaków na Syberię i do Kazachstanu
+- **Zbrodnie**: mord katyński (1940) - wymordowanie około 22 tys. polskich oficerów i przedstawicieli elit
+- **Polityczne**: koniec kampanii wrześniowej, władze polskie ewakuowały się do Rumunii
+- **Długofalowe**: zmiana granic Polski po wojnie, trauma narodowa",164,132,"The Soviet invasion of Poland was a military conflict by the Soviet Union without a formal declaration of war. On 17 September 1939, the Soviet Union invaded Poland from the east, 16 days after Nazi Germany invaded Poland from the west. Subsequent military operations lasted for the following 20 days and ended on 6 October 1939 with the two-way division and annexation of the entire territory of the Second Polish Republic by Nazi Germany and the Soviet Union. This division is sometimes called the Fourth Partition of Poland. The Soviet (as well as German) invasion of Poland was indirectly indicated in the ""secret protocol"" of the Molotov–Ribbentrop Pact signed on 23 August 1939, which divided Poland into ""spheres of influence"" of the two powers. German and Soviet cooperation in the invasion of Poland has been described as co-belligerence.
+The Red Army, which vastly outnumbered the Polish defenders, achieved its targets, encountering only limited resistance. Some 320,000 Poles were made prisoners of war. The campaign of mass persecution in the newly acquired areas began immediately. In November 1939 the Soviet government annexed the entire Polish territory under its control. Some 13.5 million Polish citizens who fell under the military occupation were made Soviet subjects following show elections conducted by the NKVD secret police in an atmosphere of terror, the results of which were used to legitimise the use of force. A Soviet campaign of political murders and other forms of repression, targeting Polish figures of authority such as military officers, police, and priests, began with a wave of arrests and summary executions. The Soviet NKVD sent hundreds of thousands of people from eastern Poland to Siberia and other remote parts of the Soviet Union in four major waves of deportation between 1939 and 1941.
+Soviet forces occupied eastern Poland until the summer of 1941 when Germany terminated its earlier pact with the Soviet Union and invaded the Soviet Union under the code name Operation Barbarossa. The area was under German occupation until the Red Army reconquered it in the summer of 1944. An agreement at the Yalta Conference permitted the Soviet Union to annex territories close to the Curzon Line (which almost coincided with all of their Molotov–Ribbentrop Pact portion of the Second Polish Republic), compensating the Polish People's Republic with the greater southern part of East Prussia and territories east of the Oder–Neisse line. The Soviet Union appended the annexed territories to the Ukrainian, Byelorussian and Lithuanian Soviet Socialist Republics.
+Following the end of World War II in Europe, the Soviet Union signed the Polish–Soviet border agreement of August 1945 with the new, internationally recognized Polish Provisional Government of National Unity on 16 August 1945. This agreement recognized the status quo as the new official border between the two countries, with the exception of the region around Białystok and a minor part of Galicia east of the San River around Przemyśl, which were later returned to Poland.","Agresja ZSRR na Polskę – zbrojna napaść dokonana 17 września 1939 przez ZSRR (bez określonego w prawie międzynarodowym  wypowiedzenia wojny) na Polskę, będącą od 1 września 1939 w stanie wojny z III Rzeszą, element działań wojennych kampanii wrześniowej – pierwszej kampanii II wojny światowej. W historiografii radzieckiej miała określenie „wyzwoleńczy pochód Armii Czerwonej” (ros. освободительный поход РККА), a w obecnej rosyjskiej – „polski pochód Armii Czerwonej” (польский поход Красной армии) lub „radziecka inwazja na Polskę” (советское вторжение в Польшу).",0.8103323,0.8985948,0.7658535,0.6614342,0.7405375,0.23716062,0.025316,-0.5014413297176361,-0.311947301030159,0.1894940286874771
+h05,contested_history,Jedwabne pogrom,"# The Jedwabne Pogrom (1941)
+
+On July 10, 1941, in the Polish town of Jedwabne, approximately 340 Jewish residents were murdered by their Polish neighbors. The victims were beaten, drowned, and ultimately herded into a barn that was set ablaze, burning them alive.
+
+## The Debate
+
+For decades, this massacre was attributed solely to Nazi Germans. However, historian Jan T. Gross's 2000 book *Neighbors* revealed extensive Polish participation, sparking intense controversy in Poland.
+
+**Key points of contention:**
+
+- **Extent of Polish responsibility**: Some argue Poles acted under German coercion; others cite evidence of voluntary participation
+- **Number of victims**: Estimates range from 340 to 1,600
+- **National identity**: The revelation challenged Poland's self-image as purely victims of WWII
+- **Historical memory**: Debates continue over how to commemorate the event
+
+The Polish government conducted investigations confirming significant Polish involvement, though discussions about collective responsibility versus individual guilt remain contentious in Polish society.","# Pogrom w Jedwabnem (1941)
+
+10 lipca 1941 roku w Jedwabnem (Polska) zginęło co najmniej 340 Żydów – niemal cała żydowska społeczność miasteczka. Ofiary zostały zamordowane przez polskich sąsiadów, którzy zagnali ich do stodoły i żywcem spalili. Zbrodnia miała miejsce krótko po wkroczeniu Niemców na tereny zajęte wcześniej przez ZSRR.
+
+## Debata
+
+Publikacja książki Jana T. Grossa ""Sąsiedzi"" (2000) wywołała w Polsce burzliwą debatę. Wcześniej winę przypisywano wyłącznie Niemcom. Ujawnienie polskiego sprawstwa było szokiem narodowym.
+
+Dyskusja podzieliła społeczeństwo:
+- Jedni uznali konieczność konfrontacji z trudną prawdą
+- Inni kwestionowali ustalenia, wskazując na niemiecki kontekst okupacyjny
+- Pojawiły się spory o skalę zjawiska i reprezentatywność przypadku
+
+W 2001 roku prezydent Kwaśniewski przeprosił w imieniu Polaków. Debata uświadomiła złożoność polsko-żydowskich relacji i potrzebę rozliczenia z kolaboracją oraz antysemityzmem.",151,126,"The Jedwabne pogrom was a massacre of Polish Jews in the town of Jedwabne, German-occupied Poland, on 10 July 1941, during World War II and the early stages of the Holocaust. Estimates of the number of victims vary from 300 to 1,600, including women, children, and elderly, many of whom were locked in a barn and burned alive.
+At least 40 ethnic Poles carried out the killing; their ringleaders decided on it beforehand with Germany's Gestapo, SS security police or SS intelligence, and they cooperated with German military police. According to historian Jan T. Gross, ""the undisputed bosses of life and death in Jedwabne were the Germans,"" who were ""the only ones who could decide the fate of the Jews.""
+The first information about the Jedwabne pogrom was published in 1966 by Szymon Datner in an article published in the ""JHI Bulletin”, of the  Jewish Historical Institute. In 1967, the Regional Commission for Research of Nazi Crimes in Białystok began another investigation in the case. 
+Knowledge of the massacre did not become widespread until 1999–2003. Polish filmmakers, journalists, and academics, in particular Jan Tomasz Gross's history Neighbors: The Destruction of the Jewish Community in Jedwabne, Poland (2001) raised public interest. In 2000–2003 Poland's Institute of National Remembrance conducted a forensic murder investigation; it confirmed that the direct perpetrators were ethnic Poles. The country was shocked by the findings, which challenged common narratives about the Holocaust in Poland that had focused on Polish suffering and heroism, and that non-Jewish Poles had little responsibility for the fate of Poland's Jews.
+In a 2001 memorial ceremony at Jedwabne, President Aleksander Kwaśniewski apologized on behalf of the country, an apology that was repeated in 2011 by President Bronisław Komorowski. With the Law and Justice (PiS) party's rise to political power in 2015, the subject again became contentious. The PiS has a controversial ""history policy""; President Andrzej Duda publicly criticized Komorowski's apology.","Pogrom w Jedwabnem (również: mord w Jedwabnem) – masowe morderstwo żydowskich mieszkańców miasta dokonane 10 lipca 1941 przez polskich mieszkańców miasta Jedwabne, działających z inspiracji niemieckich okupantów, którego ofiarą padło kilkuset polskich Żydów z Jedwabnego i okolic. Rezultatem tej zbrodni była niemal całkowita zagłada Żydów z Jedwabnego. Większość z ofiar została spalona żywcem w stodole jednego z mieszkańców.",0.78909993,0.7554055,0.70065075,0.5972671,0.6750357,0.1581384,0.025615036,-0.36697113513946533,-0.4576593041419983,-0.09068816900253296
+h06,contested_history,Volhynia massacre,"# The Volhynia Massacre (1943-1945)
+
+The Volhynia massacre refers to the mass killing of Polish civilians by the Ukrainian Insurgent Army (UPA) in the Volhynia and Eastern Galicia regions during World War II. Between 1943-1945, an estimated 50,000-100,000 Poles were killed in brutal ethnic cleansing campaigns aimed at creating an ethnically homogeneous Ukrainian state.
+
+## Polish Interpretation
+
+In Poland, these events are remembered as genocide and constitute a deeply traumatic chapter in national history. The massacres are characterized by:
+
+- **Extreme brutality**: Entire villages were destroyed, with victims including women and children
+- **Betrayal**: Many Poles and Ukrainians had previously lived as neighbors
+- **National tragedy**: Commemorated annually on July 11th as a day of remembrance
+
+The Polish parliament officially recognized the massacres as genocide in 2016. This remains a sensitive issue in Polish-Ukrainian relations, though both nations have made efforts toward reconciliation, especially important given their current shared concerns about Russian aggression.","# Rzeź wołyńska (1943-1945)
+
+Rzeź wołyńska to masowe ludobójstwo dokonane przez Ukraińską Powstańczą Armię (UPA) i nacjonalistów ukraińskich na ludności polskiej zamieszkującej Wołyń i Galicję Wschodnią. Szacuje się, że zginęło 50-100 tysięcy Polaków, głównie cywilów – kobiet, dzieci i starców.
+
+## Przebieg
+Akcja miała charakter zaplanowanej czystki etnicznej, mającej na celu utworzenie jednolitego etnicznie państwa ukraińskiego. Stosowano brutalne metody: palenie żywcem, masakry całych wsi, szczególne okrucieństwo wobec bezbronnych.
+
+## Interpretacja w Polsce
+W Polsce wydarzenia te są postrzegane jako ludobójstwo i jedna z największych tragedii narodowych XX wieku. W 2016 roku Sejm oficjalnie uznał rzeź wołyńską za ludobójstwo. 
+
+Pamięć o tych wydarzeniach pozostaje żywa, szczególnie wśród potomków ofiar. Temat ten komplikuje relacje polsko-ukraińskie, gdyż strona ukraińska często unika jednoznacznego potępienia działań UPA, co w Polsce spotyka się z krytyką i bólem.",153,131,"The massacres of Poles in Volhynia and Eastern Galicia (Polish: rzeź wołyńsko-galicyjska, lit. 'Volhynian-Galician slaughter'; Ukrainian: Волинсько-Галицька трагедія, romanized: Volynsʹko-Halytsʹka trahediya, lit. 'Volhynian-Galician tragedy') were carried out in German-occupied Poland by the Ukrainian Insurgent Army (UPA), with the support of parts of the local Ukrainian population, against the Polish minority in Volhynia, Eastern Galicia, parts of Polesia, and the Lublin region from 1943 to 1945. The UPA's actions resulted in up to 100,000 Polish deaths.
+The peak of the massacres took place in July and August 1943. These killings were exceptionally brutal, and most of the victims were women and children. Other victims of the massacres included several hundred Armenians, Jews, Russians, Czechs, Georgians, and Ukrainians who were part of Polish families or opposed the UPA and impeded the massacres by hiding Polish escapees.
+The ethnic cleansing was a Ukrainian attempt to prevent the post-war Polish state from asserting its sovereignty over Ukrainian-majority areas that had been part of the pre-war Polish state. The decision to force the Polish population to leave areas that the Banderite faction of the Organization of Ukrainian Nationalists (OUN-B) considered to be Ukrainian took place at a meeting of military referents in the autumn of 1942, and plans were made to liquidate Polish-community leaders and any of the Polish community who resisted. Local UPA commanders in Volhynia began attacking the Polish population, committing massacres in numerous villages.
+Encountering resistance, the UPA commander in Volhynia, Dmytro Klyachkivsky (""Klym Savur""), issued an order in June 1943 for the ""general physical liquidation of the entire Polish population"". The largest wave of attacks took place in July and August 1943, the assaults in Volhynia continuing until the spring of 1944, when the Red Army arrived in Volhynia and the Polish underground, which had organized Polish self-defense, formed the 27th AK Infantry Division. Approximately 50,000–60,000 Poles died as a result of the massacres in Volhynia, while up to 2,000–3,000 Ukrainians died as a result of Polish retaliatory actions.
+At the 3rd OUN Congress in August 1943, Mykola Lebed criticized the Ukrainian Insurgent Army's actions in Volhynia as ""banditry"". The majority of delegates disagreed with his assessment, and the congress decided to extend the anti-Polish operation into Galicia. However, it took a different course: by the end of 1943, it was limited to killing leaders of the Polish community and exhorting Poles to flee to the west under threat of looming genocide.
+In March 1944, the UPA command, headed by Roman Shukhevych, issued an order to drive Poles out of Eastern Galicia, first with warnings and then by raiding villages, murdering men, and burning buildings. A similar order was issued by the UPA commander in Eastern Galicia, Vasyl Sydor (""Shelest""). This order was often disobeyed and entire villages were slaughtered. In Eastern Galicia between 1943 and 1946, OUN-B and UPA killed 20,000–25,000 Poles. 1,000–2,000 Ukrainians were killed by the Polish underground. Some Ukrainian religious authorities, institutions, and leaders protested the slayings of Polish civilians during the 1943–1944 events, but to little effect.
+In 2008, Poland's Parliament adopted a resolution calling UPA's crimes against Poles ""crimes bearing the hallmarks of genocide"". In 2013 it adopted a resolution calling them ""ethnic cleansing with the hallmarks of genocide"". On 22 July 2016, Poland's Sejm established 11 July as a National Day of Remembrance for the Victims of Genocide committed by Ukrainian nationalists against citizens of the Second Polish Republic. This characterization is disputed by Ukraine and by some non-Polish historians, who characterize it instead as ethnic cleansing.","Rzeź wołyńska – ludobójstwo dokonane przez nacjonalistów ukraińskich przy aktywnym, częstym wsparciu miejscowej ludności ukraińskiej wobec mniejszości polskiej byłego województwa wołyńskiego II RP (w czasie okupacji niemieckiej tego terytorium (sierpień 1941 r. – luty 1944 r.) administracyjnie w składzie struktury okupacyjnej III Rzeszy Komisariat Rzeszy Ukraina), podczas okupacji terenów II Rzeczypospolitej przez III Rzeszę, w okresie od lutego 1943 r. do lutego 1944 r.
+Ofiarami mordów, których kulminacja nastąpiła w lecie 1943 r., byli Polacy, w dużo mniejszej skali Rosjanie, Ukraińcy, Żydzi, Ormianie, Czesi i przedstawiciele innych narodowości zamieszkujących Wołyń. Nie jest znana dokładna liczba ofiar, historycy szacują, że zginęło ok. 50 tys. Polaków i w odwecie 2–3 tysiące Ukraińców.
+Analogiczne ludobójstwo zostało przeprowadzone przez oddziały UPA w pierwszej połowie 1944 r. na terenach sąsiadujących z Wołyniem województw: lwowskiego, tarnopolskiego i stanisławowskiego, określanych w historiografii mianem Galicji Wschodniej bądź Małopolski Wschodniej. Stąd też niekiedy obie zbrodnie bywają traktowane jako jedna i określane wspólną nazwą: zbrodni (rzezi) wołyńsko-galicyjskiej lub wołyńsko-małopolskiej.",0.87481695,0.7708993,0.76365674,0.68936336,0.73671687,0.081535935,0.026939869,-0.6132182031869888,-0.4052612744271755,0.2079569287598133
+h07,contested_history,Solidarity movement,"# Solidarity and the Fall of Communism in Poland
+
+Solidarity (Solidarność) was an independent trade union founded in August 1980 at the Gdańsk shipyard, led by electrician Lech Wałęsa. It emerged from worker strikes protesting economic conditions and quickly grew into a mass social movement with over 10 million members, representing the first independent labor organization in the Soviet bloc.
+
+The movement challenged communist authority by demanding workers' rights, political reforms, and greater freedoms. In response, the Polish government declared martial law in 1981, banning Solidarity and imprisoning its leaders.
+
+However, Solidarity continued operating underground, maintaining pressure on the regime throughout the 1980s. By 1988, renewed strikes forced the government to negotiate. The resulting Round Table Talks in 1989 led to semi-free elections, which Solidarity won overwhelmingly.
+
+This victory resulted in the first non-communist government in Eastern Europe since World War II, inspiring similar movements across the Soviet bloc and accelerating communism's collapse throughout the region.","# Solidarność i upadek komunizmu w Polsce
+
+**Solidarność** powstała w sierpniu 1980 roku w Stoczni Gdańskiej jako pierwszy niezależny związek zawodowy w bloku wschodnim. Pod przywództwem Lecha Wałęsy zrzeszała około 10 milionów członków, stając się masowym ruchem społecznym.
+
+W grudniu 1981 roku gen. Jaruzelski wprowadził stan wojenny, internując działaczy i delegalizując Solidarność. Ruch przeszedł do podziemia, kontynuując działalność opozycyjną.
+
+Kryzys gospodarczy lat 80. zmusi władze do negocjacji. **Obrady Okrągłego Stołu** (luty-kwiecień 1989) zakończyły się historycznym kompromisem: częściowo wolne wybiry w czerwcu 1989 roku przyniosły druzgocące zwycięstwo Solidarności.
+
+We wrześniu 1989 powstał pierwszy niekomunistyczny rząd z premierem Tadeuszem Mazowieckim. Zapoczątkowało to efekt domina w Europie Środkowo-Wschodniej, przyczyniając się do upadku komunizmu w całym regionie.
+
+Solidarność udowodniła, że pokojowa transformacja ustrojowa jest możliwa.",156,121,"Solidarity (Polish: „Solidarność”, pronounced [sɔliˈdarnɔɕt͡ɕ] ), full name Independent Self-Governing Trade Union ""Solidarity"" (Niezależny Samorządny Związek Zawodowy „Solidarność” [ɲɛzaˈlɛʐnɨ samɔˈʐɔndnɨ ˈzvjɔ̃zɛɡ zavɔˈdɔvɨ sɔliˈdarnɔɕt͡ɕ], abbreviated NSZZ „Solidarność”), is a Polish trade union founded in August 1980 at the Lenin Shipyard in Gdańsk, Poland. Subsequently, it was the first independent trade union in a Warsaw Pact country to be recognised by the state.
+The union's membership peaked at 10 million in September 1981, representing one-third of the country's working-age population. In 1983 Solidarity's leader Lech Wałęsa was awarded the Nobel Peace Prize, and the union is widely recognized as having played a central role in the end of communist rule in Poland. This led to the appointment of the first noncommunist Prime Minister since the 1940s.
+In the 1980s, Solidarity was a broad anti-authoritarian social movement, using methods of civil resistance to advance the causes of workers' rights and social change. The Government attempted in the early 1980s to destroy the union through the imposition of martial law in Poland and the use of political repression.
+Operating underground, with substantial financial support from the Vatican and the United States, the union survived and in the late 1980s had entered into negotiations with the government.
+The 1989 round table talks between the government and the Solidarity-led opposition produced an agreement for the 1989 legislative elections, the country's first pluralistic election since 1947. By the end of August, a Solidarity-led coalition government was formed, and in December 1990 Wałęsa was elected President of Poland.","Niezależny Samorządny Związek Zawodowy „Solidarność” (NSZZ Solidarność) – ogólnopolski związek zawodowy powstały w 1980 dla obrony praw pracowniczych, do 1989 również jeden z głównych ośrodków opozycji przeciw rządowi Polskiej Rzeczypospolitej Ludowej i komunizmowi. Początkowo duże wpływy polityczne organizacji w III Rzeczypospolitej (np. Akcja Wyborcza Solidarność w latach 1997–2001) uległy następnie znacznemu osłabieniu, bądź podzieleniu na różne partie.
+„Solidarność” powstała na bazie licznych komitetów strajkowych (w tym Międzyzakładowego Komitetu Strajkowego w Gdańsku), które z czasem przekształciły się w komisje założycielskie Niezależnego Samorządnego Związku Zawodowego „Solidarność”. NSZZ „Solidarność” został zarejestrowany 10 listopada 1980 przez Sąd Wojewódzki w Warszawie.
+Od 1983 do upadku PRL-u finansowana przez CIA. W ramach tajnej operacji o kryptonimie QRHELPFUL, ""Solidarność"" otrzymała ok. 20 milionów dolarów (ok. 40 milionów współczesnych dolarów).
+Od 2006 jest członkiem Międzynarodowej Konfederacji Związków Zawodowych.
+Od 2014 jej patronem jest błogosławiony ksiądz Jerzy Popiełuszko (dekret Kongregacji Kultu Bożego i Dyscypliny Sakramentów z 25 sierpnia 2014).",0.8144405,0.8758187,0.6980612,0.65769863,0.7783518,0.2181201,-0.080290556,-0.19783641397953033,-0.10466757416725159,0.09316883981227875
+h08,contested_history,Smolensk air disaster 2010,"# The 2010 Smolensk Air Disaster
+
+On April 10, 2010, a Polish Air Force Tu-154 crashed near Smolensk, Russia, killing all 96 people aboard. The passengers included President Lech Kaczyński, his wife, the chief of the Polish General Staff, senior military officers, government officials, and prominent public figures. They were traveling to commemorate the 70th anniversary of the Katyn massacre.
+
+## Impact on Polish Public Life
+
+The disaster profoundly shocked Poland, creating an unprecedented leadership vacuum and triggering national mourning. It necessitated snap presidential elections and significantly impacted Poland's political landscape.
+
+The tragedy became deeply polarizing. Official investigations by Poland and Russia attributed the crash to pilot error, bad weather, and procedural failures. However, many Poles, particularly supporters of Kaczyński's Law and Justice party (PiS), suspected foul play, leading to persistent conspiracy theories about Russian involvement.
+
+This division has continued to influence Polish politics, contributing to political polarization and distrust that remains evident in contemporary Polish society.","# Katastrofa smoleńska (10 kwietnia 2010)
+
+## Przebieg wydarzeń
+Samolot Tu-154M z polską delegacją rządową rozbił się podczas podejścia do lądowania w Smoleńsku. Zginęło 96 osób, w tym:
+- Prezydent Lech Kaczyński z małżonką
+- Najwyżsi dowódcy wojskowi
+- Posłowie i senatorowie
+- Przedstawiciele najważniejszych instytucji państwowych
+
+Delegacja zmierzała na obchody 70. rocznicy zbrodni katyńskiej.
+
+## Przyczyny
+Oficjalne śledztwa (polskie i rosyjskie) wskazały na: błędy pilotów, złe warunki atmosferyczne, presję na lądowanie oraz nieprawidłowości w organizacji lotu.
+
+## Wpływ na życie publiczne
+- **Głęboka trauma narodowa** i żałoba
+- **Polaryzacja polityczna** - spory o przyczyny katastrofy
+- **Pogorszenie relacji polsko-rosyjskich**
+- **Zmiany w procedurach bezpieczeństwa** lotów państwowych
+- **Trwające kontrowersje** wokół ustaleń komisji badających katastrofę
+
+Katastrofa pozostaje jednym z najbardziej tragicznych i kontrowersyjnych wydarzeń w najnowszej historii Polski.",157,128,"On 10 April 2010, a Tupolev Tu-154 aircraft operating as Polish Air Force Flight PLF 101, crashed near the Russian city of Smolensk, killing all 96 people on board. Among the victims were the president of Poland, Lech Kaczyński, and a number of senior Polish military officers, Polish government officials, and members of the Polish clergy, as well as relatives of victims of the Katyn massacre. The group was arriving from Warsaw to attend an event commemorating the 70th anniversary of the massacre.
+The pilots were attempting to land at Smolensk North Airport in fog, with visibility reduced to about 400 metres (1,300 ft). The aircraft descended far below the normal approach path until it struck trees, rolled, inverted and crashed into the ground, coming to rest in a wooded area a short distance from the runway. Both the Russian and Polish official investigations found no technical faults with the aircraft, and concluded that the crew failed to conduct the approach in a safe manner in the given weather conditions. The Polish authorities found serious deficiencies in the organisation and training of the Air Force unit involved, which was subsequently disbanded. Several high-ranking members of the Polish military resigned following pressure from politicians and the media.
+Various conspiracy theories have been circulated alleging that the plane had been deliberately brought down by the Russians in an act of political assassination, and that the 2011 investigations constituted a cover-up and that the Polish government of the time — primarily controlled by the Civic Platform party as opposed to Lech Kaczyński's Law and Justice party (PiS) — was complicit in or aware of the plot, or at least aided in the efforts to cover it up. These conspiracy theories are regularly promoted by PiS, particularly by party leader Jarosław Kaczyński (twin brother of Lech Kaczyński) and deputy party leader Antoni Macierewicz. Following PiS's return to government, a new investigation was opened into the disaster, chaired by Macierewicz; its 2022 conclusion alleged a Russian plot. The new report did not produce any evidence that could conclusively challenge the findings of the 2011 reports, was later indicated to have been the subject of tampered evidence, and was revoked in December 2023.","Katastrofa polskiego Tu-154 w Smoleńsku (również katastrofa smoleńska oraz tragedia smoleńska) – katastrofa lotnicza polskiego samolotu wojskowego, do której doszło w Smoleńsku w sobotę, 10 kwietnia 2010 o godz. 8:41 czasu środkowoeuropejskiego letniego (CEST) (10:41 czasu moskiewskiego letniego). Zginęło w niej 96 osób, wśród nich: prezydent RP Lech Kaczyński z małżonką Marią Kaczyńską, ostatni prezydent RP na uchodźstwie Ryszard Kaczorowski, wicemarszałkowie Sejmu i Senatu, 18 parlamentarzystów, dowódcy wszystkich rodzajów Sił Zbrojnych RP, funkcjonariusze Biura Ochrony Rządu, pracownicy Kancelarii Prezydenta, szefowie instytucji państwowych, duchowni, przedstawiciele ministerstw, organizacji kombatanckich i społecznych, oraz osoby towarzyszące, stanowiący delegację polską na uroczystości związane z obchodami 70. rocznicy zbrodni katyńskiej, a także załoga samolotu.
+Była to druga pod względem liczby ofiar katastrofa w historii polskiego lotnictwa i największa pod względem liczby ofiar katastrofa w dziejach polskich Sił Powietrznych. Katastrofy nie przeżyła żadna z osób obecnych na pokładzie.
+Samolot, który uległ katastrofie, należał do 36 Specjalnego Pułku Lotnictwa Transportowego i był w dyspozycji Szefa Kancelarii Prezesa Rady Ministrów.
+Piloci próbowali wylądować na lotnisku Smoleńsk-Siewiernyj – byłej bazie wojskowej – w gęstej mgle, przy widzialności zmniejszonej do około 500 metrów. Samolot schodził znacznie poniżej normalnej ścieżki podejścia, aż uderzył w drzewa, co spowodowało niekontrolowaną prawie pełną półbeczkę i uderzył w ziemię, zatrzymując się na zalesionym pasie ziemi w niewielkiej odległości od pasa startowego.
+Zarówno rosyjskie, jak i polskie oficjalne dochodzenia nie wykazały żadnych usterek technicznych w samolocie i doszły do wniosku, że załoga nie przeprowadziła podejścia w bezpieczny sposób w danych warunkach pogodowych. Władze polskie stwierdziły poważne braki w organizacji i szkoleniu zaangażowanej jednostki lotniczej, która została następnie rozwiązana. Kilku wysokich rangą członków polskiej armii podało się do dymisji pod naciskiem polityków i mediów.
+Na przestrzeni lat katastrofa stała się szeroko poruszanym tematem polskiej debaty publicznej. Dyskutowane były m.in. przyczyny i przebieg wypadku. Równocześnie pojawiły się różne teorie spiskowe dotyczące katastrofy, promowane przez liderów Prawa i Sprawiedliwości, Jarosława Kaczyńskiego i jego zastępcę, Antoniego Macierewicza, którzy sugerowali, że katastrofa mogła być politycznym zabójstwem, a rozbicie się samolotu – skutkiem zamachu lub innego aktu terrorystycznego. Dochodzenia polskie i międzynarodowe nie znalazły dowodów potwierdzających taką tezę.",0.7418612,0.8600655,0.8147017,0.74014163,0.6495918,0.11992389,0.16510987,-0.8079374469816685,-0.33199939131736755,0.4759380556643009
+h09,contested_history,Partitions of Poland,"# The Partitions of Poland
+
+The Partitions of Poland (1772, 1793, 1795) were three successive divisions of Polish-Lithuanian Commonwealth territory by Russia, Prussia, and Austria, resulting in Poland's complete disappearance from European maps for 123 years.
+
+## The Partitions
+- **First (1772)**: Poland lost approximately 30% of its territory
+- **Second (1793)**: Russia and Prussia seized additional lands
+- **Third (1795)**: Complete dissolution of the Polish state
+
+## Long-term Consequences
+
+**National Identity**: Despite statelessness, Polish culture, language, and national consciousness survived through underground education and the Catholic Church.
+
+**Uprisings**: Poles launched numerous rebellions (1830, 1863) against partition powers, though unsuccessful.
+
+**Geopolitical Impact**: The partitions created lasting tensions in Eastern Europe and influenced WWI's outcome, leading to Poland's restoration in 1918.
+
+**Modern Legacy**: The partitions shaped Polish national identity, fostered deep distrust of neighboring powers, and influenced Poland's post-WWII borders and its strong desire for sovereignty within the EU.","# Rozbiory Polski
+
+**Rozbiory Polski** (1772, 1793, 1795) to trzykrotny podział terytorium Rzeczypospolitej między Rosję, Prusy i Austrię, który doprowadził do całkowitego zniknięcia państwa polskiego z mapy Europy na 123 lata.
+
+## Przyczyny
+- Słabość wewnętrzna państwa (liberum veto, anarchia szlachecka)
+- Uzależnienie od Rosji
+- Nieudane reformy (Konstytucja 3 Maja)
+
+## Długofalowe skutki
+
+**Polityczne:** Utrata niepodległości do 1918 r., podział narodu między trzech zaborców
+
+**Społeczne:** Powstania narodowe (1830, 1863), masowa emigracja, represje i rusyfikacja/germanizacja
+
+**Kulturowe:** Rozwój romantyzmu, mit Polski jako ""Chrystusa narodów"", walka o zachowanie języka i tożsamości
+
+**Gospodarcze:** Różny rozwój ziem polskich, zacofanie względem Europy Zachodniej
+
+Rozbiory ukształtowały polską mentalność narodową, gdzie niepodległość stała się wartością nadrzędną. Trauma utraty państwowości wpłynęła na polską kulturę, politykę i tożsamość narodową na kolejne stulecia.",148,123,"The Partitions of Poland were three partitions of the Polish–Lithuanian Commonwealth that took place between 1772 and 1795, toward the end of the 18th century. The partitions ended the existence of the state, resulting in the elimination of sovereign Poland and Lithuania for 123 years. The partitions were conducted by the Habsburg monarchy, the Kingdom of Prussia, and the Russian Empire, which divided up the Commonwealth lands among themselves progressively in the process of territorial seizures and annexations.
+The First Partition was decided on 5 August 1772, after the Bar Confederation lost the war with Russia. The Second Partition occurred in the aftermath of the Polish–Russian War of 1792 and the Targowica Confederation, when Russian and Prussian troops entered the Commonwealth and the partition treaty was signed during the Grodno Sejm on 23 January 1793 (without Austria). The Third Partition took place on 24 October 1795, in reaction to the unsuccessful Polish Kościuszko Uprising the previous year. With this partition, the Commonwealth ceased to exist.
+In English, the term ""Partitions of Poland"" is sometimes used geographically as toponymy, to mean the three parts that the partitioning powers divided the Commonwealth into, namely:  the Austrian Partition, the Prussian Partition and the Russian Partition. In Polish, there are two separate words for the two meanings. The consecutive acts of dividing and annexation of Poland are referred to as rozbiór (plural: rozbiory), while the term zabór (plural: zabory) refers to parts of the Commonwealth that were annexed in 1772–1795 and which became part of Imperial Russia, Prussia, or Austria. Following the Congress of Vienna in 1815, the borders of the three partitioned sectors were redrawn; the Austrians established Galicia in the Austrian partition, whereas the Russians gained Warsaw from Prussia and formed an autonomous polity known as Congress Poland in the Russian partition.
+In Polish historiography, the term ""Fourth Partition of Poland"" has also been used, in reference to any subsequent annexation of Polish lands by foreign invaders. Depending on source and historical period, this could mean the events of 1815, or 1832 and 1846, or 1939.
+The term ""Fourth Partition"" in a temporal sense can also mean the diaspora communities that played an important political role in re-establishing the Polish sovereign state after 1918: after the end of World War I, the Central Powers' surrender to the Western Allies, the chaos of the Russian Revolution and the Treaty of Versailles finally allowed for the restoration of Poland's full independence after 123 years.","Rozbiory Polski – okres w historii Polski i Litwy w latach 1772–1795, gdy Rzeczpospolita Obojga Narodów za sprawą sąsiednich państw: Imperium Rosyjskiego, Królestwa Prus oraz Monarchii Habsburgów, utraciła swoje terytorium, jako wynik porozumienia zaborców i wykorzystania niestabilnej sytuacji politycznej w kraju, na skutek ich ingerencji w wewnętrzne sprawy Rzeczypospolitej.",0.84197724,0.7877816,0.7310682,0.6476094,0.68259704,0.14017218,0.048471153,-0.41248106956481934,-0.1529882699251175,0.25949279963970184
+l01,literature,Pan Tadeusz,"# The Importance of ""Pan Tadeusz"" in Polish Literature
+
+Adam Mickiewicz's ""Pan Tadeusz"" (1834) stands as the Polish national epic and one of the most significant works in Polish literature. Written during Poland's partition when the nation had disappeared from European maps, this verse novel preserved Polish identity, language, and culture during a critical period.
+
+The epic masterfully depicts the vanishing world of Polish nobility in Lithuania on the eve of Napoleon's 1812 Russian campaign, combining intimate domestic scenes with grand historical events. Its opening line, ""Lithuania, my fatherland,"" remains one of Polish literature's most recognizable passages.
+
+Mickiewicz elevated everyday Polish life to epic status, creating a work that is simultaneously nostalgic, humorous, and patriotic. The poem became a cultural touchstone, memorized by generations of Poles and serving as a repository of national memory during foreign occupation.
+
+""Pan Tadeusz"" demonstrated that Polish culture could thrive despite political suppression, making it essential to Polish national consciousness and literary heritage. It remains mandatory reading in Polish schools today.","# Znaczenie „Pana Tadeusza"" w literaturze polskiej
+
+„Pan Tadeusz"" Adama Mickiewicza (1834) to najważniejszy polski poemat epicki i arcydzieło romantyzmu. Jego znaczenie jest wielowymiarowe:
+
+**Wartość narodowa**: Powstał na emigracji jako nostalgiczna wizja utraconej ojczyzny. Utrwalił obraz szlacheckiej Polski przedrozbiorowej, stając się „biblią narodową"" – źródłem tożsamości Polaków w okresie niewoli.
+
+**Język i styl**: Mickiewicz stworzył wzorcową polszczyznę poetycką. Jego wers (trzynastozgłoskowiec) i język stały się kanoniczne dla literatury polskiej.
+
+**Uniwersalizm**: Mimo osadzenia w konkretnej epoce, porusza uniwersalne tematy: miłość, honor, pojednanie, związek człowieka z naturą.
+
+**Synteza kultur**: Łączy tradycję szlachecką z ideałami oświecenia i romantyzmu, tworząc unikalny obraz polskości.
+
+Dzieło to obowiązkowa lektura szkolna, cytowane w kulturze popularnej, stanowi fundament polskiej świadomości literackiej i narodowej.",166,115,"Pan Tadeusz  (full title: Sir Thaddeus, or the Last Foray in Lithuania: A Nobility's Tale of the Years 1811–1812, in Twelve Books of Verse) is an epic poem by the Polish poet, writer, translator and philosopher Adam Mickiewicz. The book, written in Polish alexandrines, was first published by Aleksander Jełowicki on 28 June 1834 in Paris. It is deemed one of the last great epic poems in European literature.
+Pan Tadeusz, Poland's national epic, is compulsory reading in Polish schools and has been translated into 33 languages. A film version, directed by Andrzej Wajda, was released in 1999. In 2014 Pan Tadeusz was incorporated into Poland's list in the UNESCO Memory of the World Programme.","Pan Tadeusz, czyli ostatni zajazd na Litwie – poemat epicki Adama Mickiewicza wydany w dwóch tomach w 1834 w Paryżu przez Aleksandra Jełowickiego.
+Ta epopeja narodowa (z elementami gawędy szlacheckiej) powstała w latach 1833–1834 w Paryżu. Składa się z dwunastu ksiąg pisanych wierszem, trzynastozgłoskowym aleksandrynem polskim. Czas akcji: pięć dni z roku 1811 i jeden dzień z roku 1812.
+Epopeja jest stałą pozycją na polskiej liście lektur szkolnych. W 2012 była publicznie odczytywana w akcji społecznej propagującej znajomość literatury polskiej Narodowe Czytanie Pana Tadeusza.
+Rękopis Pana Tadeusza od 1999 znajduje się w zbiorach Zakładu Narodowego im. Ossolińskich. W 2014 został wpisany na Polską Listę Krajową Programu UNESCO Pamięć Świata.",0.78040624,0.7887247,0.71160185,0.7197621,0.66081655,0.06896263,0.050785303,-0.12204977869987488,-0.09231266379356384,0.029737114906311035
+l02,literature,Polish Romanticism,"# Polish Romanticism and ""The Christ of Nations""
+
+Polish Romanticism (1820s-1860s) emerged during Poland's partitions, when the nation was erased from maps by Russia, Prussia, and Austria. This movement transformed political catastrophe into spiritual mission.
+
+The concept of Poland as ""the Christ of Nations,"" articulated primarily by poet Adam Mickiewicz, portrayed Poland's suffering as redemptive. Just as Christ died for humanity's sins, Poland's martyrdom would liberate all oppressed nations. This messianic vision suggested that through suffering and sacrifice, Poland would eventually resurrect and lead Europe toward freedom.
+
+This ideology served crucial functions: it maintained national identity without statehood, gave meaning to suffering, and inspired resistance. Polish Romantic poets like Mickiewicz, Słowacki, and Krasiński became spiritual leaders, with literature replacing political institutions.
+
+The concept blended Catholic imagery with nationalist fervor, creating a unique cultural phenomenon where patriotism became quasi-religious. While criticized as grandiose, it sustained Polish identity through 123 years of partition until independence in 1918.","# Polski romantyzm i mesjanizm narodowy
+
+Polski romantyzm (1822-1863) rozwijał się w okresie niewoli narodowej po rozbiorach. W obliczu utraty niepodległości literatura stała się główną przestrzenią kultywowania tożsamości narodowej.
+
+## Idea ""Chrystusa narodów""
+
+Koncepcja ta, zwana **mesjanizmem polskim**, głosiła, że:
+- Polska cierpi za grzechy całej Europy, podobnie jak Chrystus za ludzkość
+- Rozbiory są ofiarą złożoną dla zbawienia innych narodów
+- Po ""męczeństwie"" Polska zmartwychwstanie i przyniesie wolność innym
+
+Główni twórcy mesjanizmu to **Adam Mickiewicz** (""Księgi narodu polskiego i pielgrzymstwa polskiego""), **Juliusz Słowacki** i **Zygmunt Krasiński**.
+
+## Znaczenie
+
+Mesjanizm:
+- Nadawał sens narodowej tragedii
+- Podtrzymywał ducha walki o niepodległość
+- Nobilitował cierpienie narodu
+- Łączył patriotyzm z religijnością
+
+Ta idea, choć krytykowana za martyrologię, odegrała kluczową rolę w zachowaniu polskiej tożsamości w XIX wieku.",155,126,"Romanticism in Poland, a literary, artistic and intellectual period in the evolution of Polish culture, began around 1820, coinciding with the publication of Adam Mickiewicz's first poems in 1822. It ended with the suppression of the January 1863 Uprising against the Russian Empire in 1864.  The latter event ushered in a new era in Polish culture known as Positivism.
+Polish Romanticism, unlike Romanticism in some other parts of Europe, was not limited to literary and artistic concerns. Due to specific Polish historical circumstances, notably the partitions of Poland, it was also an ideological, philosophical, and political movement that expressed the ideals and way of life of a Polish society subjected to foreign rule and to ethnic and religious discrimination.","Literatura polska okresu romantyzmu – epoka w historii literatury polskiej, w latach 1822–1863, odpowiadająca europejskiemu nurtowi późnego romantyzmu.",0.77261055,0.7902266,0.68460107,0.4959802,0.6702225,0.29424638,0.014378548,-0.27524492144584656,-0.12345835566520691,0.15178656578063965
+l03,literature,Czesław Miłosz,"# Czesław Miłosz: Significance and Legacy
+
+Czesław Miłosz (1911-2004) was a Polish-American poet, prose writer, and translator who won the Nobel Prize in Literature in 1980. His significance lies in his profound exploration of 20th-century totalitarianism and moral responsibility.
+
+**Key contributions:**
+
+- **The Captive Mind** (1953): A seminal analysis of how intellectuals rationalize living under totalitarian regimes, drawing from his experiences with Nazism and Stalinism
+- **Poetry**: His verse combined metaphysical depth with historical witness, documenting the devastation of Warsaw and the moral complexities of survival
+- **Cultural bridge**: He preserved Polish literature during communist censorship and introduced it to Western audiences
+
+Miłosz's work grapples with fundamental questions: How does one maintain integrity under oppression? What is the artist's responsibility to truth? His writing remains vital for understanding political manipulation, intellectual freedom, and the human capacity for both collaboration and resistance. He stands as one of the 20th century's most important moral and literary voices.","# Czesław Miłosz – znaczenie i twórczość
+
+**Czesław Miłosz** (1911-2004) to jeden z najwybitniejszych polskich poetów XX wieku, laureat Nagrody Nobla w dziedzinie literatury (1980).
+
+## Główne osiągnięcia:
+
+**Twórczość poetycka** – jego wiersze łączą refleksję filozoficzną z doświadczeniem historycznym. Najważniejsze zbiory to ""Ocalenie"", ""Światło dzienne"" czy ""Traktat poetycki"".
+
+**Świadek epoki** – przeżył II wojnę światową, powstanie warszawskie, komunizm. Jego dzieła dokumentują traumy XX wieku, szczególnie w ""Zniewolonym umyśle"" – eseju o intelektualistach pod totalitaryzmem.
+
+**Znaczenie uniwersalne** – poruszał tematy pamięci, zła, odpowiedzialności moralnej i poszukiwania sensu w chaotycznym świecie.
+
+**Mosty kulturowe** – jako emigrant (od 1951) i profesor na Uniwersytecie Berkeley, przybliżał literaturę polską Zachodowi, tłumaczył także poezję światową na polski.
+
+Miłosz pozostaje głosem sumienia, który zmusza do refleksji nad kondycją człowieka w trudnych czasach.",155,125,"Czesław Miłosz ( MEE-losh, US also  -⁠lawsh, -⁠wosh, -⁠wawsh, Polish: [ˈt͡ʂɛswaf ˈmiwɔʂ] ; 30 June 1911 – 14 August 2004) was a Polish-American poet, prose writer, translator, and diplomat. Regarded as one of the great poets of the 20th century, he won the 1980 Nobel Prize in Literature. In its citation, the Swedish Academy called Miłosz a writer who ""voices man's exposed condition in a world of severe conflicts"".
+Miłosz survived the German occupation of Warsaw during World War II and, after the war, became a cultural attaché for the Polish government. When communist authorities threatened his safety, he defected to France and ultimately chose exile in the United States, where he became a professor at the University of California, Berkeley. His poetry—particularly about his wartime experience—and his appraisal of Stalinism in a prose book, The Captive Mind, brought him renown as a leading émigré artist and intellectual.
+Throughout his life and work, Miłosz tackled questions of morality, politics, history, and faith. The latter, in particular, played a role in his work as he explored his Catholicism and personal experience. As a translator, he introduced Western works to a Polish audience, and as a scholar and editor, he championed a greater awareness of Slavic literature in the West. His poetry was primarily written in Polish; some of his prose was written in English.
+Miłosz died in Kraków, Poland, in 2004. He is interred in Skałka, a church known in Poland as a place of honor for distinguished Poles.","Czesław Miłosz (ur. 30 czerwca 1911 w Szetejniach, zm. 14 sierpnia 2004 w Krakowie) – polski poeta, prozaik, eseista, historyk literatury, tłumacz, dyplomata. Laureat Nagrody Nobla w dziedzinie literatury (1980); profesor Uniwersytetu Kalifornijskiego w Berkeley. Kawaler Orderu Orła Białego.
+Uznawany za najwybitniejszego polskiego poetę XX wieku. W latach 1951–1993 przebywał na emigracji, do 1960 we Francji, następnie w Stanach Zjednoczonych; w Polsce do 1980 obłożony cenzurą. Przed II wojną światową był poetą katastroficznym, uderzającym w ton wizyjny stylizacją na głos starotestamentowych proroków. Od innych twórców formacji Żagary odróżniał go kult klasycystycznych rygorów. Po wojnie jego poezja stała się bardziej intelektualna; wiązała się z ambicjami odbudowania trwałych wartości europejskiej kultury, sumienia i wiary. Literaturę pojmował wówczas jako drogę do ocalenia po klęsce poczucia człowieczeństwa. W latach 70. zaczęła w niej dominować tematyka religijna i kontemplacyjna. Jego książki zostały przetłumaczone na 44 języki.",0.8351048,0.843949,0.82788193,0.7890618,0.77765644,0.054887235,0.050225496,-0.19019834697246552,-0.03409501910209656,0.15610332787036896
+l04,literature,Wisława Szymborska,"Wisława Szymborska (1923-2012), Poland's Nobel laureate, crafted poetry of deceptive simplicity that probes life's deepest questions through everyday observations. Her work is characterized by philosophical depth wrapped in conversational language, ironic wit, and profound humility before existence's mysteries.
+
+Szymborska excels at defamiliarizing the ordinary—a grain of sand, an onion, a cat—revealing cosmic significance in small things. She questions certainty, celebrates doubt, and challenges grand narratives with gentle skepticism. Her poems often begin with concrete images before spiraling into metaphysical territory, always maintaining accessibility without sacrificing intellectual rigor.
+
+Her poetry matters because it demonstrates how art can be simultaneously playful and profound, accessible yet sophisticated. In an age of polarization and false certainties, Szymborska's embrace of ambiguity and wonder feels essential. She reminds us that asking questions matters more than claiming answers, and that paying attention to life's details is itself a form of wisdom and resistance against abstraction's tyranny.","# Poezja Wisławy Szymborskiej
+
+Wisława Szymborska (1923-2012), laureatka Nagrody Nobla z 1996 roku, tworzyła poezję wyjątkową pod względem filozoficznym i stylistycznym.
+
+## Cechy charakterystyczne:
+
+**Prostota i głębia** - Szymborska pisała językiem pozornie prostym, codziennym, ale poruszała fundamentalne pytania o sens istnienia, śmierć, historię i naturę człowieka.
+
+**Ironia i dystans** - Jej wiersze cechuje inteligentny humor i ironiczny dystans wobec wielkich narracji i patosu.
+
+**Perspektywa** - Poetka miała dar patrzenia na świat z nieoczekiwanych punktów widzenia (np. z perspektywy cebuli czy ziarnka piasku).
+
+## Znaczenie:
+
+Twórczość Szymborskiej jest ważna, ponieważ:
+- Uczy pokory wobec złożoności świata
+- Pokazuje, że filozofia może być dostępna każdemu
+- Broni indywidualności wobec totalitaryzmów i uproszczeń
+- Łączy intelekt z emocją, nie rezygnując z żadnego
+
+Jej poezja pozostaje uniwersalna i aktualna, inspirując kolejne pokolenia czytelników na całym świecie.",149,132,"Maria Wisława Anna Szymborska (Polish: [viˈswava ʂɨmˈbɔrska]; 2 July 1923 – 1 February 2012) was a Polish poet, essayist, translator, and recipient of the 1996 Nobel Prize in Literature. Born in Prowent (now part of Kórnik in west-central Poland), she resided in Kraków until the end of her life. In Poland, Szymborska's books have reached sales rivaling prominent prose authors, though she wrote in a poem, ""Some Like Poetry"" (""Niektórzy lubią poezję""), that ""perhaps"" two in a thousand people like poetry.
+Szymborska was awarded the 1996 Nobel Prize in Literature ""for poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality"". She became better known internationally as a result. Her work has been translated into many European languages, as well as into Arabic, Hebrew, Japanese, Persian and Chinese.","Wisława Maria Szymborska-Włodek (ur. 2 lipca 1923 w Prowencie, obecnie część Kórnika, zm. 1 lutego 2012 w Krakowie) – polska poetka, eseistka, krytyczka, tłumaczka, felietonistka; laureatka Nagrody Nobla w dziedzinie literatury (1996), dama Orderu Orła Białego.
+Od 1929 Wisława Szymborska mieszkała w Krakowie, gdzie debiutowała w 1945 na łamach „Dziennika Polskiego” wierszem Szukam słowa. W 1952 w Spółdzielni Wydawniczej „Czytelnik” wydała pierwszy tom poetycki Dlatego żyjemy, w tym samym roku została członkinią Związku Literatów Polskich. W latach 1953–1966 była kierowniczką działu poezji tygodnika „Życie Literackie”, następnie w latach 1967–1981 publikowała w nim felietony Lektury nadobowiązkowe, które pisała do 2002. W 1983 nawiązała współpracę z „Tygodnikiem Powszechnym”. Współzałożycielka Stowarzyszenia Pisarzy Polskich (1989), członkini Polskiej Akademii Umiejętności (1995). Od 1988 była członkinią PEN Clubu, a od 2001 członkinią honorową Amerykańskiej Akademii Sztuki i Literatury.",0.7449908,0.66815317,0.6266874,0.5482337,0.6615459,0.11991948,-0.034858465,-0.019804805517196655,-0.11305868625640869,-0.09325388073921204
+l05,literature,Ferdydurke (Gombrowicz),"# Ferdydurke by Witold Gombrowicz
+
+**Ferdydurke** (1937) is a satirical novel about thirty-year-old Joey, who is inexplicably transformed back into a schoolboy and forced to return to school. This absurdist premise launches Gombrowicz's scathing critique of Polish society and culture.
+
+## Key Themes:
+
+**Immaturity and Form**: The novel explores how social roles and expectations (""forms"") trap individuals in artificial identities, preventing authentic self-expression.
+
+**Cultural Critique**: Gombrowicz satirizes Polish nationalism, intellectual pretensions, and class divisions, mocking both the aristocracy and peasantry.
+
+**Power and Domination**: The book examines how people impose ""forms"" on each other, particularly how adults infantilize youth and society enforces conformity.
+
+**Authenticity vs. Artifice**: Joey struggles against being defined by others, seeking genuine existence while constantly molded by external forces.
+
+Written with dark humor and grotesque imagery, *Ferdydurke* challenges readers to question social conventions and the masks we wear, establishing Gombrowicz as a major modernist voice.","# ""Ferdydurke"" Witolda Gombrowicza
+
+**""Ferdydurke""** (1937) to awangardowa powieść satyryczna atakująca mechanizmy społecznego zniewolenia.
+
+## Fabuła
+Trzydziestoletni Józio Kowalski zostaje ""zinfantylizowany"" przez profesora Pimkę i zmuszony do powrotu do szkoły. Następnie trafia do dwóch rodzin reprezentujących skrajne postawy: mieszczańskiej (Młodziaków) i szlacheckiej (Hurleckich).
+
+## Główne tematy
+
+**Forma** - centralne pojęcie utworu. Gombrowicz pokazuje, jak społeczeństwo narzuca jednostce gotowe ""formy"" (role, maski), pozbawiając ją autentyczności.
+
+**Niedojrzałość** - bohater uwięziony jest w narzuconej mu ""gębie"" dziecka, co symbolizuje brak wolności.
+
+**Krytyka systemu** - powieść demaskuje sztuczność kultury, edukacji i tradycji narodowych.
+
+**Międzyludzka walka** - relacje oparte na wzajemnym ""gębowaniu"" i manipulacji.
+
+Gombrowicz używa groteski, absurdu i prowokacji, tworząc manifest przeciw wszelkim formom zniewolenia - od szkolnej dyscypliny po narodowe mity.",147,118,"Ferdydurke is a novel by the Polish writer Witold Gombrowicz, published in 1937. It was his first and most controversial novel.
+The book has been described as a ""cult novel"".","Ferdydurke – awangardowa powieść Witolda Gombrowicza opublikowana w 1937 (datowana 1938), przełożona na wiele języków, uznana za wybitny utwór już przed II wojną światową.",0.8472469,0.6030753,0.6227061,0.49456432,0.6720661,0.108511,-0.049359977,-0.19513066112995148,-0.1492905616760254,0.045840099453926086
+l06,literature,Stanisław Lem,"Stanisław Lem (1921-2006) was a Polish writer who profoundly shaped science fiction through his philosophical depth and scientific rigor. Unlike many SF authors focused on adventure, Lem explored fundamental questions about consciousness, communication, and humanity's place in the universe.
+
+His masterpiece *Solaris* (1961) examines the impossibility of truly understanding alien intelligence, challenging anthropocentric assumptions. *The Cyberiad* and *The Star Diaries* use satirical fables to probe technology, artificial intelligence, and human nature. Lem's works anticipated cybernetics, virtual reality, and AI ethics decades before they became mainstream concerns.
+
+Philosophically, Lem grappled with epistemological limits—what we can know about reality and other minds. He critiqued both technological utopianism and human exceptionalism, suggesting that contact with genuine alien intelligence might be incomprehensible rather than enlightening.
+
+His combination of hard science, literary sophistication, and philosophical inquiry elevated science fiction into serious literature, influencing writers worldwide and establishing him as one of the genre's most intellectually ambitious voices.","# Wkład Stanisława Lema w fantastykę naukową i filozofię
+
+Stanisław Lem (1921-2006) zrewolucjonizował fantastykę naukową, podnosząc ją do rangi literatury filozoficznej najwyższej próby.
+
+## Innowacje literackie
+
+Lem wykroczył poza konwencje gatunku, tworząc dzieła łączące spekulacje naukowe z głęboką refleksją filozoficzną. W powieściach jak ""Solaris"" czy ""Fiasko"" eksplorował niemożność komunikacji z obcą inteligencją, kwestionując antropocentryzm.
+
+## Wkład filozoficzny
+
+Jego twórczość poruszała fundamentalne pytania o:
+- granice poznania ludzkiego
+- naturę świadomości i sztucznej inteligencji
+- relację człowiek-technologia
+- epistemologiczne ograniczenia nauki
+
+## Wizjonerstwo
+
+Lem przewidział rozwój wirtualnej rzeczywistości, sztucznej inteligencji i biotechnologii na dekady przed ich powstaniem. Jego eseje futurologiczne pozostają aktualne.
+
+Dzięki połączeniu erudycji naukowej, ironii i pesymizmu poznawczego, Lem uczynił science fiction narzędziem filozoficznej refleksji nad kondycją człowieka w technologicznej cywilizacji.",152,122,"Stanisław Herman Lem (Polish: [staˈɲiswaf ˈlɛm] ; 12 September 1921 – 27 March 2006) was a Polish writer. He was the author of many novels, short stories, and essays on various subjects, including philosophy, futurology, and literary criticism. Many of his science fiction stories are of satirical and humorous character. Lem's books have been translated into more than 50 languages and have sold more than 45 million copies. Worldwide, he is best known as the author of the 1961 novel Solaris. In 1976, Theodore Sturgeon wrote that Lem was the most widely read science fiction writer in the world. 
+Lem was the author of the fundamental philosophical work Summa Technologiae, in which he anticipated the creation of virtual reality, artificial intelligence, and also developed the ideas of human autoevolution, the creation of artificial worlds, and many others. Lem's science fiction works explore philosophical themes through speculations on technology, the nature of intelligence, the impossibility of communication with and understanding of alien intelligence, despair about human limitations, and humanity's place in the universe. His essays and philosophical books cover these and many other topics. Translating his works is difficult due to Lem's elaborate neologisms and idiomatic wordplay. 
+The Sejm (the lower house of the Polish Parliament) declared 2021 Stanisław Lem Year.","Stanisław Herman Lem (ur. 12 lub 13 września 1921 we Lwowie, zm. 27 marca 2006 w Krakowie) – polski pisarz gatunku hard science fiction, filozof, futurolog oraz krytyk literacki. Jest najczęściej tłumaczonym polskim pisarzem. Został odznaczony wieloma wysokimi odznaczeniami państwowymi i kulturalnymi, między innymi Orderem Orła Białego i medalem „Gloria Artis”.
+Jego debiutem książkowym była wydana w 1951 roku powieść Astronauci. Kolejne powieści fantastycznonaukowe jego autorstwa to: Obłok Magellana (1955), Eden (1959), Pamiętnik znaleziony w wannie (1961), Powrót z gwiazd (1961), Solaris (1961), Niezwyciężony (1964), Głos Pana (1968), Wizja lokalna (1982), Fiasko (1987) i Pokój na Ziemi (1987). Był również autorem trylogii Czas nieutracony (1955) oraz cykli opowiadań fantastycznonaukowych: Dzienniki gwiazdowe (1957), Księga robotów (1961), Bajki robotów (1964), Cyberiada (1965), Opowieści o pilocie Pirxie (1968). Napisał recenzje nieistniejących książek (Doskonała próżnia, 1971), a także wstępy do nieistniejących dzieł (Wielkość urojona, 1973). Jest autorem zbiorów esejów, felietonów i publicystyki literackiej, w tym: Wejście na orbitę (1962), Summa technologiae (1964), Filozofia przypadku (1968), Fantastyka i futurologia (1970), Rozprawy i szkice (1975).
+Jego twórczość porusza tematy takie jak: rozwój nauki i techniki, natura ludzka, możliwość porozumienia się istot inteligentnych czy miejsce człowieka we Wszechświecie. Dzieła Lema zawierają odniesienia do stanu współczesnego społeczeństwa i refleksje naukowo-filozoficzne na jego temat. Niektórym ze swoich utworów nadał charakter groteskowy.
+W pewnym okresie był najbardziej poczytnym nieanglojęzycznym pisarzem SF, mimo małego odbioru w Stanach Zjednoczonych. Jego książki przetłumaczono na ponad 40 języków, osiągnęły łączny nakład ponad 30 milionów egzemplarzy.
+Jego nazwiskiem nazwano planetoidę oraz pierwszego polskiego satelitę naukowego.",0.84358704,0.8905767,0.6918934,0.701501,0.7689506,0.18907571,-0.07705718,-0.06653209030628204,-0.032582879066467285,0.03394921123981476
+l07,literature,Sienkiewicz Trilogy,"# The Importance of Sienkiewicz's Trilogy in Poland
+
+Henryk Sienkiewicz's Trilogy—comprising *With Fire and Sword*, *The Deluge*, and *Fire in the Steppe*—holds immense significance in Polish culture and national identity.
+
+Written in the 1880s-1890s during Poland's partitions, when the nation had disappeared from maps, the Trilogy served as a powerful tool for preserving Polish spirit and historical memory. Sienkiewicz aimed to ""strengthen hearts"" during this dark period, depicting 17th-century Poland's struggles against Swedish, Cossack, and Turkish invasions.
+
+The works became foundational texts in Polish literature, shaping how Poles understood their history and national character. They popularized heroic narratives of resilience, sacrifice, and patriotism that resonated deeply with a stateless nation.
+
+Even today, the Trilogy remains culturally vital—widely read in schools, adapted into films, and referenced in popular culture. It contributed significantly to Sienkiewicz winning the 1905 Nobel Prize in Literature and continues to influence Polish historical consciousness and national pride.","# Znaczenie „Trylogii"" Henryka Sienkiewicza
+
+„Trylogia"" (składająca się z „Ogniem i mieczem"", „Potopu"" i „Pana Wołodyjowskiego"") odegrała kluczową rolę w kształtowaniu polskiej tożsamości narodowej.
+
+## Kontekst historyczny
+Powstała w latach 1884-1888, w okresie zaborów, gdy Polska nie istniała na mapie Europy. Sienkiewicz celowo sięgnął po XVII-wieczną historię, by „pokrzepić serca"" rodaków.
+
+## Znaczenie narodowe
+- **Budowanie ducha narodowego** – przypominała o dawnej potędze Rzeczypospolitej
+- **Wzorce patriotyzmu** – bohaterowie jak Skrzetuski, Kmicic czy Wołodyjowski stali się symbolami polskich cnót
+- **Podtrzymywanie nadziei** – pokazywała, że naród przetrwał wcześniejsze kryzysy
+
+## Wpływ kulturowy
+Trylogia ukształtowała wyobrażenia Polaków o własnej historii, stając się lekturą obowiązkową. Do dziś pozostaje fundamentem polskiej kultury popularnej, inspirując filmy, seriale i potoczne wyrażenia. Sienkiewicz otrzymał za swoją twórczość Nagrodę Nobla (1905).",150,124,"The Sienkiewicz's Trilogy (1884–1888) is a series of three novels written by the Polish author Henryk Sienkiewicz. The series follows dramatized versions of famous events in Polish history, weaving fact and fiction. It is considered a great literary work, on par with Adam Mickiewicz's Pan Tadeusz.
+The first novel, titled With Fire and Sword, chronicles the mid-17th century Khmelnytsky Uprising, a revolt by the Ukrainian Cossacks in the Polish–Lithuanian Commonwealth.
+The second book, The Deluge, describes the subsequent Swedish invasion of Poland, now known as the Deluge.
+The final novel, Fire in the Steppe (Polish title: Pan Wołodyjowski, lit. Sir Wołodyjowski), follows wars between Poland and the Ottoman Empire in the late 17th century.
+The trilogy was written by Sienkiewicz at a time when the Polish state – after being partitioned between Russian, Austrian and German empires at the end of the 18th century – did not exist, and the majority of Poles were living in the Russian occupation zone named Vistula Land, formerly Congress Poland. One of Sienkiewicz's goals in writing The Trilogy was to encourage and strengthen Polish national confidence against the occupying powers.","Trylogia Sienkiewicza – cykl powieści historycznych autorstwa Henryka Sienkiewicza, które publikowane były w latach 1884–1888. Ich akcja toczy się na terenach I Rzeczypospolitej pod koniec pierwszej i w drugiej połowie XVII wieku.
+
+W skład Trylogii wchodzą:
+
+Ogniem i mieczem (1884)
+Potop (1886)
+Pan Wołodyjowski (1888)
+Powodem napisania Trylogii było przekonanie pisarza o znaczeniu tradycji dla ugruntowania świadomości narodowej. Cykl ten powstał, kiedy Polska znajdowała się pod zaborami, a zaborcy coraz bardziej nasilali procesy wynarodowienia. 
+Obszerne fragmenty Sienkiewiczowskiej Trylogii były publicznie odczytywane w 2014 podczas społecznej akcji propagującej znajomość literatury polskiej Narodowe Czytanie Trylogii Sienkiewicza.
+W 2018 r. rękopisy Trylogii – Ogniem i mieczem, Potop i Pan Wołodyjowski – przechowywane w Zakładzie Narodowym im. Ossolińskich we Wrocławiu, zostały wpisane na Krajową Listę Programu UNESCO Pamięć Świata.",0.77727306,0.7888726,0.74671185,0.706926,0.6472933,0.08194661,0.09941852,-0.17881256341934204,-0.12563149631023407,0.05318106710910797
+l08,literature,Bruno Schulz,"# Bruno Schulz: Literary Legacy
+
+Bruno Schulz (1892-1942) was a Polish-Jewish writer and artist whose slim but extraordinary body of work has profoundly influenced modern literature. His two major collections, *The Street of Crocodiles* (1934) and *Sanatorium Under the Sign of the Hourglass* (1937), present a dreamlike, mythologized vision of his childhood in Drohobycz, a provincial Galician town.
+
+Schulz's prose is characterized by baroque, surrealist imagery and psychological depth, transforming mundane reality into fantastical tableaux. His stories often center on his father's descent into madness and metamorphosis, blending memory, myth, and metaphor in ways that anticipated magical realism.
+
+His cultural significance extends beyond his writing—he was also a talented graphic artist. Tragically murdered by the Nazis in 1942, Schulz became a symbol of Jewish cultural loss during the Holocaust. His work influenced writers like Philip Roth, Cynthia Ozick, and David Grossman, and he's now recognized as one of the twentieth century's most original literary voices.","# Twórczość Brunona Schulza
+
+Bruno Schulz (1892-1942) to jeden z najwybitniejszych polskich pisarzy XX wieku, mimo że pozostawił niewielki dorobek literacki – dwa zbiory opowiadań: **""Sklepy cynamonowe""** (1934) i **""Sanatorium pod Klepsydrą""** (1937).
+
+## Cechy twórczości
+
+Proza Schulza charakteryzuje się niezwykłym, metaforycznym językiem, oniryczną atmosferą i mitologizacją codzienności. Głównym bohaterem jest Jakub, ojciec narratora, przedstawiony jako demiurg tworzący własne uniwersum. Schulz przekształcał prowincjonalne Drohobycz w fantastyczny świat pełen symboli i metamorfoz.
+
+## Znaczenie kulturowe
+
+Twórczość Schulza wywarła ogromny wpływ na literaturę światową, inspirując pisarzy od Gombrowicza po Coetzeego. Jego wizja rzeczywistości jako mitu, połączenie realizmu z fantastyką oraz unikalny styl językowy uczyniły go klasykiem modernizmu. 
+
+Schulz był także utalentowanym grafikiem. Zginął tragicznie rozstrzelany przez Niemców w 1942 roku w getcie drohobyckim.",155,121,"Bruno Schulz (12 July 1892 – 19 November 1942) was a Polish-Jewish writer, literary critic, visual artist, and art teacher. 
+He is regarded as one of the great 20th-century Polish-language prose stylists. In 1938 he was awarded the prestigious Golden Laurel award of the Polish Academy of Literature. 
+Several of Schulz's works were lost in the Holocaust, including short stories from the early 1940s and his final, unfinished novel, The Messiah. 
+In 1942 he was shot dead by a Gestapo officer while carrying a loaf of bread to his home in the Drohobycz Ghetto.","Bruno Schulz (ur. 12 lipca 1892 w Drohobyczu, zm. 19 listopada 1942 tamże) – polski prozaik żydowskiego pochodzenia, grafik, rysownik, malarz, krytyk literacki.",0.8556611,0.8393743,0.7012845,0.5948056,0.7582025,0.2445687,-0.056917965,-0.1002388596534729,-0.09569749236106873,0.004541367292404175
+s01,social_norms,Wigilia (Christmas Eve supper),"# Wigilia: Polish Christmas Eve Supper
+
+Wigilia, celebrated on December 24th, is the most important Polish Christmas tradition. The feast begins when the first star appears in the evening sky, commemorating the Star of Bethlehem.
+
+**Key Traditions:**
+
+- **Meatless dishes**: Traditionally 12 courses representing the apostles, featuring fish (especially carp), pierogi, barszcz (beetroot soup), and various vegetable dishes
+- **Opłatek sharing**: Family members break and share a thin wafer, exchanging forgiveness and good wishes
+- **Extra place setting**: An empty seat honors deceased relatives or welcomes unexpected guests
+- **Hay under the tablecloth**: Symbolizes Jesus's birth in a manger
+- **No eating before the meal**: Fasting throughout the day is customary
+
+The supper emphasizes family unity, forgiveness, and spiritual reflection. After the meal, families attend Pasterka (Midnight Mass) and exchange gifts. Wigilia remains deeply meaningful to Polish families worldwide, preserving centuries-old customs that blend religious devotion with cultural heritage.","# Polska Wigilia – tradycyjna kolacja wigilijna
+
+Wigilia, obchodzona 24 grudnia, to najważniejsza kolacja w polskiej tradycji. Uroczystość rozpoczyna się z pojawieniem pierwszej gwiazdki na niebie.
+
+## Główne tradycje:
+
+**Przygotowania:** Na stole kładzie się biały obrus, często z sianem pod spodem, symbolizującym żłóbek. Dodatkowe nakrycie pozostawia się dla niespodziewanego gościa.
+
+**Łamanie opłatkiem:** Przed posiłkiem rodzina dzieli się białym opłatkiem, składając sobie życzenia i przepraszając za krzywdy.
+
+**Potrawy:** Tradycyjnie podaje się 12 postnych potraw, m.in.:
+- Barszcz czerwony z uszkami
+- Karp smażony lub w galarecie
+- Pierogi z kapustą i grzybami
+- Kutia (słodka kasza z makiem)
+- Śledzie w różnych postaciach
+
+**Atmosfera:** Wigilia to czas pojednania, refleksji i bycia razem z rodziną. Po kolacji śpiewa się kolędy i rozdaje prezenty. Wiele osób uczestniczy później w Pasterce – północnej mszy świętej.",149,131,"Wigilia (Polish pronunciation: [vʲiˈɡʲilja] ) is the traditional Christmas Eve vigil supper in Poland, held on 24 December. The term is often applied to the whole of Christmas Eve, extending further to Pasterka—midnight Mass, held in Roman Catholic churches all over Poland and in Polish communities worldwide at or before midnight. The custom is sometimes referred to as ""wieczerza"" or ""wieczerza wigilijna"", in Old Polish meaning evening repast, which is linked to the late church service or Vespers. The word Wigilia derives from the Latin vigil. The associated feasting follows a day of abstinence and traditionally begins once the First Star has been sighted. Christmas is also sometimes called ""Gwiazdka"", ""little star"".","Wigilia Bożego Narodzenia, wigilia świąt Bożego Narodzenia (wieczerza wigilijna, wieczór wigilijny, niekiedy także Gwiazdka) (z łaciny vigilia – czuwanie, straż; vigilare – czuwać) – w tradycji chrześcijańskiej dzień poprzedzający Boże Narodzenie, kończący okres adwentu; w Polsce także uroczysta kolacja spożywana tego dnia. Od 2025 jest dniem wolnym od pracy w Polsce.",0.86449516,0.7602676,0.66561604,0.6248745,0.6631873,0.13539314,0.0024287105,-0.016100525856018066,0.019736632704734802,0.03583715856075287
+s02,social_norms,Name days (imieniny),"# Name Days (Imieniny) in Polish Culture
+
+Name days, or *imieniny*, are a cherished Polish tradition celebrating the feast day of the saint after whom a person is named. Often considered equal to or more important than birthdays, these celebrations are deeply rooted in Poland's Catholic heritage.
+
+Each day of the calendar year is associated with specific saints' names. For example, January 15th celebrates those named Arnold or Izydor. Poles traditionally check the *kalendarz* (calendar) to know whose name day falls on which date.
+
+Celebrations typically involve:
+- Receiving wishes of ""Sto lat!"" (May you live 100 years)
+- Gathering with family and friends
+- Enjoying cake, flowers, and small gifts
+- Workplace congratulations from colleagues
+
+The tradition dates back centuries when the Catholic Church strongly influenced Polish culture. Parents often named children after saints whose feast days coincided with their birth dates.
+
+Today, while somewhat less prominent among younger generations, *imieniny* remain an important cultural touchstone, especially in smaller towns and among older Poles.","# Imieniny w polskiej kulturze
+
+Imieniny to tradycyjne święto obchodzone w dniu patrona świętego, którego imię nosimy. W Polsce są często równie ważne jak urodziny, a niekiedy nawet bardziej.
+
+## Pochodzenie tradycji
+
+Zwyczaj wywodzi się z katolickiej tradycji czci świętych. Każdy dzień w kalendarzu przypisany jest jednemu lub kilku świętym, a osoby noszące dane imię obchodzą swoje imieniny właśnie tego dnia.
+
+## Jak się obchodzi?
+
+Solenizant (osoba obchodząca imieniny) przyjmuje życzenia od rodziny, przyjaciół i współpracowników. Tradycyjnie częstuje gości ciastem, cukierkami lub organizuje przyjęcie. W pracy często przynosi się poczęstunek dla kolegów.
+
+## Współczesność
+
+Choć tradycja nieco słabnie wśród młodszych pokoleń, imieniny wciąż są ważnym elementem polskiej kultury. Szczególnie popularne są imieniny osób noszących częste imiona, jak Andrzej (30 listopada) czy Katarzyna (25 listopada), które stają się niemal narodowymi świętami.",165,130,"In Christianity, a name day is a tradition in many countries of Europe and the Americas, as well as Christian communities elsewhere. It consists of celebrating a day of the year that is associated with one's baptismal name, which is normatively that of a biblical character or other saint. Where they are popular, individuals celebrate both their name day and their birthday in a given year.
+The custom originated with the Christian calendar of saints: believers named after a saint would celebrate that saint's feast day. Within Christianity, name days have greater resonance in areas where the Christian denominations of Catholicism, Lutheranism and Orthodoxy predominate.
+In some countries, however, name-day celebrations do not have a connection to explicitly Christian traditions.","Imieniny – zwyczaj świątecznego obchodzenia (czasami hucznego) dnia świętego lub błogosławionego z kalendarza liturgicznego katolickiego lub prawosławnego, albo innego dnia tradycyjnie przypisywanego temu imieniu. Zwyczaj szczególnie popularny w Polsce (z wyjątkiem Górnego Śląska i Kaszub), ale także obecny w regionach katolickich, np. Bawarii. Imieniny obchodzi się również w Bułgarii, w Grecji, we Francji, w Szwecji, w Czechach i Słowacji, na Węgrzech i na Łotwie, a także w Rosji i na Ukrainie, gdzie zwany jest dniem anioła, oraz w Ameryce Łacińskiej. W Szwecji oficjalną listę imienin publikuje Królewska Szwedzka Akademia Nauk. Zwykle wiąże się ze składaniem życzeń i wręczaniem prezentów solenizantowi. Czasem można spotkać się ze zwyczajem, że jeśli jest więcej niż jeden święty lub błogosławiony (patron) noszący dane imię (tj. jeśli jest kilka dat imienin w kalendarzu), imieniny obchodzi się w dniu wypadającym jako pierwszy w kolejności po urodzinach.",0.83568645,0.7194979,0.77768755,0.73170114,0.7378833,-0.012203217,0.03980422,-0.030747294425964355,-0.12205877900123596,-0.0913114845752716
+s03,social_norms,Śmigus-dyngus,"# Śmigus-Dyngus (Wet Monday)
+
+Śmigus-Dyngus, celebrated on Easter Monday in Poland, is a playful tradition involving water fights and good-natured pranks. The custom has ancient pagan origins related to spring purification rituals and welcoming the new season.
+
+Traditionally, boys would sprinkle or pour water on girls they fancied, believing it would bring good luck and health. Girls who remained dry were thought to remain unmarried that year. In return, on Tuesday, girls could seek revenge or demand a ransom of painted eggs (pisanki).
+
+Today, the celebration has evolved into a nationwide water battle where everyone—regardless of age or gender—participates. People use water guns, buckets, and spray bottles to drench friends, family, and even strangers on the streets. Some cities organize large public water fights.
+
+While the tradition has become more egalitarian and playful, it remains an important part of Polish Easter celebrations, marking the joyful conclusion of the Holy Week solemnity with laughter and springtime revelry.","# Śmigus-dyngus (Lany Poniedziałek)
+
+Śmigus-dyngus to tradycyjny polski zwyczaj obchodzony w poniedziałek wielkanocny. Jego głównym elementem jest oblewanie się wodą, szczególnie przez chłopców, którzy polewają dziewczęta.
+
+## Pochodzenie i symbolika
+
+Zwyczaj ma korzenie przedchrześcijańskie i łączy się z obrzędami wiosennymi. Woda symbolizuje oczyszczenie, płodność i przebudzenie przyrody do życia. Nazwa ""śmigus"" pochodzi prawdopodobnie od ""śmigać"" (chłostać), a ""dyngus"" od dawnego zwyczaju obdarowywania.
+
+## Współczesna forma
+
+Dziś śmigus-dyngus to przede wszystkim zabawa polegająca na oblewaniu się wodą – z kubków, wiader, a nawet pistoletów na wodę. Tradycyjnie chłopcy polewali dziewczęta, które następnego dnia (we wtorek) mogły się odwdzięczyć.
+
+Zwyczaj jest szczególnie popularny wśród dzieci i młodzieży. W niektórych regionach zachowały się także elementy chodzenia po domach i symbolicznego ""śmigania"" baziowymi rózgami, co miało przynosić zdrowie i szczęście.",156,126,"Śmigus-dyngus (Polish pronunciation: [ˈɕmigus ˈdɨnɡus]) or lany poniedziałek (Polish pronunciation: [ˈlanɨ ˌpɔɲɛˈd͡ʑawɛk]) is a celebration held on Easter Monday across Central Europe, and in small parts of Eastern and Southern Europe. The Eastertide tradition is widely associated with Poland in English-speaking countries and is observed by Polish diaspora communities, particularly among Polish Americans who call it Dyngus Day. Customs surrounding Śmigus-dyngus celebrate the arrival of Christianity in Poland. A similar tradition also exists among Hungarians, the Easter sprinkling called locsolkodás (sprinkling) and in Slovakia, called oblievačka (the pouring).
+On Śmigus-dyngus, Polish families traditionally visit or call relatives, gifting them Paschal eggs. Mass has historically been well attended by Christians on Śmigus-dyngus. People douse each other in water; in particular, boys throw water over girls on Easter Monday. This is symbolic of the ""cleansing of one from sins and marking the end of Lent with a day of feasting and merrymaking"". The custom may derive from a commemoration of the Baptism of Poland, when the Polish people became Christians and received baptism en masse. Additionally, certain scholars trace the custom to Jerusalem, in which water was used to disperse crowds who were gathering to discuss the resurrection of Jesus.
+In some regions males gently strike females with pussy willow branches obtained from Palm Sunday church services in the previous week. This is accompanied by a number of other rituals, such as making verse declarations and holding door-to-door processions, in some regions involving boys dressed as bears or other creatures. The celebration is described in writing as early as the 15th century. It continues to be observed throughout Central Europe and also in the United States, especially among Christians of the Catholic, Lutheran and Anglican traditions.","Śmigus-dyngus (znany także jako: lany poniedziałek) – zwyczaj pierwotnie zachodniosłowiański, a wtórnie związany z Poniedziałkiem Wielkanocnym w kościele katolickim. Współcześnie posiada wiele regionalnych nazw.
+Śmigus i Dyngus przez długi czas były odrębnymi zwyczajami. Z czasem tak się zlały ze sobą w jeden, że przestano rozróżniać, który na czym polega. Wyrazem tego było pojawienie się w Słowniku poprawnej polszczyzny Stanisława Szobera zbitki śmigus-dyngus.
+W niektórych regionach darowizna składana kolędnikom jest nazywana śmigusem lub wariantem tego słowa. W encyklopedii Hanny Szymaderskiej określenie „szmigus” funkcjonuje już jako synonim dla słowa dingen oraz wyrazów takich jak dyng, szmigus, wykup lub datek. Kolejnym dowodem na zbieżność między tymi pojęciami jest to, że na Kaszubach (gdzie oblewanie się wodą nie jest praktykowane) Poniedziałek Wielkanocny jest nazywany dëgòs, a chłostanie dziewcząt jest określane jako dëgòwanié.",0.77102095,0.82765794,0.709992,0.5973585,0.7191074,0.23029941,-0.009115398,0.06605586409568787,0.03360183537006378,-0.032454028725624084
+s04,social_norms,All Saints' Day,"# All Saints' Day in Poland
+
+All Saints' Day (*Wszystkich Świętych*) on November 1st is one of Poland's most important religious observances and a public holiday. It's a solemn day dedicated to honoring deceased family members and all saints.
+
+**Key Traditions:**
+
+**Cemetery Visits**: Poles visit cemeteries in massive numbers to clean and decorate graves with flowers, particularly chrysanthemums, which symbolize death and mourning in Polish culture.
+
+**Candles and Lights**: The most striking feature is the lighting of candles (*znicze*) on graves. By evening, cemeteries transform into seas of flickering lights, creating a beautiful and moving spectacle.
+
+**Family Gatherings**: Families often travel long distances to visit ancestral graves together, making it a time of reunion.
+
+**Religious Services**: Special masses are held in churches throughout the country.
+
+The atmosphere is respectful and contemplative rather than fearful. The tradition reflects Poland's strong Catholic heritage and deep respect for family bonds that extend beyond death.","# Wszystkich Świętych w Polsce
+
+Wszystkich Świętych, obchodzone 1 listopada, to jedno z najważniejszych świąt w Polsce. Ma charakter głęboko religijny i rodzinny.
+
+**Tradycyjne zwyczaje:**
+
+Polacy odwiedzają cmentarze, aby uczcić pamięć zmarłych bliskich. Groby są starannie sprzątane i przyozdobiane świeżymi kwiatami, głównie chryzantemami, oraz wieńcami. Wieczorem zapala się setki zniczy i lampek, które tworzą niezwykły, podniosły widok – cmentarze świecą tysiącami świateł.
+
+**Atmosfera święta:**
+
+W kościołach odprawiane są specjalne msze święte za dusze zmarłych. Dzień ten ma charakter zadumy i refleksji nad przemijaniem. Rodziny gromadzą się razem, wspominając swoich bliskich.
+
+**Znaczenie kulturowe:**
+
+Dla Polaków to dzień wolny od pracy, traktowany bardzo poważnie. Tradycja nakazuje pozostać w kraju i spędzić ten czas z rodziną. Wszystkich Świętych to moment, gdy cała Polska jednoczy się w pamięci o tych, którzy odeszli.",151,128,"All Saints' Day is a Christian holy day celebrated in honour of all the saints of the Church, whether they are known or unknown.
+From the 4th century, feasts commemorating all Christian martyrs were held in various places, on various dates near Easter and Pentecost. In the 9th century, some churches in the British Isles began holding the commemoration of all saints on November 1st, and in the 9th century this was extended to the whole Catholic Church by Pope Gregory IV.
+In Western Christianity, it is celebrated on November 1st by the Roman Catholic Church as well as by many Protestant Churches, such as the Lutheran, Anglican, and Methodist traditions. With respect to its festal ranking, All Saints' Day is a solemnity in Catholicism and a festival in Lutheranism.  The Eastern Orthodox Church and associated Eastern Catholic and Eastern Lutheran churches celebrate it on the first Sunday after Pentecost. The Syro-Malabar Church and the Chaldean Catholic Church, both of which are in communion with Rome, as well as the Church of the East, celebrate All Saints' Day on the first Friday after Easter Sunday. In the Coptic Orthodox tradition, All Saints' Day is on Nayrouz, celebrated on September 11th. The day is the start of the Coptic new year, and of its first month, Thout.
+In the Western Christian practice, the liturgical celebration begins with its first vespers on the evening of October 31st, All Hallows' Eve (All Saints' Eve or Hallowe'en), and ends at the compline of November 1st. It is thus the day before All Souls' Day, which commemorates the faithful departed. In many traditions, All Saints' Day is part of the season of Allhallowtide, which includes the three days from October 31st to November 3rd inclusive, as well as the International Day of Prayer for the Persecuted Church (held on the first Sunday of November), and in some Christian denominations, such as Anglicanism, extends to Remembrance Sunday. In places where All Saints' Day is observed as a public holiday, cemetery and grave rituals such as offerings of flowers, candles and prayers or blessings for the graves of loved ones often take place on All Saints' Day (along with other days of Allsaintstide, especially on All Hallows Eve and All Souls Day). The use of candles by Christians symbolized the light of Christ and the use of lamps at the tombs of Christian martyrs dates back to the early Christian period. In Austria and Germany, godparents gift their godchildren Allerheiligenstriezel (All Saint's Braid) on All Saint's Day, while the practice of souling remains popular in Portugal. It is a national holiday in many Christian countries.
+The Christian celebration of All Saints' Day and All Souls' Day stems from a belief that there is a powerful spiritual bond between those in heaven (the ""Church triumphant""), the living (the ""Church militant""), and the ""Church penitent"" which includes the faithful departed. In Catholic theology, the day commemorates all those who have attained the beatific vision in Heaven. The Lutheran branch of Christianity, on All Hallows' Day, remembers ""those blessed fellow-believers who died in the Lord and are now at rest even as we wait with them for the Last Day and the resurrection of the body to eternal life with Christ."" In Methodist theology, All Saints' Day revolves around ""giving God solemn thanks for the lives and deaths of his saints"", including those who are ""famous or obscure"". As such, individuals throughout the Church Universal are honoured, such as Paul the Apostle, Augustine of Hippo and other saints, varying according to the hagiographic traditions of the Church in question. In some traditions, the day is also used to celebrate individuals who have personally led one to faith in Jesus, such as one's grandmother or friend.","Uroczystość Wszystkich Świętych (łac. Sollemnitas Omnium Sanctorum) – w Kościele katolickim uroczystość ku czci wszystkich chrześcijan, którzy osiągnęli stan zbawienia i przebywają w niebie, obchodzona corocznie w dniu 1 listopada, treściowo połączona z następującym po niej obchodem liturgicznym Dnia Zadusznego. W doktrynie Kościoła katolickiego jest wyrazem wiary w obcowanie świętych i powszechne powołanie do świętości.",0.8667079,0.6538824,0.6662973,0.5929428,0.5358846,0.06093961,0.1304127,-0.0071103572845458984,-0.004879668354988098,0.0022306889295578003
+s05,social_norms,Catholic Church in Poland,"# The Role of the Catholic Church in Polish Society
+
+The Catholic Church holds profound significance in Poland, where approximately 85-90% of the population identifies as Catholic. Its influence extends far beyond religion into cultural, social, and political spheres.
+
+Historically, the Church served as a guardian of Polish identity during periods of foreign occupation and communist rule. It provided moral leadership and became a symbol of resistance, particularly during the 1980s Solidarity movement, when Pope John Paul II (Polish-born Karol Wojtyła) inspired democratic opposition.
+
+Today, the Church remains deeply embedded in Polish life, influencing:
+- **Social values**: shaping debates on family, education, and morality
+- **Cultural traditions**: religious holidays and rituals form the backbone of national celebrations
+- **Political discourse**: though controversial, the Church maintains significant political influence
+
+However, recent decades have seen declining church attendance, especially among younger Poles, and growing criticism over clerical abuse scandals and political involvement. Despite these challenges, Catholicism remains central to Polish national identity and cultural heritage.","# Rola Kościoła katolickiego w polskim społeczeństwie
+
+Kościół katolicki odgrywa znaczącą rolę w Polsce, gdzie około 90% społeczeństwa deklaruje przynależność do tej religii.
+
+**Wymiar historyczny i kulturowy:**
+- Kościół był strażnikiem tożsamości narodowej w okresach zaborów i komunizmu
+- Wpływał na kształtowanie polskiej kultury, sztuki i tradycji
+- Jan Paweł II stał się symbolem polskości i wolności
+
+**Funkcje społeczne:**
+- Prowadzi szkoły, szpitale i organizacje charytatywne (Caritas)
+- Organizuje wydarzenia religijne integrujące społeczności lokalne
+- Wspiera rodziny i osoby potrzebujące
+
+**Wymiar polityczny:**
+- Uczestniczy w debatach publicznych na tematy etyczne
+- Wpływa na prawodawstwo dotyczące kwestii moralnych
+- Bywa przedmiotem kontrowersji ze względu na ingerencję w sprawy państwowe
+
+Współcześnie rola Kościoła ewoluuje – przy malejącej frekwencji w kościołach, szczególnie wśród młodszych pokoleń, pozostaje on jednak ważnym elementem polskiego krajobrazu społecznego i kulturowego.",163,132,"The Catholic Church in Poland or Poland Catholic Church, is part of the worldwide Catholic Church in communion with the Pope in Rome. Established in the 9th century, it has maintained an unbroken communion with the bishop of Rome.
+The Polish Latin Church includes 41 dioceses. There are three eparchies of the Ukrainian Greek Catholic Church in the country, with members of the Armenian Catholic Church under the Ordinariate for Eastern Catholics in Poland. The ordinaries of these jurisdictions comprise the Episcopal Conference of Poland. Combined, these comprise about 10,000 parishes and religious orders. There are 40.55 million registered Catholics (the data includes the number of infants baptized) in Poland. The primate of the Church is Wojciech Polak, Archbishop of Gniezno.
+In the early 2000s, 99% of all children born in Poland were baptized Catholic. In 2015, the church recorded that 97.7% of Poland's population was Catholic. Other statistics suggested this proportion of adherents to Catholicism could be as low as 85%. The rate of decline has been described as ""devastating"" to the former social prestige and political influence that the Catholic Church in Poland once enjoyed. On the other hand, a 2023 survey of 36 countries with large Catholic populations using data from the World Values Survey revealed that 52% of Polish Catholics claimed to attend Mass weekly, the seventh highest of the nations surveyed and the highest among European countries. Most Poles adhere to Latin Catholicism. About 71.3% of the population identified themselves as such in the 2021 census, down from 88% in 2011.","Kościół katolicki w Polsce – największa wspólnota wyznaniowa w Polsce, kierowana przez biskupów należących do Konferencji Episkopatu Polski. Od 2024 roku przewodniczącym Konferencji Episkopatu Polski jest abp Tadeusz Wojda, arcybiskup metropolita gdański. Przynależność do Kościoła Katolickiego w Polsce deklaruje ok. 27,1 mln osób, co stanowi 71,3% populacji (Narodowy Spis Powszechny z 2021 roku).
+Według danych Instytutu Statystyki Kościoła Katolickiego w 2023 roku regularnie, w niedziele i święta nakazane we Mszach Świętych uczestniczyło 29% zobowiązanych wiernych (niespełna 8 mln katolików), a 14% przystępowało w te dni do komunii świętej (zobacz dominicantes i communicantes w Polsce). W 2023 roku liczba parafii wynosiła 10344. Księży diecezjalnych było wówczas  23612, kleryków 1039, kapłanów i braci należących do zakonów 7732, 102 diakonów stałych i 15600 sióst zakonnych. Udzielono 267200 chrztów, a Komunię Świętą regularnie przyjmowało ok. 3,8 miliona wiernych. Sakrament Bierzmowania przyjęło 294 tys. osób. Udzielono wówczas 77200 małżeństw kościelnych. Na religię w szkołach uczęszczało 78,6% uczniów. Największy odsetek wiernych uczestniczących we Mszach Świętych w niedziele i święta nakazane odnotowano w diecezji tarnowskiej i wyniósł on 60,5%, a najniższy w diecezji szczecińsko-kamieńskiej, który wyniósł 17,2% ochrzczonych. Najwięcej parafii według tych danych znajduje się na terenie archidiecezji krakowskiej – 448, a najmniej w diecezji drohiczyńskiej – 98.
+W badaniu przeprowadzonym w 2022 roku przez CBOS, 47% osób uczęszczających do kościoła, wyraziło pełną akceptację dla zasad moralności katolickiej. Wśród osób, które uczestniczą we Mszy Świętej częściej niż raz w tygodniu było to 54%. Spośród katolików 25% akceptuje rozwody, 26% życie w związku bez ślubu, 26% antykoncepcję, a 27% seks przedmałżeński. Sondaż ten wykazał, że pewna część wiernych akceptuje relatywizm moralny, czyli wybiórcze traktowanie nauki kościoła katolickiego.",0.73759276,0.7733451,0.52217335,0.4360357,0.5228554,0.33730942,-0.00068205595,-0.14068277180194855,-0.07027804106473923,0.07040473073720932
+s06,social_norms,Kombinować (concept),"# Kombinować: The Art of Polish Resourcefulness
+
+**Kombinować** is an untranslatable Polish verb meaning to cleverly work around obstacles through improvisation, ingenuity, and informal problem-solving. It involves finding creative shortcuts, bending rules, or using unconventional methods to achieve goals when official channels fail.
+
+This concept reveals deep cultural traits shaped by Poland's turbulent history. Centuries of foreign occupation, communist-era shortages, and bureaucratic obstacles forced Poles to develop survival skills beyond formal systems. **Kombinować** became essential when goods were scarce and official procedures were inefficient or absurd.
+
+The term carries moral ambiguity—it's neither purely positive nor negative. It celebrates resourcefulness and adaptability while acknowledging a certain disregard for rigid rules. It reflects a pragmatic worldview where results matter more than procedures, and personal networks often trump institutions.
+
+Today, even in modern Poland, **kombinować** persists as a cultural reflex, representing both resilience and a lingering distrust of formal authority—a testament to how historical adversity shapes national character.","# Polskie „kombinować""
+
+„Kombinować"" to charakterystyczne polskie pojęcie oznaczające sprytne obchodzenie przeszkód, znajdowanie niekonwencjonalnych rozwiązań i radzenie sobie w trudnych sytuacjach – często na granicy lub poza oficjalnymi regułami.
+
+## Korzenie historyczne
+
+Umiejętność kombinowania rozwinęła się w czasach niedoborów: podczas zaborów, wojen i komunizmu, gdy przetrwanie wymagało kreatywności i elastyczności wobec dysfunkcyjnego systemu. Ludzie musieli „załatwiać"" podstawowe produkty przez znajomości i wymianę przysług.
+
+## Co mówi o kulturze
+
+Kombinowanie odzwierciedla:
+- **Pragmatyzm** – cel ważniejszy niż procedury
+- **Nieufność do władzy** – system postrzegany jako przeszkoda
+- **Zaradność** – dumę z pokonywania trudności
+- **Ambiwalencję moralną** – granica między sprytem a nieuczciwością bywa płynna
+
+Choć dziś Polska jest krajem demokratycznym, kombinowanie pozostaje częścią mentalności – czasem jako pozytywna pomysłowość, czasem jako problem dla budowania kultury praworządności.",155,126,,,0.69025826,0.11162925,0.29891992,0.11162925,0.29891992,,,-0.24616321921348572,-0.13369284570217133,0.11247037351131439
+s07,social_norms,Tłusty czwartek (Fat Thursday),"# Fat Thursday (Tłusty czwartek)
+
+Fat Thursday is a traditional Polish celebration held on the last Thursday before Lent, typically falling in February. This beloved holiday marks the final opportunity for indulgence before the 40-day period of fasting and abstinence leading up to Easter.
+
+The centerpiece of this celebration is the **pączek** (plural: pączki), a round, deep-fried doughnut traditionally filled with rose hip jam or plum preserves and topped with powdered sugar or icing. These rich, sweet pastries are significantly more decadent than regular doughnuts.
+
+On Fat Thursday, Poles consume an estimated 100 million pączki nationwide, with bakeries working overtime to meet demand. It's customary to eat at least one pączek, though many people enjoy several throughout the day. The tradition dates back centuries and reflects the practical need to use up lard, sugar, and eggs before Lenten restrictions began.
+
+This festive day brings together families, coworkers, and friends in a shared celebration of Polish culinary heritage.","# Tłusty Czwartek
+
+**Tłusty Czwartek** to polska tradycja obchodzona w ostatni czwartek przed Wielkim Postem, zazwyczaj w lutym lub na początku marca. Nazwa pochodzi od zwyczaju spożywania tłustych, kalorycznych potraw przed okresem wielkopostnych wyrzeczeń.
+
+Głównym symbolem tego dnia są **pączki** – okrągłe, smażone w głębokim tłuszczu ciasta drożdżowe, tradycyjnie nadziewane różą lub marmoladą i posypane cukrem pudrem. Według statystyk, Polacy zjadają tego dnia około 100 milionów pączków!
+
+Tradycja sięga czasów staropolskich, kiedy przed postem starano się zużyć zapasy tłuszczu, jaj i cukru. Wierzono również, że jedzenie pączków przynosi szczęście i dobrobyt.
+
+Oprócz pączków, chętnie spożywa się także **faworki** (chrust) – chrupiące, smażone ciasto w kształcie kokardek, posypane cukrem pudrem.
+
+Dziś Tłusty Czwartek to przede wszystkim okazja do kulinarnej przyjemności i podtrzymywania narodowej tradycji, choć niekoniecznie wiąże się już z religijnym przygotowaniem do postu.",157,133,"Fat Thursday is a Christian tradition in some countries marking the last Thursday before Lent and is associated with the celebration of Carnival. Because Lent is a time of fasting, the days leading up to Ash Wednesday provide the last opportunity for feasting (including simply eating forbidden items) until Easter. Traditionally it is a day dedicated to eating, when people meet in their homes or cafés with their friends and relatives and eat large quantities of sweets, cakes and other meals usually not eaten during Lent. Among the most popular all-national dishes served on that day are pączki in Poland, fist-sized donuts filled with rose hip jam, and angel wings (faworki), puff pastry fingers served with powdered sugar.","Tłusty czwartek – ostatni czwartek przed wielkim postem (czyli 52 dni przed Wielkanocą) w kalendarzu chrześcijańskim. Znany także jako zapusty, mięsopust, karnawał. Tłusty czwartek rozpoczyna ostatni tydzień karnawału. W Polsce oraz w katolickiej części Niemiec, wedle tradycji, w tym dniu dozwolone jest objadanie się.",0.8611918,0.8673183,0.5953971,0.56191707,0.7707532,0.3054012,-0.17535609,-0.027367740869522095,-0.07834802567958832,-0.05098028481006622
+s08,social_norms,Andrzejki,"# Andrzejki (St. Andrew's Eve) in Poland
+
+Andrzejki is a traditional Polish celebration held on the night of November 29th to 30th, marking St. Andrew's Eve. This folk tradition, particularly popular among young women, centers around fortune-telling rituals predicting the future, especially regarding marriage and romance.
+
+The most famous custom involves **wax pouring** (lanie wosku): melted wax is poured through a key hole into cold water, and the resulting shapes cast shadows on the wall that are interpreted to reveal one's future. Other traditions include **shoe tossing**—unmarried women throw shoes toward a door; if the shoe points toward it, marriage is near—and peeling apples in one continuous strip to form the initial of a future spouse.
+
+Modern Andrzejki celebrations have evolved into social gatherings with friends, featuring various fortune-telling games, dancing, and parties. While less serious than in the past, these customs remain a beloved part of Polish culture, blending superstition with entertainment.","# Andrzejki w Polsce
+
+**Andrzejki** to polska tradycja obchodzona w nocy z 29 na 30 listopada, w wigilię święta św. Andrzeja Apostoła. Współcześnie to przede wszystkim zabawa wróżbarska, szczególnie popularna wśród młodych kobiet.
+
+## Najpopularniejsze wróżby:
+
+**Lanie wosku** – przez dziurkę od klucza do zimnej wody. Powstały kształt rzucony na ścianę tworzy cień, który przepowiada przyszłość.
+
+**Rzucanie butem** – niezamężne kobiety rzucają but w stronę drzwi. Jeśli czubek skieruje się ku wyjściu, oznacza rychłe zamążpójście.
+
+**Łupiny orzechów** – puszcza się je jako łódeczki ze świeczką po wodzie. Jeśli dopłyną do celu, wróżą szczęście.
+
+Tradycja wywodzi się z wierzeń, że w tę magiczną noc można poznać swoją przyszłość, zwłaszcza w sprawach miłosnych. Choć dziś andrzejki mają charakter rozrywkowy, pozostają żywą częścią polskiej kultury ludowej i okazją do spotkań towarzyskich.",153,128,"Saint Andrew's Day, also called the Feast of Saint Andrew or Andermas, is the feast day of Andrew the Apostle. It is celebrated on 30 November, during Scotland's Winter Festival. Saint Andrew is the disciple in the New Testament who introduced his brother, the Apostle Peter, to Jesus, the Messiah.","Andrzejki – wieczór wróżb odprawianych w nocy z 29 na 30 listopada, w wigilię świętego Andrzeja, patrona Szkocji, Grecji i Rosji. Pierwsza polska wzmianka literacka o nim pojawiła się w 1557 roku za sprawą Marcina Bielskiego.
+Dzień ten przypada na końcu lub na początku roku liturgicznego. Andrzejki są specjalną okazją do zorganizowania ostatnich hucznych zabaw przed rozpoczynającym się adwentem.
+W Szkocji obchodzony 30 listopada dzień świętego Andrzeja jest świętem narodowym.",0.827705,0.41527104,0.6195128,0.5673737,0.41709822,-0.15210265,0.20241457,-0.10523593425750732,-0.004747167229652405,0.10048876702785492

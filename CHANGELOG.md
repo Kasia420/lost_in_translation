@@ -27,6 +27,44 @@ New columns logged per row in `data/raw/v2/llm_responses.csv`: `model_requested`
 New option: `python -m src.run collect --run v2 --dry-run` prints the exact prompts and
 settings without calling the API.
 
+### Collection (2026-11-06 17:47–17:54)
+
+- 50/50 answers collected, no retries or failures.
+- `model_returned` = `claude-sonnet-4-5-20250929` for all 50 rows.
+- `stop_reason` = `end_turn` for all 50 answers (EN 25, PL 25); none `max_tokens`.
+- Output tokens per answer, median (min–max): EN 243 (229–268), PL 358 (336–382).
+- Length (`n_words`, median): v2 EN 155, PL 128; paired EN−PL gap 29 words (v1: EN 211,
+  PL 165, gap 46).
+
+### Analysis (steps 3a, 3c, 3d, 3e)
+
+- `python -m src.run analyze --run v2`: same code as v1 → `results/v2/stats/stats_summary.txt`,
+  `results/v2/figures/`, `data/processed/v2/analysis_per_prompt.csv`. v1 results untouched.
+- Figure 4 caption is run-specific: for runs with a length instruction it states the
+  instruction and `max_tokens`; the v1 caption text is unchanged.
+- New word count `words_clean` (`src/extended.py: clean_word_count`): whitespace tokens that
+  contain a letter or digit, after removing a line-initial heading/list/quote marker (`#`,
+  `-`, `*`, `+`, `•`, `1.`/`1)`, `>`). `n_words` is kept unchanged. Reported for v1 and v2 in
+  `results/word_counts.{csv,md}` and `results/comparison/fig7_word_counts.png`.
+- Wikipedia baseline sentiment (3c): the same classifier and 512-token truncation applied to
+  the EN and PL Wikipedia lead sections (24 topics); PL−EN gap of the answers tested against
+  the PL−EN gap of the Wikipedia leads (paired, n=24). Figure: `results/baseline/fig5_wiki_sentiment.png`.
+- Chunk-and-average sensitivity check (3c): texts split into consecutive 510-token windows
+  (+ start/end tokens), polarity averaged weighted by window length; applied to answers and
+  Wikipedia leads and reported next to the truncated (primary) values. For texts of ≤512
+  tokens it equals the truncated value (checked). Texts over 512 tokens: v1 answers EN 1
+  (h09), PL 0; v2 answers 0; Wikipedia leads EN 7, PL 4.
+- Calibration (3d): 1000 EN–PL translation pairs from Tatoeba (exports dated 2026-10-31;
+  pol→eng links, each sentence used once, sampled with seed 2026), scored with the same
+  classifier settings; sample with Tatoeba ids in `data/raw/calibration/tatoeba_en_pl_sample.tsv`,
+  scores in `data/processed/calibration/tatoeba_scored.csv`, figure `results/calibration/fig6_calibration.png`.
+- Results table (3e): `results/results_table.{csv,md}`, all tests for v1, v2 and the
+  calibration with n, medians, median of paired differences, W, p and matched-pairs
+  rank-biserial. Rows involving v1 answers carry the flag "l02-en and l08-pl end
+  mid-sentence (stop_reason not logged); kept".
+- New commands: `extended --run <run>`, `calibrate`, `table`.
+- Strip-plot jitter seeded for v2 figures (`jitter_seed=2026`); v1 figures not regenerated.
+
 ## Repository restructure (portfolio, 2026-11)
 
 This repository was created from the course submission. The graded version is kept as

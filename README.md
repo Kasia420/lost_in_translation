@@ -59,6 +59,39 @@ whether the 600-token cap cut them is not recorded. They are kept in all analyse
 
 Captions: [`results/v1/figures/captions.txt`](results/v1/figures/captions.txt).
 
+## v2: length set in the prompt, pinned model, baselines
+
+v2 repeats the collection with `claude-sonnet-4-5-20250929`, `temperature=0`, `max_tokens=2000`
+and "Answer in about 150 words." / "Odpowiedz w około 150 słowach." added to each prompt
+(all 50 answers `stop_reason=end_turn`). It also adds a Wikipedia sentiment baseline, a
+chunk-and-average sensitivity check, a second word count without markdown, and a classifier
+calibration check on 1000 Tatoeba EN–PL sentence pairs. Details: [CHANGELOG.md](CHANGELOG.md).
+
+Full table (all tests, both runs, effect sizes): [`results/results_table.md`](results/results_table.md)
+· word counts: [`results/word_counts.md`](results/word_counts.md)
+
+| Test (paired Wilcoxon) | run | n | median A | median B | W | p | rank-biserial |
+|---|---|---|---|---|---|---|---|
+| Native pull: EN vs PL answers | v1 | 24 | +0.091 | +0.067 | 127.0 | 0.5271 | +0.153 |
+| | v2 | 24 | +0.120 | +0.026 | 66.0 | 0.0150 | +0.560 |
+| Answer sentiment: PL vs EN | v1 | 25 | −0.100 | −0.190 | 39.0 | 0.0004 | +0.760 |
+| | v2 | 25 | −0.122 | −0.190 | 49.0 | 0.0015 | +0.698 |
+| Wikipedia lead sentiment: PL vs EN | — | 24 | −0.123 | −0.185 | 46.0 | 0.0020 | +0.693 |
+| Gap (PL−EN): answers vs Wikipedia | v1 | 24 | +0.106 | +0.081 | 125.0 | 0.4908 | +0.167 |
+| | v2 | 24 | +0.062 | +0.081 | 132.0 | 0.6231 | +0.120 |
+| Tatoeba calibration: PL vs EN sentence | — | 1000 | −0.102 | −0.109 | 228522.0 | 0.0174 | +0.087 |
+
+Sentiment rows use the 512-token truncation (primary); chunk-and-average values are in the full table.
+
+<!-- TODO (author): interpretation. -->
+
+| | |
+|---|---|
+| ![v2 sentiment](results/v2/figures/fig2_sentiment.png) | ![Wikipedia sentiment](results/baseline/fig5_wiki_sentiment.png) |
+| ![Calibration](results/calibration/fig6_calibration.png) | ![Word counts](results/comparison/fig7_word_counts.png) |
+
+All v2 figures: `results/v2/figures/`.
+
 ## Repository layout
 
 ```
@@ -68,9 +101,16 @@ src/                  pipeline code (python -m src.run ...)
   wiki.py             Wikipedia text  -> data/raw/v1/wiki_articles.csv
   analyze.py          similarity, sentiment, Wilcoxon tests, figures
   config.py           runs (v1, ...), paths, model settings
+  extended.py         clean word count, Wikipedia + chunked sentiment
+  calibration.py      Tatoeba EN-PL classifier check
+  tables.py           results table, word counts, fig5-fig7
 data/raw/v1/          collected data exactly as used for the course submission
-data/processed/v1/    per-topic metrics (analysis_per_prompt.csv)
+data/raw/v2/          v2 prompts and answers
+data/raw/calibration/ Tatoeba sample (with sentence ids)
+data/processed/<run>/ per-topic metrics
 results/v1/           stats_summary.txt + figures, as submitted
+results/v2/           stats_summary.txt + figures for v2
+results/              results_table, word_counts, baseline/, calibration/, comparison/
 docs/                 paper (v1) and Wikipedia attribution
 ```
 
@@ -92,6 +132,17 @@ The first analysis run downloads LaBSE and XLM-R (~2 GB). The re-run reproduces
 `results/v1/stats/stats_summary.txt` exactly and every per-topic metric to within 1e-6.
 Strip-plot point positions in figures 1 and 3 differ slightly because the v1 jitter
 was not seeded; the plotted values are identical.
+
+Full v2 pipeline from the stored answers (writes into the repo; `analyze` refuses to
+overwrite existing results without `--overwrite`):
+
+```bash
+python -m src.run analyze  --run v2
+python -m src.run extended --run v1
+python -m src.run extended --run v2
+python -m src.run calibrate          # uses the committed Tatoeba sample if present
+python -m src.run table
+```
 
 Collecting new answers (`collect`) needs an Anthropic API key and is resumable.
 v1 answers cannot be collected again exactly: `temperature=0` is not guaranteed to be
@@ -115,9 +166,14 @@ Tested with Python 3.12 on macOS (Intel); see the comments in `requirements.txt`
   English and Polish Wikipedia and is licensed under
   [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Article titles and URLs:
   [`docs/WIKIPEDIA_ATTRIBUTION.md`](docs/WIKIPEDIA_ATTRIBUTION.md).
+- **Tatoeba sentences** (`data/raw/calibration/tatoeba_en_pl_sample.tsv`) come from
+  [Tatoeba](https://tatoeba.org) and are licensed under
+  [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/); each row keeps its Tatoeba
+  sentence ids (`eng_id`, `pol_id`) for attribution.
 - **Model answers** (`llm_responses.csv`) were generated with Claude through the Anthropic API.
 - **Code**: <!-- TODO (author): choose a licence (e.g. MIT) and add LICENSE. -->
 
 ## Version history
 
-- `v1` — course submission (graded). See [CHANGELOG.md](CHANGELOG.md).
+- `v1` — course submission (graded).
+- `v2` — length in the prompt, pinned snapshot, baselines and calibration. See [CHANGELOG.md](CHANGELOG.md).

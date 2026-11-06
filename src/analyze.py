@@ -305,9 +305,15 @@ def make_figures(df, paths, jitter_seed=None):
     ax.legend(title="Prompt language")
     fig.tight_layout(); fig.savefig(paths.figures / "fig4_length.png", dpi=150)
     plt.close(fig)
-    captions.append("Figure 4. Mean response length (words) by domain and prompt language; error "
-                    "bars = SD. Control check that the matched max-token cap kept lengths "
-                    "comparable across languages.")
+    if paths.cfg.get("length_instruction"):
+        # runs that set the length in the prompt: describe the actual settings
+        captions.append("Figure 4. Mean response length (words) by domain and prompt language; error "
+                        "bars = SD. Length requested in the prompt (\"about 150 words\"); "
+                        f"max_tokens={paths.cfg['max_tokens']}.")
+    else:
+        captions.append("Figure 4. Mean response length (words) by domain and prompt language; error "
+                        "bars = SD. Control check that the matched max-token cap kept lengths "
+                        "comparable across languages.")
 
     paths.captions_txt.write_text("\n\n".join(captions), encoding="utf-8")
     print(f"-> zapisano {len(captions)} rysunkow do {paths.figures} (+ captions.txt)")

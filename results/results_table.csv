@@ -1,0 +1,52 @@
+run,section,measure,subset,A,B,n,median_A,notes,median_B,median_diff,W,p,rank_biserial
+v1,homogenisation,"cosine(EN answer, PL answer)",all,cosine,,25,0.81052727,mean=0.809 sd=0.034; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept,,,,,
+v1,homogenisation,"cosine(EN answer, PL answer)",Contested history,cosine,,9,0.8201178,,,,,,
+v1,homogenisation,"cosine(EN answer, PL answer)",Literature,cosine,,8,0.8092607,,,,,,
+v1,homogenisation,"cosine(EN answer, PL answer)",Social norms,cosine,,8,0.78422314,,,,,,
+v1,native pull,sim(own-lang wiki) - sim(other-lang wiki),all,EN answers,PL answers,24,0.090759158,s06 has no Wikipedia baseline; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept,0.06746909,0.002852497500000002,127.0,0.5270590782165527,0.15333333333333332
+v1,answer sentiment,"polarity, 512-token truncation (primary)",all,PL answer,EN answer,25,-0.1000916957855224,"answers >512 XLM-R tokens: EN 1, PL 0; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept",-0.189980149269104,0.1054548099637032,39.0,0.000429689884185791,0.76
+v1,answer sentiment,"polarity, 512-token truncation (primary)",Contested history,PL answer,EN answer,9,-0.1609032973647117,,-0.3976447507739067,0.19762864708900457,,,
+v1,answer sentiment,"polarity, 512-token truncation (primary)",Literature,PL answer,EN answer,8,-0.0789939761161804,,-0.18959169834852216,0.10611299052834515,,,
+v1,answer sentiment,"polarity, 512-token truncation (primary)",Social norms,PL answer,EN answer,8,-0.08158766478300095,,-0.06289713084697715,-0.030531048774719245,,,
+v1,answer sentiment,"polarity, chunk-and-average (sensitivity)",all,PL answer,EN answer,25,-0.1000915318727493,"510-token windows, length-weighted mean; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept",-0.1899800449609756,0.10545495897531511,39.0,0.000429689884185791,0.76
+v1,Wikipedia sentiment,"polarity, 512-token truncation (primary)",all,PL wiki lead,EN wiki lead,24,-0.12330143153667444,"same Wikipedia data in every run; Wikipedia leads >512 tokens: EN 7, PL 4",-0.1850676834583282,0.0809938441962004,46.0,0.0020009279251098633,0.6933333333333334
+v1,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Contested history,PL wiki lead,EN wiki lead,9,-0.2431554682552814,,-0.3638032972812652,0.08345846459269529,,,
+v1,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Literature,PL wiki lead,EN wiki lead,8,-0.05452783405780785,,-0.15097027271986005,0.07375627011060715,,,
+v1,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Social norms,PL wiki lead,EN wiki lead,7,0.1072208471596241,,-0.0310333669185638,0.11126640439033511,,,
+v1,Wikipedia sentiment,"polarity, chunk-and-average (sensitivity)",all,PL wiki lead,EN wiki lead,24,-0.1176820292270609,"same Wikipedia data in every run; 510-token windows, length-weighted mean",-0.1850676760077476,0.08022236219114927,43.0,0.0013997554779052734,0.7133333333333334
+v1,gap: answers vs Wikipedia,"PL - EN polarity, 512-token truncation (primary)",all,answer gap,wiki gap,24,0.10611299052834515,"n=24 topics with a baseline; Wikipedia leads >512 tokens: EN 7, PL 4; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept",0.08099384419620034,0.043311405926942825,125.0,0.49079859256744385,0.16666666666666666
+v1,gap: answers vs Wikipedia,"PL - EN polarity, chunk-and-average (sensitivity)",all,answer gap,wiki gap,24,0.1061129532754421,n=24 topics with a baseline; v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept,0.08022236219114925,0.036863109789045945,133.0,0.6431422233581543,0.11333333333333333
+v1,length,n_words (whitespace tokens),all,EN answer,PL answer,25,211.0,v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept,165.0,46.0,,,
+v1,length,n_words (whitespace tokens),Contested history,EN answer,PL answer,9,211.0,,181.0,36.0,,,
+v1,length,n_words (whitespace tokens),Literature,EN answer,PL answer,8,213.5,,165.0,49.0,,,
+v1,length,n_words (whitespace tokens),Social norms,EN answer,PL answer,8,208.5,,157.0,55.5,,,
+v1,length,words without markdown,all,EN answer,PL answer,25,200.0,v1: l02-en and l08-pl end mid-sentence (stop_reason not logged); kept,145.0,53.0,,,
+v1,length,words without markdown,Contested history,EN answer,PL answer,9,198.0,,157.0,48.0,,,
+v1,length,words without markdown,Literature,EN answer,PL answer,8,201.5,,141.5,61.0,,,
+v1,length,words without markdown,Social norms,EN answer,PL answer,8,196.0,,137.5,63.0,,,
+v2,homogenisation,"cosine(EN answer, PL answer)",all,cosine,,25,0.8103323,mean=0.805 sd=0.049; v2: all 50 answers stop_reason=end_turn,,,,,
+v2,homogenisation,"cosine(EN answer, PL answer)",Contested history,cosine,,9,0.7935996,,,,,,
+v2,homogenisation,"cosine(EN answer, PL answer)",Literature,cosine,,8,0.80775552,,,,,,
+v2,homogenisation,"cosine(EN answer, PL answer)",Social norms,cosine,,8,0.831695725,,,,,,
+v2,native pull,sim(own-lang wiki) - sim(other-lang wiki),all,EN answers,PL answers,24,0.119921685,s06 has no Wikipedia baseline; v2: all 50 answers stop_reason=end_turn,0.0262774525,0.11211219550000001,66.0,0.015044927597045898,0.56
+v2,answer sentiment,"polarity, 512-token truncation (primary)",all,PL answer,EN answer,25,-0.1220587790012359,"answers >512 XLM-R tokens: EN 0, PL 0; v2: all 50 answers stop_reason=end_turn",-0.1901983469724655,0.07040473073720929,49.0,0.0014527440071105957,0.6984615384615385
+v2,answer sentiment,"polarity, 512-token truncation (primary)",Contested history,PL answer,EN answer,9,-0.2613623514771461,,-0.5014413297176361,0.2079569287598133,,,
+v2,answer sentiment,"polarity, 512-token truncation (primary)",Literature,PL answer,EN answer,8,-0.10437808930873865,,-0.1504311710596084,0.0398946553468704,,,
+v2,answer sentiment,"polarity, 512-token truncation (primary)",Social norms,PL answer,EN answer,8,-0.0375788547098636,,-0.02905751764774315,0.0190339237451553,,,
+v2,answer sentiment,"polarity, chunk-and-average (sensitivity)",all,PL answer,EN answer,25,-0.1220587939023971,"510-token windows, length-weighted mean; v2: all 50 answers stop_reason=end_turn",-0.1901983171701431,0.07040476053953171,49.0,0.0014527440071105957,0.6984615384615385
+v2,Wikipedia sentiment,"polarity, 512-token truncation (primary)",all,PL wiki lead,EN wiki lead,24,-0.12330143153667444,"same Wikipedia data in every run; Wikipedia leads >512 tokens: EN 7, PL 4",-0.1850676834583282,0.0809938441962004,46.0,0.0020009279251098633,0.6933333333333334
+v2,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Contested history,PL wiki lead,EN wiki lead,9,-0.2431554682552814,,-0.3638032972812652,0.08345846459269529,,,
+v2,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Literature,PL wiki lead,EN wiki lead,8,-0.05452783405780785,,-0.15097027271986005,0.07375627011060715,,,
+v2,Wikipedia sentiment,"polarity, 512-token truncation (primary)",Social norms,PL wiki lead,EN wiki lead,7,0.1072208471596241,,-0.0310333669185638,0.11126640439033511,,,
+v2,Wikipedia sentiment,"polarity, chunk-and-average (sensitivity)",all,PL wiki lead,EN wiki lead,24,-0.1176820292270609,"same Wikipedia data in every run; 510-token windows, length-weighted mean",-0.1850676760077476,0.08022236219114927,43.0,0.0013997554779052734,0.7133333333333334
+v2,gap: answers vs Wikipedia,"PL - EN polarity, 512-token truncation (primary)",all,answer gap,wiki gap,24,0.0617928989231586,"n=24 topics with a baseline; Wikipedia leads >512 tokens: EN 7, PL 4; v2: all 50 answers stop_reason=end_turn",0.08099384419620034,0.003390397876501052,132.0,0.6230943202972412,0.12
+v2,gap: answers vs Wikipedia,"PL - EN polarity, chunk-and-average (sensitivity)",all,answer gap,wiki gap,24,0.0617929138243198,n=24 topics with a baseline; v2: all 50 answers stop_reason=end_turn,0.08022236219114925,0.023741178214550056,131.0,0.6033114194869995,0.12666666666666668
+v2,length,n_words (whitespace tokens),all,EN answer,PL answer,25,155.0,v2: all 50 answers stop_reason=end_turn,128.0,29.0,,,
+v2,length,n_words (whitespace tokens),Contested history,EN answer,PL answer,9,156.0,,129.0,28.0,,,
+v2,length,n_words (whitespace tokens),Literature,EN answer,PL answer,8,153.5,,123.0,29.5,,,
+v2,length,n_words (whitespace tokens),Social norms,EN answer,PL answer,8,155.5,,129.0,27.0,,,
+v2,length,words without markdown,all,EN answer,PL answer,25,154.0,v2: all 50 answers stop_reason=end_turn,120.0,34.0,,,
+v2,length,words without markdown,Contested history,EN answer,PL answer,9,155.0,,120.0,33.0,,,
+v2,length,words without markdown,Literature,EN answer,PL answer,8,151.5,,115.0,36.0,,,
+v2,length,words without markdown,Social norms,EN answer,PL answer,8,154.5,,122.5,31.0,,,
+calibration,classifier calibration (Tatoeba),"polarity, 512-token truncation",all,PL sentence,EN sentence,1000,-0.1019495911896228,"sentences >512 tokens: EN 0, PL 0; top labels EN negative 349/neutral 510/positive 141, PL negative 350/neutral 481/positive 169; same top label in 811/1000 pairs",-0.10886048339307305,0.008369863033294674,228522.0,0.017387979805012953,0.08682517482517482

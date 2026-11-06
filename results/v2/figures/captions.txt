@@ -1,0 +1,7 @@
+Figure 1. Cosine similarity between the English and Polish answers to the same prompt, per domain (each point = one topic, n=25). Higher = the model delivers more nearly identical content regardless of question language.
+
+Figure 2. Sentiment polarity (P(pos)-P(neg)) of each topic's English vs Polish answer. Points above the dashed EN=PL line are more positive in Polish; below, more positive in English.
+
+Figure 3. 'Native pull' = how much closer an answer is to the Wikipedia article in its OWN language than to the article in the other language (n=24; s06 has no baseline). If Polish answers show less native pull than English answers, Polish output is comparatively less anchored in Polish discourse — the English-lens signal.
+
+Figure 4. Mean response length (words) by domain and prompt language; error bars = SD. Length requested in the prompt ("about 150 words"); max_tokens=2000.

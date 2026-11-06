@@ -1,0 +1,1 @@
+Figure 6. Difference in sentiment polarity between the Polish and the English sentence of 1000 Tatoeba translation pairs (same classifier and settings as for the answers). Dashed line = no difference; solid line = median.

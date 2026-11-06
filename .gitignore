@@ -17,3 +17,6 @@ scratch/
 Icon?
 .idea/
 .vscode/
+
+# large third-party downloads (re-fetched by src.calibration)
+data/external/

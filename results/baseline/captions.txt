@@ -1,0 +1,1 @@
+Figure 5. Sentiment polarity (P(pos)-P(neg), 512-token truncation) of the English vs Polish Wikipedia lead section for each topic (n=24; s06 has no article). Points above the dashed EN=PL line are more positive in Polish; below, more positive in English.
