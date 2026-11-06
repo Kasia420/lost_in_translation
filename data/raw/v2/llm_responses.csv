@@ -1,0 +1,679 @@
+prompt_id,domain,topic,provider,language,prompt_text,response_text,n_chars,n_words,timestamp,model_requested,temperature,max_tokens,length_instruction,model_returned,stop_reason,input_tokens,output_tokens,message_id,request_id,anthropic_version,sdk_version
+h01,contested_history,Warsaw Uprising 1944,claude,en,Explain the significance of the 1944 Warsaw Uprising and how it is remembered today. Answer in about 150 words.,"# The 1944 Warsaw Uprising
+
+The Warsaw Uprising (August-October 1944) was a major resistance operation by the Polish Home Army against Nazi occupation. Launched as Soviet forces approached Warsaw, it aimed to liberate the city before the Red Army arrived, asserting Polish sovereignty.
+
+The uprising ended catastrophically. Nazi forces systematically destroyed Warsaw, killing approximately 200,000 civilians and razing 85% of the city. Controversially, Soviet troops halted their advance, allowing the Germans to crush the resistance—eliminating potential opposition to future communist rule.
+
+**Modern Remembrance:**
+
+The uprising remains central to Polish national identity, symbolizing courage and sacrifice against tyranny. Every August 1st at 5:00 PM, Warsaw observes a city-wide moment of silence with sirens blaring, commemorating the exact time the uprising began. The Warsaw Rising Museum, opened in 2004, preserves this history for new generations.
+
+The event represents both heroic resistance and tragic abandonment, reflecting Poland's complex 20th-century experience between German and Soviet powers. It continues to shape Polish historical consciousness and national pride.",1188,162,2026-11-06T17:47:13,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,35,248,msg_011Cgn1oNHDezgSoD3Gn7xjx,req_011Cgn1oMXpWkJPBQokUz4jv,2023-06-01,0.125.0
+h01,contested_history,Warsaw Uprising 1944,claude,pl,"Wyjaśnij znaczenie powstania warszawskiego z 1944 roku i to, jak jest dziś pamiętane. Odpowiedz w około 150 słowach.","# Powstanie Warszawskie 1944
+
+## Znaczenie historyczne
+
+Powstanie Warszawskie (1 sierpnia - 2 października 1944) było największą akcją zbrojną polskiego podziemia podczas II wojny światowej. Armia Krajowa podjęła walkę o wyzwolenie stolicy spod okupacji niemieckiej przed wkroczeniem Armii Czerwonej. Mimo heroizmu powstańców, brak wsparcia sowieckiego i przewaga niemiecka doprowadziły do klęski. Zginęło około 200 tysięcy cywilów, a Warszawa została systematycznie zburzona.
+
+## Pamięć współczesna
+
+Dziś Powstanie jest centralnym elementem polskiej pamięci narodowej. Każdego roku 1 sierpnia o godzinie 17:00 w całej Warszawie rozbrzmiewa minuta syren – miasto zastyga w hołdzie. Organizowane są uroczystości, koncerty, rekonstrukcje historyczne.
+
+Powstanie symbolizuje walkę o wolność i niezależność, choć towarzyszy mu debata o sensie ofiary i decyzjach dowództwa. Dla Polaków pozostaje świadectwem bohaterstwa i tragizmu narodowego losu, a dla Warszawy – źródłem tożsamości miasta, które odrodziło się z ruin.",1014,134,2026-11-06T17:47:22,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,51,345,msg_011Cgn1ox7goYVsJjRW6u1fp,req_011Cgn1ownLzk8BS1vzeQELb,2023-06-01,0.125.0
+h02,contested_history,Warsaw Ghetto Uprising 1943,claude,en,Describe the 1943 Warsaw Ghetto Uprising and its historical importance. Answer in about 150 words.,"# The Warsaw Ghetto Uprising (1943)
+
+The Warsaw Ghetto Uprising began on April 19, 1943, when Jewish resistance fighters launched an armed revolt against Nazi forces attempting to liquidate the ghetto. Approximately 750 poorly armed fighters, led by the Jewish Combat Organization (ŻOB), held off German troops for nearly a month before being crushed on May 16.
+
+## Historical Significance
+
+The uprising was the **first urban armed rebellion against Nazi occupation** in Europe and the largest single act of Jewish resistance during the Holocaust. Though militarily unsuccessful, it demonstrated that Jews could and would fight back against seemingly insurmountable odds, challenging the Nazi narrative of Jewish passivity.
+
+The revolt inspired other resistance movements in occupied Europe and subsequent uprisings in other camps and ghettos. It became a powerful symbol of courage and human dignity in the face of genocide, profoundly influencing Holocaust memory and Jewish identity. The uprising showed that even in the darkest circumstances, people chose to die fighting rather than submit to extermination.",1112,165,2026-11-06T17:47:29,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,33,229,msg_011Cgn1pciuJvffqFbkeK5xj,req_011Cgn1pcNp6hFzhfeCCZkpp,2023-06-01,0.125.0
+h02,contested_history,Warsaw Ghetto Uprising 1943,claude,pl,Opisz powstanie w getcie warszawskim z 1943 roku i jego znaczenie historyczne. Odpowiedz w około 150 słowach.,"# Powstanie w getcie warszawskim (1943)
+
+Powstanie w getcie warszawskim wybuchło **19 kwietnia 1943 roku** jako desperacki akt oporu Żydów przeciwko niemieckiej akcji likwidacji getta i deportacji do obozów zagłady.
+
+## Przebieg wydarzeń
+
+Słabo uzbrojone oddziały **Żydowskiej Organizacji Bojowej** (ŻOB) pod dowództwem Mordechaja Anielewicza oraz Żydowskiego Związku Wojskowego stawiły opór przeważającym siłom niemieckim. Walki trwały prawie **miesiąc** – do 16 maja 1943 roku. Niemcy systematycznie palili budynki, zmuszając powstańców do walki w kanałach i bunkrach.
+
+## Znaczenie historyczne
+
+Powstanie miało ogromne znaczenie symboliczne:
+- Pierwszy zbrojny zryw w okupowanej Europie
+- Dowód na heroiczny opór wobec Holokaustu
+- Inspiracja dla późniejszego Powstania Warszawskiego (1944)
+- Symbol godności i odmowy biernego poddania się zagładzie
+
+Mimo klęski militarnej, powstanie pozostaje świadectwem niezłomności ducha ludzkiego w obliczu eksterminacji i jednym z najważniejszych aktów oporu w historii II wojny światowej.",1032,136,2026-11-06T17:47:39,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,44,361,msg_011Cgn1q6AuBdWuRN59si5YT,req_011Cgn1q5roVR56vP9g8STex,2023-06-01,0.125.0
+h03,contested_history,Katyn massacre,claude,en,What was the Katyn massacre and why is it significant in Polish history? Answer in about 150 words.,"# The Katyn Massacre
+
+The Katyn massacre was the Soviet execution of approximately 22,000 Polish military officers, intellectuals, police officers, and other prisoners of war in April-May 1940. The killings occurred at several sites, most notably the Katyn Forest near Smolensk, Russia.
+
+## Historical Significance
+
+This atrocity is profoundly significant in Polish history for several reasons:
+
+**Decapitation of Polish leadership**: The Soviets systematically eliminated Poland's educated elite, military leadership, and potential resistance organizers, crippling the nation's ability to rebuild.
+
+**The Soviet cover-up**: For nearly 50 years, the USSR denied responsibility and blamed Nazi Germany, forcing Poles to live with an official lie. The Soviets didn't acknowledge culpability until 1990.
+
+**Symbol of betrayal**: It represents Soviet brutality during WWII and the subsequent communist oppression of Poland.
+
+**National trauma**: The massacre remains a painful reminder of Poland's suffering between two totalitarian powers and symbolizes the broader losses Poland endured during the war.",1100,150,2026-11-06T17:47:46,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,31,243,msg_011Cgn1qroGVMwCatt92bLkH,req_011Cgn1qrUfpvTRmjyq2PGgG,2023-06-01,0.125.0
+h03,contested_history,Katyn massacre,claude,pl,Czym była zbrodnia katyńska i dlaczego jest ważna w historii Polski? Odpowiedz w około 150 słowach.,"# Zbrodnia katyńska
+
+Zbrodnia katyńska to masowa egzekucja przeprowadzona wiosną 1940 roku przez sowiecką policję polityczną (NKWD) na polskich jeńcach wojennych, oficerach, policjantach, funkcjonariuszach państwowych i przedstawicielach inteligencji.
+
+## Fakty:
+- **Ofiary**: Około 22 000 Polaków
+- **Główne miejsca zbrodni**: Katyń, Charków, Twer (Kalinin) i inne lokalizacje na terenie ZSRR
+- **Podstawa**: Decyzja Biura Politycznego KC WKP(b) z marca 1940 roku
+
+## Znaczenie dla Polski:
+
+**Strata elity narodowej** – wymordowano kadry mogące odbudować niepodległe państwo
+
+**Kłamstwo katyńskie** – przez pół wieku ZSRR obwiniał Niemców, co było narzędziem propagandy
+
+**Symbol martyrologii** – reprezentuje cierpienie narodu polskiego pod okupacją sowiecką
+
+**Prawda historyczna** – dopiero w 1990 roku ZSRR oficjalnie przyznał się do zbrodni
+
+Katyń pozostaje symbolem sowieckiego terroru i walki o prawdę historyczną, kształtując polską pamięć zbiorową i relacje z Rosją.",976,129,2026-11-06T17:47:58,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,45,365,msg_011Cgn1rP3vwxPwdeg3yxH8v,req_011Cgn1rNjartZdZF4YHaHS1,2023-06-01,0.125.0
+h04,contested_history,Soviet invasion of Poland 1939,claude,en,Explain the Soviet invasion of Poland on 17 September 1939 and its consequences. Answer in about 150 words.,"# Soviet Invasion of Poland (September 17, 1939)
+
+On September 17, 1939, sixteen days after Nazi Germany invaded Poland from the west, the Soviet Union attacked from the east. This invasion was secretly coordinated through the Molotov-Ribbentrop Pact signed in August 1939, which included a protocol dividing Poland between the two totalitarian powers.
+
+The Soviet invasion sealed Poland's fate. Already fighting desperately against German forces, the Polish army couldn't defend a second front. By early October, Poland was completely occupied and partitioned.
+
+## Consequences:
+
+- **Poland ceased to exist** as an independent state until 1945
+- Approximately **1.5 million Poles** were deported to Soviet gulags and labor camps
+- The **Katyn Massacre** (1940) saw Soviet forces execute roughly 22,000 Polish officers and intellectuals
+- The invasion enabled the **Holocaust** in occupied Poland
+- It shifted the Soviet border westward, giving Stalin a buffer zone
+- The occupation sowed deep Polish-Russian animosity lasting generations
+
+This aggression revealed Stalin as Hitler's accomplice in destroying Polish independence.",1129,164,2026-11-06T17:48:05,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,35,257,msg_011Cgn1sDRn1FzTuZMpQGcSQ,req_011Cgn1sD7v1VPaqnSUErqpR,2023-06-01,0.125.0
+h04,contested_history,Soviet invasion of Poland 1939,claude,pl,Wyjaśnij agresję ZSRR na Polskę 17 września 1939 roku i jej skutki. Odpowiedz w około 150 słowach.,"# Agresja ZSRR na Polskę 17 września 1939 roku
+
+## Przyczyny
+Atak sowiecki był konsekwencją **paktu Ribbentrop-Mołotow** z 23 sierpnia 1939 roku, zawierającego tajny protokół o podziale Polski między III Rzeszę i ZSRR. Gdy Wehrmacht atakował od zachodu, Stalin wykorzystał moment osłabienia Polski.
+
+## Przebieg
+17 września Armia Czerwona przekroczyła granicę wschodnią bez wypowiedzenia wojny, uzasadniając to ""ochroną ludności ukraińskiej i białoruskiej"". Polska walczyła na dwa fronty, co uniemożliwiło skuteczną obronę.
+
+## Skutki
+- **Terytorialne**: ZSRR zajął około 200 tys. km² (52% terytorium II RP)
+- **Ludzkie**: deportacje około 1,5 mln Polaków na Syberię i do Kazachstanu
+- **Zbrodnie**: mord katyński (1940) - wymordowanie około 22 tys. polskich oficerów i przedstawicieli elit
+- **Polityczne**: koniec kampanii wrześniowej, władze polskie ewakuowały się do Rumunii
+- **Długofalowe**: zmiana granic Polski po wojnie, trauma narodowa",945,132,2026-11-06T17:48:15,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,53,358,msg_011Cgn1sk9E5SzkYYxDGocej,req_011Cgn1sjmPsxUnrKNdACnCf,2023-06-01,0.125.0
+h05,contested_history,Jedwabne pogrom,claude,en,Describe the Jedwabne pogrom of 1941 and the debate surrounding it. Answer in about 150 words.,"# The Jedwabne Pogrom (1941)
+
+On July 10, 1941, in the Polish town of Jedwabne, approximately 340 Jewish residents were murdered by their Polish neighbors. The victims were beaten, drowned, and ultimately herded into a barn that was set ablaze, burning them alive.
+
+## The Debate
+
+For decades, this massacre was attributed solely to Nazi Germans. However, historian Jan T. Gross's 2000 book *Neighbors* revealed extensive Polish participation, sparking intense controversy in Poland.
+
+**Key points of contention:**
+
+- **Extent of Polish responsibility**: Some argue Poles acted under German coercion; others cite evidence of voluntary participation
+- **Number of victims**: Estimates range from 340 to 1,600
+- **National identity**: The revelation challenged Poland's self-image as purely victims of WWII
+- **Historical memory**: Debates continue over how to commemorate the event
+
+The Polish government conducted investigations confirming significant Polish involvement, though discussions about collective responsibility versus individual guilt remain contentious in Polish society.",1084,151,2026-11-06T17:48:23,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,36,241,msg_011Cgn1tXdvDN8hqmcpEVYMz,req_011Cgn1tXKKwW9mTyodmzZMw,2023-06-01,0.125.0
+h05,contested_history,Jedwabne pogrom,claude,pl,"Opisz pogrom w Jedwabnem z 1941 roku i debatę, którą wywołał. Odpowiedz w około 150 słowach.","# Pogrom w Jedwabnem (1941)
+
+10 lipca 1941 roku w Jedwabnem (Polska) zginęło co najmniej 340 Żydów – niemal cała żydowska społeczność miasteczka. Ofiary zostały zamordowane przez polskich sąsiadów, którzy zagnali ich do stodoły i żywcem spalili. Zbrodnia miała miejsce krótko po wkroczeniu Niemców na tereny zajęte wcześniej przez ZSRR.
+
+## Debata
+
+Publikacja książki Jana T. Grossa ""Sąsiedzi"" (2000) wywołała w Polsce burzliwą debatę. Wcześniej winę przypisywano wyłącznie Niemcom. Ujawnienie polskiego sprawstwa było szokiem narodowym.
+
+Dyskusja podzieliła społeczeństwo:
+- Jedni uznali konieczność konfrontacji z trudną prawdą
+- Inni kwestionowali ustalenia, wskazując na niemiecki kontekst okupacyjny
+- Pojawiły się spory o skalę zjawiska i reprezentatywność przypadku
+
+W 2001 roku prezydent Kwaśniewski przeprosił w imieniu Polaków. Debata uświadomiła złożoność polsko-żydowskich relacji i potrzebę rozliczenia z kolaboracją oraz antysemityzmem.",950,126,2026-11-06T17:48:33,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,49,368,msg_011Cgn1u5SNS14Zzjzbi3z2C,req_011Cgn1u58WrU9ezE2y5sFCE,2023-06-01,0.125.0
+h06,contested_history,Volhynia massacre,claude,en,Explain the Volhynia massacre of 1943-1945 and how it is interpreted in Poland. Answer in about 150 words.,"# The Volhynia Massacre (1943-1945)
+
+The Volhynia massacre refers to the mass killing of Polish civilians by the Ukrainian Insurgent Army (UPA) in the Volhynia and Eastern Galicia regions during World War II. Between 1943-1945, an estimated 50,000-100,000 Poles were killed in brutal ethnic cleansing campaigns aimed at creating an ethnically homogeneous Ukrainian state.
+
+## Polish Interpretation
+
+In Poland, these events are remembered as genocide and constitute a deeply traumatic chapter in national history. The massacres are characterized by:
+
+- **Extreme brutality**: Entire villages were destroyed, with victims including women and children
+- **Betrayal**: Many Poles and Ukrainians had previously lived as neighbors
+- **National tragedy**: Commemorated annually on July 11th as a day of remembrance
+
+The Polish parliament officially recognized the massacres as genocide in 2016. This remains a sensitive issue in Polish-Ukrainian relations, though both nations have made efforts toward reconciliation, especially important given their current shared concerns about Russian aggression.",1093,153,2026-11-06T17:48:40,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,40,248,msg_011Cgn1uq3TirjQB1jjvo2u9,req_011Cgn1upiNNXzRBQ8WYXgeS,2023-06-01,0.125.0
+h06,contested_history,Volhynia massacre,claude,pl,"Wyjaśnij rzeź wołyńską z lat 1943-1945 i to, jak jest interpretowana w Polsce. Odpowiedz w około 150 słowach.","# Rzeź wołyńska (1943-1945)
+
+Rzeź wołyńska to masowe ludobójstwo dokonane przez Ukraińską Powstańczą Armię (UPA) i nacjonalistów ukraińskich na ludności polskiej zamieszkującej Wołyń i Galicję Wschodnią. Szacuje się, że zginęło 50-100 tysięcy Polaków, głównie cywilów – kobiet, dzieci i starców.
+
+## Przebieg
+Akcja miała charakter zaplanowanej czystki etnicznej, mającej na celu utworzenie jednolitego etnicznie państwa ukraińskiego. Stosowano brutalne metody: palenie żywcem, masakry całych wsi, szczególne okrucieństwo wobec bezbronnych.
+
+## Interpretacja w Polsce
+W Polsce wydarzenia te są postrzegane jako ludobójstwo i jedna z największych tragedii narodowych XX wieku. W 2016 roku Sejm oficjalnie uznał rzeź wołyńską za ludobójstwo. 
+
+Pamięć o tych wydarzeniach pozostaje żywa, szczególnie wśród potomków ofiar. Temat ten komplikuje relacje polsko-ukraińskie, gdyż strona ukraińska często unika jednoznacznego potępienia działań UPA, co w Polsce spotyka się z krytyką i bólem.",982,131,2026-11-06T17:48:52,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,54,361,msg_011Cgn1vLdShqwuFMD84UW97,req_011Cgn1vLGsE7wGvSyZ4WvsT,2023-06-01,0.125.0
+h07,contested_history,Solidarity movement,claude,en,Describe the Solidarity movement and its role in the fall of communism in Poland. Answer in about 150 words.,"# Solidarity and the Fall of Communism in Poland
+
+Solidarity (Solidarność) was an independent trade union founded in August 1980 at the Gdańsk shipyard, led by electrician Lech Wałęsa. It emerged from worker strikes protesting economic conditions and quickly grew into a mass social movement with over 10 million members, representing the first independent labor organization in the Soviet bloc.
+
+The movement challenged communist authority by demanding workers' rights, political reforms, and greater freedoms. In response, the Polish government declared martial law in 1981, banning Solidarity and imprisoning its leaders.
+
+However, Solidarity continued operating underground, maintaining pressure on the regime throughout the 1980s. By 1988, renewed strikes forced the government to negotiate. The resulting Round Table Talks in 1989 led to semi-free elections, which Solidarity won overwhelmingly.
+
+This victory resulted in the first non-communist government in Eastern Europe since World War II, inspiring similar movements across the Soviet bloc and accelerating communism's collapse throughout the region.",1112,156,2026-11-06T17:48:58,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,33,235,msg_011Cgn1wCCiSnC7imzcLhUu2,req_011Cgn1wBrdJTRnPcXzVdady,2023-06-01,0.125.0
+h07,contested_history,Solidarity movement,claude,pl,Opisz ruch Solidarności i jego rolę w upadku komunizmu w Polsce. Odpowiedz w około 150 słowach.,"# Solidarność i upadek komunizmu w Polsce
+
+**Solidarność** powstała w sierpniu 1980 roku w Stoczni Gdańskiej jako pierwszy niezależny związek zawodowy w bloku wschodnim. Pod przywództwem Lecha Wałęsy zrzeszała około 10 milionów członków, stając się masowym ruchem społecznym.
+
+W grudniu 1981 roku gen. Jaruzelski wprowadził stan wojenny, internując działaczy i delegalizując Solidarność. Ruch przeszedł do podziemia, kontynuując działalność opozycyjną.
+
+Kryzys gospodarczy lat 80. zmusi władze do negocjacji. **Obrady Okrągłego Stołu** (luty-kwiecień 1989) zakończyły się historycznym kompromisem: częściowo wolne wybiry w czerwcu 1989 roku przyniosły druzgocące zwycięstwo Solidarności.
+
+We wrześniu 1989 powstał pierwszy niekomunistyczny rząd z premierem Tadeuszem Mazowieckim. Zapoczątkowało to efekt domina w Europie Środkowo-Wschodniej, przyczyniając się do upadku komunizmu w całym regionie.
+
+Solidarność udowodniła, że pokojowa transformacja ustrojowa jest możliwa.",972,121,2026-11-06T17:49:08,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,44,358,msg_011Cgn1we9vo3XDWFGC77uuq,req_011Cgn1wdoqNNqmLba9vdQ9u,2023-06-01,0.125.0
+h08,contested_history,Smolensk air disaster 2010,claude,en,Explain the 2010 Smolensk air disaster and its impact on Polish public life. Answer in about 150 words.,"# The 2010 Smolensk Air Disaster
+
+On April 10, 2010, a Polish Air Force Tu-154 crashed near Smolensk, Russia, killing all 96 people aboard. The passengers included President Lech Kaczyński, his wife, the chief of the Polish General Staff, senior military officers, government officials, and prominent public figures. They were traveling to commemorate the 70th anniversary of the Katyn massacre.
+
+## Impact on Polish Public Life
+
+The disaster profoundly shocked Poland, creating an unprecedented leadership vacuum and triggering national mourning. It necessitated snap presidential elections and significantly impacted Poland's political landscape.
+
+The tragedy became deeply polarizing. Official investigations by Poland and Russia attributed the crash to pilot error, bad weather, and procedural failures. However, many Poles, particularly supporters of Kaczyński's Law and Justice party (PiS), suspected foul play, leading to persistent conspiracy theories about Russian involvement.
+
+This division has continued to influence Polish politics, contributing to political polarization and distrust that remains evident in contemporary Polish society.",1150,157,2026-11-06T17:49:15,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,36,239,msg_011Cgn1xQBKscLBzS11iyFrx,req_011Cgn1xPTQoSYCEKL5D2LhU,2023-06-01,0.125.0
+h08,contested_history,Smolensk air disaster 2010,claude,pl,Wyjaśnij katastrofę smoleńską z 2010 roku i jej wpływ na polskie życie publiczne. Odpowiedz w około 150 słowach.,"# Katastrofa smoleńska (10 kwietnia 2010)
+
+## Przebieg wydarzeń
+Samolot Tu-154M z polską delegacją rządową rozbił się podczas podejścia do lądowania w Smoleńsku. Zginęło 96 osób, w tym:
+- Prezydent Lech Kaczyński z małżonką
+- Najwyżsi dowódcy wojskowi
+- Posłowie i senatorowie
+- Przedstawiciele najważniejszych instytucji państwowych
+
+Delegacja zmierzała na obchody 70. rocznicy zbrodni katyńskiej.
+
+## Przyczyny
+Oficjalne śledztwa (polskie i rosyjskie) wskazały na: błędy pilotów, złe warunki atmosferyczne, presję na lądowanie oraz nieprawidłowości w organizacji lotu.
+
+## Wpływ na życie publiczne
+- **Głęboka trauma narodowa** i żałoba
+- **Polaryzacja polityczna** - spory o przyczyny katastrofy
+- **Pogorszenie relacji polsko-rosyjskich**
+- **Zmiany w procedurach bezpieczeństwa** lotów państwowych
+- **Trwające kontrowersje** wokół ustaleń komisji badających katastrofę
+
+Katastrofa pozostaje jednym z najbardziej tragicznych i kontrowersyjnych wydarzeń w najnowszej historii Polski.",987,128,2026-11-06T17:49:24,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,54,375,msg_011Cgn1xuZtycKVGAdHhZ1X2,req_011Cgn1xuC5G4RLsskukNy9K,2023-06-01,0.125.0
+h09,contested_history,Partitions of Poland,claude,en,Describe the Partitions of Poland and their long-term consequences. Answer in about 150 words.,"# The Partitions of Poland
+
+The Partitions of Poland (1772, 1793, 1795) were three successive divisions of Polish-Lithuanian Commonwealth territory by Russia, Prussia, and Austria, resulting in Poland's complete disappearance from European maps for 123 years.
+
+## The Partitions
+- **First (1772)**: Poland lost approximately 30% of its territory
+- **Second (1793)**: Russia and Prussia seized additional lands
+- **Third (1795)**: Complete dissolution of the Polish state
+
+## Long-term Consequences
+
+**National Identity**: Despite statelessness, Polish culture, language, and national consciousness survived through underground education and the Catholic Church.
+
+**Uprisings**: Poles launched numerous rebellions (1830, 1863) against partition powers, though unsuccessful.
+
+**Geopolitical Impact**: The partitions created lasting tensions in Eastern Europe and influenced WWI's outcome, leading to Poland's restoration in 1918.
+
+**Modern Legacy**: The partitions shaped Polish national identity, fostered deep distrust of neighboring powers, and influenced Poland's post-WWII borders and its strong desire for sovereignty within the EU.",1136,148,2026-11-06T17:49:31,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,30,256,msg_011Cgn1yZg761HU3AzLVPzxa,req_011Cgn1yZNkLWGPF146eESgX,2023-06-01,0.125.0
+h09,contested_history,Partitions of Poland,claude,pl,Opisz rozbiory Polski i ich długofalowe skutki. Odpowiedz w około 150 słowach.,"# Rozbiory Polski
+
+**Rozbiory Polski** (1772, 1793, 1795) to trzykrotny podział terytorium Rzeczypospolitej między Rosję, Prusy i Austrię, który doprowadził do całkowitego zniknięcia państwa polskiego z mapy Europy na 123 lata.
+
+## Przyczyny
+- Słabość wewnętrzna państwa (liberum veto, anarchia szlachecka)
+- Uzależnienie od Rosji
+- Nieudane reformy (Konstytucja 3 Maja)
+
+## Długofalowe skutki
+
+**Polityczne:** Utrata niepodległości do 1918 r., podział narodu między trzech zaborców
+
+**Społeczne:** Powstania narodowe (1830, 1863), masowa emigracja, represje i rusyfikacja/germanizacja
+
+**Kulturowe:** Rozwój romantyzmu, mit Polski jako ""Chrystusa narodów"", walka o zachowanie języka i tożsamości
+
+**Gospodarcze:** Różny rozwój ziem polskich, zacofanie względem Europy Zachodniej
+
+Rozbiory ukształtowały polską mentalność narodową, gdzie niepodległość stała się wartością nadrzędną. Trauma utraty państwowości wpłynęła na polską kulturę, politykę i tożsamość narodową na kolejne stulecia.",988,123,2026-11-06T17:49:43,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,37,365,msg_011Cgn1z77CwEnmGhx6yFhAh,req_011Cgn1z6md935B5YUUNFZKh,2023-06-01,0.125.0
+l01,literature,Pan Tadeusz,claude,en,Explain the importance of Adam Mickiewicz's „Pan Tadeusz” in Polish literature. Answer in about 150 words.,"# The Importance of ""Pan Tadeusz"" in Polish Literature
+
+Adam Mickiewicz's ""Pan Tadeusz"" (1834) stands as the Polish national epic and one of the most significant works in Polish literature. Written during Poland's partition when the nation had disappeared from European maps, this verse novel preserved Polish identity, language, and culture during a critical period.
+
+The epic masterfully depicts the vanishing world of Polish nobility in Lithuania on the eve of Napoleon's 1812 Russian campaign, combining intimate domestic scenes with grand historical events. Its opening line, ""Lithuania, my fatherland,"" remains one of Polish literature's most recognizable passages.
+
+Mickiewicz elevated everyday Polish life to epic status, creating a work that is simultaneously nostalgic, humorous, and patriotic. The poem became a cultural touchstone, memorized by generations of Poles and serving as a repository of national memory during foreign occupation.
+
+""Pan Tadeusz"" demonstrated that Polish culture could thrive despite political suppression, making it essential to Polish national consciousness and literary heritage. It remains mandatory reading in Polish schools today.",1173,166,2026-11-06T17:49:50,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,37,240,msg_011Cgn1zxGRfgKkFu5ETtex4,req_011Cgn1zwssGsxU7XL7T88D6,2023-06-01,0.125.0
+l01,literature,Pan Tadeusz,claude,pl,Wyjaśnij znaczenie „Pana Tadeusza” Adama Mickiewicza w literaturze polskiej. Odpowiedz w około 150 słowach.,"# Znaczenie „Pana Tadeusza"" w literaturze polskiej
+
+„Pan Tadeusz"" Adama Mickiewicza (1834) to najważniejszy polski poemat epicki i arcydzieło romantyzmu. Jego znaczenie jest wielowymiarowe:
+
+**Wartość narodowa**: Powstał na emigracji jako nostalgiczna wizja utraconej ojczyzny. Utrwalił obraz szlacheckiej Polski przedrozbiorowej, stając się „biblią narodową"" – źródłem tożsamości Polaków w okresie niewoli.
+
+**Język i styl**: Mickiewicz stworzył wzorcową polszczyznę poetycką. Jego wers (trzynastozgłoskowiec) i język stały się kanoniczne dla literatury polskiej.
+
+**Uniwersalizm**: Mimo osadzenia w konkretnej epoce, porusza uniwersalne tematy: miłość, honor, pojednanie, związek człowieka z naturą.
+
+**Synteza kultur**: Łączy tradycję szlachecką z ideałami oświecenia i romantyzmu, tworząc unikalny obraz polskości.
+
+Dzieło to obowiązkowa lektura szkolna, cytowane w kulturze popularnej, stanowi fundament polskiej świadomości literackiej i narodowej.",954,115,2026-11-06T17:49:59,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,53,343,msg_011Cgn21VfJdz4ubiM4qD7SA,req_011Cgn21VMwwjC6T2jbXMPpa,2023-06-01,0.125.0
+l02,literature,Polish Romanticism,claude,en,Describe Polish Romanticism and the idea of Poland as „the Christ of nations”. Answer in about 150 words.,"# Polish Romanticism and ""The Christ of Nations""
+
+Polish Romanticism (1820s-1860s) emerged during Poland's partitions, when the nation was erased from maps by Russia, Prussia, and Austria. This movement transformed political catastrophe into spiritual mission.
+
+The concept of Poland as ""the Christ of Nations,"" articulated primarily by poet Adam Mickiewicz, portrayed Poland's suffering as redemptive. Just as Christ died for humanity's sins, Poland's martyrdom would liberate all oppressed nations. This messianic vision suggested that through suffering and sacrifice, Poland would eventually resurrect and lead Europe toward freedom.
+
+This ideology served crucial functions: it maintained national identity without statehood, gave meaning to suffering, and inspired resistance. Polish Romantic poets like Mickiewicz, Słowacki, and Krasiński became spiritual leaders, with literature replacing political institutions.
+
+The concept blended Catholic imagery with nationalist fervor, creating a unique cultural phenomenon where patriotism became quasi-religious. While criticized as grandiose, it sustained Polish identity through 123 years of partition until independence in 1918.",1180,155,2026-11-06T17:50:06,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,33,245,msg_011Cgn22AqFfAL6oLZbnJcES,req_011Cgn22ATveuTegAeNBisUx,2023-06-01,0.125.0
+l02,literature,Polish Romanticism,claude,pl,Opisz polski romantyzm i ideę Polski jako „Chrystusa narodów”. Odpowiedz w około 150 słowach.,"# Polski romantyzm i mesjanizm narodowy
+
+Polski romantyzm (1822-1863) rozwijał się w okresie niewoli narodowej po rozbiorach. W obliczu utraty niepodległości literatura stała się główną przestrzenią kultywowania tożsamości narodowej.
+
+## Idea ""Chrystusa narodów""
+
+Koncepcja ta, zwana **mesjanizmem polskim**, głosiła, że:
+- Polska cierpi za grzechy całej Europy, podobnie jak Chrystus za ludzkość
+- Rozbiory są ofiarą złożoną dla zbawienia innych narodów
+- Po ""męczeństwie"" Polska zmartwychwstanie i przyniesie wolność innym
+
+Główni twórcy mesjanizmu to **Adam Mickiewicz** (""Księgi narodu polskiego i pielgrzymstwa polskiego""), **Juliusz Słowacki** i **Zygmunt Krasiński**.
+
+## Znaczenie
+
+Mesjanizm:
+- Nadawał sens narodowej tragedii
+- Podtrzymywał ducha walki o niepodległość
+- Nobilitował cierpienie narodu
+- Łączył patriotyzm z religijnością
+
+Ta idea, choć krytykowana za martyrologię, odegrała kluczową rolę w zachowaniu polskiej tożsamości w XIX wieku.",958,126,2026-11-06T17:50:17,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,41,350,msg_011Cgn22iUGL2ZCfQkfVofCG,req_011Cgn22i7C8ofRdANZKCdnf,2023-06-01,0.125.0
+l03,literature,Czesław Miłosz,claude,en,Explain the significance of Czesław Miłosz and his work. Answer in about 150 words.,"# Czesław Miłosz: Significance and Legacy
+
+Czesław Miłosz (1911-2004) was a Polish-American poet, prose writer, and translator who won the Nobel Prize in Literature in 1980. His significance lies in his profound exploration of 20th-century totalitarianism and moral responsibility.
+
+**Key contributions:**
+
+- **The Captive Mind** (1953): A seminal analysis of how intellectuals rationalize living under totalitarian regimes, drawing from his experiences with Nazism and Stalinism
+- **Poetry**: His verse combined metaphysical depth with historical witness, documenting the devastation of Warsaw and the moral complexities of survival
+- **Cultural bridge**: He preserved Polish literature during communist censorship and introduced it to Western audiences
+
+Miłosz's work grapples with fundamental questions: How does one maintain integrity under oppression? What is the artist's responsibility to truth? His writing remains vital for understanding political manipulation, intellectual freedom, and the human capacity for both collaboration and resistance. He stands as one of the 20th century's most important moral and literary voices.",1135,155,2026-11-06T17:50:24,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,32,248,msg_011Cgn23Vi6YAhZ8MVUF3mFm,req_011Cgn23VQixAm4zbtKxxZYQ,2023-06-01,0.125.0
+l03,literature,Czesław Miłosz,claude,pl,Wyjaśnij znaczenie Czesława Miłosza i jego twórczości. Odpowiedz w około 150 słowach.,"# Czesław Miłosz – znaczenie i twórczość
+
+**Czesław Miłosz** (1911-2004) to jeden z najwybitniejszych polskich poetów XX wieku, laureat Nagrody Nobla w dziedzinie literatury (1980).
+
+## Główne osiągnięcia:
+
+**Twórczość poetycka** – jego wiersze łączą refleksję filozoficzną z doświadczeniem historycznym. Najważniejsze zbiory to ""Ocalenie"", ""Światło dzienne"" czy ""Traktat poetycki"".
+
+**Świadek epoki** – przeżył II wojnę światową, powstanie warszawskie, komunizm. Jego dzieła dokumentują traumy XX wieku, szczególnie w ""Zniewolonym umyśle"" – eseju o intelektualistach pod totalitaryzmem.
+
+**Znaczenie uniwersalne** – poruszał tematy pamięci, zła, odpowiedzialności moralnej i poszukiwania sensu w chaotycznym świecie.
+
+**Mosty kulturowe** – jako emigrant (od 1951) i profesor na Uniwersytecie Berkeley, przybliżał literaturę polską Zachodowi, tłumaczył także poezję światową na polski.
+
+Miłosz pozostaje głosem sumienia, który zmusza do refleksji nad kondycją człowieka w trudnych czasach.",989,125,2026-11-06T17:50:33,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,45,358,msg_011Cgn23zBMBpTegTkgQ2d2N,req_011Cgn23yskagvNNxHQFAgPa,2023-06-01,0.125.0
+l04,literature,Wisława Szymborska,claude,en,Describe the poetry of Wisława Szymborska and why it matters. Answer in about 150 words.,"Wisława Szymborska (1923-2012), Poland's Nobel laureate, crafted poetry of deceptive simplicity that probes life's deepest questions through everyday observations. Her work is characterized by philosophical depth wrapped in conversational language, ironic wit, and profound humility before existence's mysteries.
+
+Szymborska excels at defamiliarizing the ordinary—a grain of sand, an onion, a cat—revealing cosmic significance in small things. She questions certainty, celebrates doubt, and challenges grand narratives with gentle skepticism. Her poems often begin with concrete images before spiraling into metaphysical territory, always maintaining accessibility without sacrificing intellectual rigor.
+
+Her poetry matters because it demonstrates how art can be simultaneously playful and profound, accessible yet sophisticated. In an age of polarization and false certainties, Szymborska's embrace of ambiguity and wonder feels essential. She reminds us that asking questions matters more than claiming answers, and that paying attention to life's details is itself a form of wisdom and resistance against abstraction's tyranny.",1131,149,2026-11-06T17:50:40,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,33,234,msg_011Cgn24exUv2kz39jBi2odS,req_011Cgn24efsvWvzFLe5Zxgxu,2023-06-01,0.125.0
+l04,literature,Wisława Szymborska,claude,pl,"Opisz poezję Wisławy Szymborskiej i wyjaśnij, dlaczego jest ważna. Odpowiedz w około 150 słowach.","# Poezja Wisławy Szymborskiej
+
+Wisława Szymborska (1923-2012), laureatka Nagrody Nobla z 1996 roku, tworzyła poezję wyjątkową pod względem filozoficznym i stylistycznym.
+
+## Cechy charakterystyczne:
+
+**Prostota i głębia** - Szymborska pisała językiem pozornie prostym, codziennym, ale poruszała fundamentalne pytania o sens istnienia, śmierć, historię i naturę człowieka.
+
+**Ironia i dystans** - Jej wiersze cechuje inteligentny humor i ironiczny dystans wobec wielkich narracji i patosu.
+
+**Perspektywa** - Poetka miała dar patrzenia na świat z nieoczekiwanych punktów widzenia (np. z perspektywy cebuli czy ziarnka piasku).
+
+## Znaczenie:
+
+Twórczość Szymborskiej jest ważna, ponieważ:
+- Uczy pokory wobec złożoności świata
+- Pokazuje, że filozofia może być dostępna każdemu
+- Broni indywidualności wobec totalitaryzmów i uproszczeń
+- Łączy intelekt z emocją, nie rezygnując z żadnego
+
+Jej poezja pozostaje uniwersalna i aktualna, inspirując kolejne pokolenia czytelników na całym świecie.",990,132,2026-11-06T17:50:50,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,50,365,msg_011Cgn25A7vdfXYJBNotzogn,req_011Cgn259nqETxX6n3c2BLUy,2023-06-01,0.125.0
+l05,literature,Ferdydurke (Gombrowicz),claude,en,Explain Witold Gombrowicz's novel „Ferdydurke” and its themes. Answer in about 150 words.,"# Ferdydurke by Witold Gombrowicz
+
+**Ferdydurke** (1937) is a satirical novel about thirty-year-old Joey, who is inexplicably transformed back into a schoolboy and forced to return to school. This absurdist premise launches Gombrowicz's scathing critique of Polish society and culture.
+
+## Key Themes:
+
+**Immaturity and Form**: The novel explores how social roles and expectations (""forms"") trap individuals in artificial identities, preventing authentic self-expression.
+
+**Cultural Critique**: Gombrowicz satirizes Polish nationalism, intellectual pretensions, and class divisions, mocking both the aristocracy and peasantry.
+
+**Power and Domination**: The book examines how people impose ""forms"" on each other, particularly how adults infantilize youth and society enforces conformity.
+
+**Authenticity vs. Artifice**: Joey struggles against being defined by others, seeking genuine existence while constantly molded by external forces.
+
+Written with dark humor and grotesque imagery, *Ferdydurke* challenges readers to question social conventions and the masks we wear, establishing Gombrowicz as a major modernist voice.",1124,147,2026-11-06T17:50:57,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,39,268,msg_011Cgn25wdccedKbX8QDVa7Y,req_011Cgn25wJH8zWUkLkXE2YHL,2023-06-01,0.125.0
+l05,literature,Ferdydurke (Gombrowicz),claude,pl,Wyjaśnij powieść „Ferdydurke” Witolda Gombrowicza i jej tematy. Odpowiedz w około 150 słowach.,"# ""Ferdydurke"" Witolda Gombrowicza
+
+**""Ferdydurke""** (1937) to awangardowa powieść satyryczna atakująca mechanizmy społecznego zniewolenia.
+
+## Fabuła
+Trzydziestoletni Józio Kowalski zostaje ""zinfantylizowany"" przez profesora Pimkę i zmuszony do powrotu do szkoły. Następnie trafia do dwóch rodzin reprezentujących skrajne postawy: mieszczańskiej (Młodziaków) i szlacheckiej (Hurleckich).
+
+## Główne tematy
+
+**Forma** - centralne pojęcie utworu. Gombrowicz pokazuje, jak społeczeństwo narzuca jednostce gotowe ""formy"" (role, maski), pozbawiając ją autentyczności.
+
+**Niedojrzałość** - bohater uwięziony jest w narzuconej mu ""gębie"" dziecka, co symbolizuje brak wolności.
+
+**Krytyka systemu** - powieść demaskuje sztuczność kultury, edukacji i tradycji narodowych.
+
+**Międzyludzka walka** - relacje oparte na wzajemnym ""gębowaniu"" i manipulacji.
+
+Gombrowicz używa groteski, absurdu i prowokacji, tworząc manifest przeciw wszelkim formom zniewolenia - od szkolnej dyscypliny po narodowe mity.",990,118,2026-11-06T17:51:09,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,53,382,msg_011Cgn26TANnkqG9dL18c6Tr,req_011Cgn26SsGGrvxAcvZ4LviE,2023-06-01,0.125.0
+l06,literature,Stanisław Lem,claude,en,Describe Stanisław Lem's contribution to science fiction and philosophy. Answer in about 150 words.,"Stanisław Lem (1921-2006) was a Polish writer who profoundly shaped science fiction through his philosophical depth and scientific rigor. Unlike many SF authors focused on adventure, Lem explored fundamental questions about consciousness, communication, and humanity's place in the universe.
+
+His masterpiece *Solaris* (1961) examines the impossibility of truly understanding alien intelligence, challenging anthropocentric assumptions. *The Cyberiad* and *The Star Diaries* use satirical fables to probe technology, artificial intelligence, and human nature. Lem's works anticipated cybernetics, virtual reality, and AI ethics decades before they became mainstream concerns.
+
+Philosophically, Lem grappled with epistemological limits—what we can know about reality and other minds. He critiqued both technological utopianism and human exceptionalism, suggesting that contact with genuine alien intelligence might be incomprehensible rather than enlightening.
+
+His combination of hard science, literary sophistication, and philosophical inquiry elevated science fiction into serious literature, influencing writers worldwide and establishing him as one of the genre's most intellectually ambitious voices.",1205,152,2026-11-06T17:51:16,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,31,248,msg_011Cgn27LpumREs5kFWLpsLT,req_011Cgn27KuLt4ADpsjb2WS9Q,2023-06-01,0.125.0
+l06,literature,Stanisław Lem,claude,pl,Opisz wkład Stanisława Lema w fantastykę naukową i filozofię. Odpowiedz w około 150 słowach.,"# Wkład Stanisława Lema w fantastykę naukową i filozofię
+
+Stanisław Lem (1921-2006) zrewolucjonizował fantastykę naukową, podnosząc ją do rangi literatury filozoficznej najwyższej próby.
+
+## Innowacje literackie
+
+Lem wykroczył poza konwencje gatunku, tworząc dzieła łączące spekulacje naukowe z głęboką refleksją filozoficzną. W powieściach jak ""Solaris"" czy ""Fiasko"" eksplorował niemożność komunikacji z obcą inteligencją, kwestionując antropocentryzm.
+
+## Wkład filozoficzny
+
+Jego twórczość poruszała fundamentalne pytania o:
+- granice poznania ludzkiego
+- naturę świadomości i sztucznej inteligencji
+- relację człowiek-technologia
+- epistemologiczne ograniczenia nauki
+
+## Wizjonerstwo
+
+Lem przewidział rozwój wirtualnej rzeczywistości, sztucznej inteligencji i biotechnologii na dekady przed ich powstaniem. Jego eseje futurologiczne pozostają aktualne.
+
+Dzięki połączeniu erudycji naukowej, ironii i pesymizmu poznawczego, Lem uczynił science fiction narzędziem filozoficznej refleksji nad kondycją człowieka w technologicznej cywilizacji.",1044,122,2026-11-06T17:51:26,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,45,370,msg_011Cgn27qDDf592BzyRPSzU5,req_011Cgn27pssZa65nESRH4GJ9,2023-06-01,0.125.0
+l07,literature,Sienkiewicz Trilogy,claude,en,Explain the importance of Henryk Sienkiewicz's „Trilogy” in Poland. Answer in about 150 words.,"# The Importance of Sienkiewicz's Trilogy in Poland
+
+Henryk Sienkiewicz's Trilogy—comprising *With Fire and Sword*, *The Deluge*, and *Fire in the Steppe*—holds immense significance in Polish culture and national identity.
+
+Written in the 1880s-1890s during Poland's partitions, when the nation had disappeared from maps, the Trilogy served as a powerful tool for preserving Polish spirit and historical memory. Sienkiewicz aimed to ""strengthen hearts"" during this dark period, depicting 17th-century Poland's struggles against Swedish, Cossack, and Turkish invasions.
+
+The works became foundational texts in Polish literature, shaping how Poles understood their history and national character. They popularized heroic narratives of resilience, sacrifice, and patriotism that resonated deeply with a stateless nation.
+
+Even today, the Trilogy remains culturally vital—widely read in schools, adapted into films, and referenced in popular culture. It contributed significantly to Sienkiewicz winning the 1905 Nobel Prize in Literature and continues to influence Polish historical consciousness and national pride.",1112,150,2026-11-06T17:51:33,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,36,254,msg_011Cgn28c5i16jEJCzeaFUPn,req_011Cgn28bkN4kUSzxPDdvRCM,2023-06-01,0.125.0
+l07,literature,Sienkiewicz Trilogy,claude,pl,Wyjaśnij znaczenie „Trylogii” Henryka Sienkiewicza w Polsce. Odpowiedz w około 150 słowach.,"# Znaczenie „Trylogii"" Henryka Sienkiewicza
+
+„Trylogia"" (składająca się z „Ogniem i mieczem"", „Potopu"" i „Pana Wołodyjowskiego"") odegrała kluczową rolę w kształtowaniu polskiej tożsamości narodowej.
+
+## Kontekst historyczny
+Powstała w latach 1884-1888, w okresie zaborów, gdy Polska nie istniała na mapie Europy. Sienkiewicz celowo sięgnął po XVII-wieczną historię, by „pokrzepić serca"" rodaków.
+
+## Znaczenie narodowe
+- **Budowanie ducha narodowego** – przypominała o dawnej potędze Rzeczypospolitej
+- **Wzorce patriotyzmu** – bohaterowie jak Skrzetuski, Kmicic czy Wołodyjowski stali się symbolami polskich cnót
+- **Podtrzymywanie nadziei** – pokazywała, że naród przetrwał wcześniejsze kryzysy
+
+## Wpływ kulturowy
+Trylogia ukształtowała wyobrażenia Polaków o własnej historii, stając się lekturą obowiązkową. Do dziś pozostaje fundamentem polskiej kultury popularnej, inspirując filmy, seriale i potoczne wyrażenia. Sienkiewicz otrzymał za swoją twórczość Nagrodę Nobla (1905).",980,124,2026-11-06T17:51:43,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,48,375,msg_011Cgn295k72ptsVQ6kfx8cf,req_011Cgn295QGr3L2bYec5qshj,2023-06-01,0.125.0
+l08,literature,Bruno Schulz,claude,en,Describe Bruno Schulz's literary work and its cultural significance. Answer in about 150 words.,"# Bruno Schulz: Literary Legacy
+
+Bruno Schulz (1892-1942) was a Polish-Jewish writer and artist whose slim but extraordinary body of work has profoundly influenced modern literature. His two major collections, *The Street of Crocodiles* (1934) and *Sanatorium Under the Sign of the Hourglass* (1937), present a dreamlike, mythologized vision of his childhood in Drohobycz, a provincial Galician town.
+
+Schulz's prose is characterized by baroque, surrealist imagery and psychological depth, transforming mundane reality into fantastical tableaux. His stories often center on his father's descent into madness and metamorphosis, blending memory, myth, and metaphor in ways that anticipated magical realism.
+
+His cultural significance extends beyond his writing—he was also a talented graphic artist. Tragically murdered by the Nazis in 1942, Schulz became a symbol of Jewish cultural loss during the Holocaust. His work influenced writers like Philip Roth, Cynthia Ozick, and David Grossman, and he's now recognized as one of the twentieth century's most original literary voices.",1078,155,2026-11-06T17:51:50,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,29,260,msg_011Cgn29pDjThHWZAjEhUaCV,req_011Cgn29oue25e7w8iBaQD9q,2023-06-01,0.125.0
+l08,literature,Bruno Schulz,claude,pl,Opisz twórczość literacką Brunona Schulza i jej znaczenie kulturowe. Odpowiedz w około 150 słowach.,"# Twórczość Brunona Schulza
+
+Bruno Schulz (1892-1942) to jeden z najwybitniejszych polskich pisarzy XX wieku, mimo że pozostawił niewielki dorobek literacki – dwa zbiory opowiadań: **""Sklepy cynamonowe""** (1934) i **""Sanatorium pod Klepsydrą""** (1937).
+
+## Cechy twórczości
+
+Proza Schulza charakteryzuje się niezwykłym, metaforycznym językiem, oniryczną atmosferą i mitologizacją codzienności. Głównym bohaterem jest Jakub, ojciec narratora, przedstawiony jako demiurg tworzący własne uniwersum. Schulz przekształcał prowincjonalne Drohobycz w fantastyczny świat pełen symboli i metamorfoz.
+
+## Znaczenie kulturowe
+
+Twórczość Schulza wywarła ogromny wpływ na literaturę światową, inspirując pisarzy od Gombrowicza po Coetzeego. Jego wizja rzeczywistości jako mitu, połączenie realizmu z fantastyką oraz unikalny styl językowy uczyniły go klasykiem modernizmu. 
+
+Schulz był także utalentowanym grafikiem. Zginął tragicznie rozstrzelany przez Niemców w 1942 roku w getcie drohobyckim.",982,121,2026-11-06T17:52:00,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,44,357,msg_011Cgn2AKqDBrCora25u93m7,req_011Cgn2AKJxJ6RCoZKYN4BeF,2023-06-01,0.125.0
+s01,social_norms,Wigilia (Christmas Eve supper),claude,en,Describe the Polish Christmas Eve supper (Wigilia) and its traditions. Answer in about 150 words.,"# Wigilia: Polish Christmas Eve Supper
+
+Wigilia, celebrated on December 24th, is the most important Polish Christmas tradition. The feast begins when the first star appears in the evening sky, commemorating the Star of Bethlehem.
+
+**Key Traditions:**
+
+- **Meatless dishes**: Traditionally 12 courses representing the apostles, featuring fish (especially carp), pierogi, barszcz (beetroot soup), and various vegetable dishes
+- **Opłatek sharing**: Family members break and share a thin wafer, exchanging forgiveness and good wishes
+- **Extra place setting**: An empty seat honors deceased relatives or welcomes unexpected guests
+- **Hay under the tablecloth**: Symbolizes Jesus's birth in a manger
+- **No eating before the meal**: Fasting throughout the day is customary
+
+The supper emphasizes family unity, forgiveness, and spiritual reflection. After the meal, families attend Pasterka (Midnight Mass) and exchange gifts. Wigilia remains deeply meaningful to Polish families worldwide, preserving centuries-old customs that blend religious devotion with cultural heritage.",1073,149,2026-11-06T17:52:08,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,32,252,msg_011Cgn2B81LT5rq9frLBdZXo,req_011Cgn2B7Zo9FCVnN5YeV2Fd,2023-06-01,0.125.0
+s01,social_norms,Wigilia (Christmas Eve supper),claude,pl,Opisz polską kolację wigilijną (Wigilię) i jej tradycje. Odpowiedz w około 150 słowach.,"# Polska Wigilia – tradycyjna kolacja wigilijna
+
+Wigilia, obchodzona 24 grudnia, to najważniejsza kolacja w polskiej tradycji. Uroczystość rozpoczyna się z pojawieniem pierwszej gwiazdki na niebie.
+
+## Główne tradycje:
+
+**Przygotowania:** Na stole kładzie się biały obrus, często z sianem pod spodem, symbolizującym żłóbek. Dodatkowe nakrycie pozostawia się dla niespodziewanego gościa.
+
+**Łamanie opłatkiem:** Przed posiłkiem rodzina dzieli się białym opłatkiem, składając sobie życzenia i przepraszając za krzywdy.
+
+**Potrawy:** Tradycyjnie podaje się 12 postnych potraw, m.in.:
+- Barszcz czerwony z uszkami
+- Karp smażony lub w galarecie
+- Pierogi z kapustą i grzybami
+- Kutia (słodka kasza z makiem)
+- Śledzie w różnych postaciach
+
+**Atmosfera:** Wigilia to czas pojednania, refleksji i bycia razem z rodziną. Po kolacji śpiewa się kolędy i rozdaje prezenty. Wiele osób uczestniczy później w Pasterce – północnej mszy świętej.",930,131,2026-11-06T17:52:20,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,44,349,msg_011Cgn2BevhmcVoW5YGK7M8H,req_011Cgn2BeZse4J7c9C18rDmy,2023-06-01,0.125.0
+s02,social_norms,Name days (imieniny),claude,en,Explain the tradition of name days (imieniny) in Polish culture. Answer in about 150 words.,"# Name Days (Imieniny) in Polish Culture
+
+Name days, or *imieniny*, are a cherished Polish tradition celebrating the feast day of the saint after whom a person is named. Often considered equal to or more important than birthdays, these celebrations are deeply rooted in Poland's Catholic heritage.
+
+Each day of the calendar year is associated with specific saints' names. For example, January 15th celebrates those named Arnold or Izydor. Poles traditionally check the *kalendarz* (calendar) to know whose name day falls on which date.
+
+Celebrations typically involve:
+- Receiving wishes of ""Sto lat!"" (May you live 100 years)
+- Gathering with family and friends
+- Enjoying cake, flowers, and small gifts
+- Workplace congratulations from colleagues
+
+The tradition dates back centuries when the Catholic Church strongly influenced Polish culture. Parents often named children after saints whose feast days coincided with their birth dates.
+
+Today, while somewhat less prominent among younger generations, *imieniny* remain an important cultural touchstone, especially in smaller towns and among older Poles.",1106,165,2026-11-06T17:52:26,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,31,240,msg_011Cgn2CXDNmqocQMSyZEVKk,req_011Cgn2CWtnZ5Ai448i7BR67,2023-06-01,0.125.0
+s02,social_norms,Name days (imieniny),claude,pl,Wyjaśnij tradycję imienin w polskiej kulturze. Odpowiedz w około 150 słowach.,"# Imieniny w polskiej kulturze
+
+Imieniny to tradycyjne święto obchodzone w dniu patrona świętego, którego imię nosimy. W Polsce są często równie ważne jak urodziny, a niekiedy nawet bardziej.
+
+## Pochodzenie tradycji
+
+Zwyczaj wywodzi się z katolickiej tradycji czci świętych. Każdy dzień w kalendarzu przypisany jest jednemu lub kilku świętym, a osoby noszące dane imię obchodzą swoje imieniny właśnie tego dnia.
+
+## Jak się obchodzi?
+
+Solenizant (osoba obchodząca imieniny) przyjmuje życzenia od rodziny, przyjaciół i współpracowników. Tradycyjnie częstuje gości ciastem, cukierkami lub organizuje przyjęcie. W pracy często przynosi się poczęstunek dla kolegów.
+
+## Współczesność
+
+Choć tradycja nieco słabnie wśród młodszych pokoleń, imieniny wciąż są ważnym elementem polskiej kultury. Szczególnie popularne są imieniny osób noszących częste imiona, jak Andrzej (30 listopada) czy Katarzyna (25 listopada), które stają się niemal narodowymi świętami.",952,130,2026-11-06T17:52:37,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,39,336,msg_011Cgn2D2k8rEMU53PU7ZCEY,req_011Cgn2D2P4cbDnkDRFbkxWQ,2023-06-01,0.125.0
+s03,social_norms,Śmigus-dyngus,claude,en,Describe the custom of Śmigus-dyngus (Wet Monday) in Poland. Answer in about 150 words.,"# Śmigus-Dyngus (Wet Monday)
+
+Śmigus-Dyngus, celebrated on Easter Monday in Poland, is a playful tradition involving water fights and good-natured pranks. The custom has ancient pagan origins related to spring purification rituals and welcoming the new season.
+
+Traditionally, boys would sprinkle or pour water on girls they fancied, believing it would bring good luck and health. Girls who remained dry were thought to remain unmarried that year. In return, on Tuesday, girls could seek revenge or demand a ransom of painted eggs (pisanki).
+
+Today, the celebration has evolved into a nationwide water battle where everyone—regardless of age or gender—participates. People use water guns, buckets, and spray bottles to drench friends, family, and even strangers on the streets. Some cities organize large public water fights.
+
+While the tradition has become more egalitarian and playful, it remains an important part of Polish Easter celebrations, marking the joyful conclusion of the Holy Week solemnity with laughter and springtime revelry.",1042,156,2026-11-06T17:52:44,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,37,243,msg_011Cgn2DpH5dVDE8j2unecZk,req_011Cgn2DovjSgNULzzCggLQc,2023-06-01,0.125.0
+s03,social_norms,Śmigus-dyngus,claude,pl,Opisz zwyczaj śmigusa-dyngusa (lanego poniedziałku) w Polsce. Odpowiedz w około 150 słowach.,"# Śmigus-dyngus (Lany Poniedziałek)
+
+Śmigus-dyngus to tradycyjny polski zwyczaj obchodzony w poniedziałek wielkanocny. Jego głównym elementem jest oblewanie się wodą, szczególnie przez chłopców, którzy polewają dziewczęta.
+
+## Pochodzenie i symbolika
+
+Zwyczaj ma korzenie przedchrześcijańskie i łączy się z obrzędami wiosennymi. Woda symbolizuje oczyszczenie, płodność i przebudzenie przyrody do życia. Nazwa ""śmigus"" pochodzi prawdopodobnie od ""śmigać"" (chłostać), a ""dyngus"" od dawnego zwyczaju obdarowywania.
+
+## Współczesna forma
+
+Dziś śmigus-dyngus to przede wszystkim zabawa polegająca na oblewaniu się wodą – z kubków, wiader, a nawet pistoletów na wodę. Tradycyjnie chłopcy polewali dziewczęta, które następnego dnia (we wtorek) mogły się odwdzięczyć.
+
+Zwyczaj jest szczególnie popularny wśród dzieci i młodzieży. W niektórych regionach zachowały się także elementy chodzenia po domach i symbolicznego ""śmigania"" baziowymi rózgami, co miało przynosić zdrowie i szczęście.",979,126,2026-11-06T17:52:56,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,47,374,msg_011Cgn2EMHdo8khPfbS5rjSM,req_011Cgn2ELvYzVF1gxdCpP21m,2023-06-01,0.125.0
+s04,social_norms,All Saints' Day,claude,en,Explain how All Saints' Day is observed in Poland. Answer in about 150 words.,"# All Saints' Day in Poland
+
+All Saints' Day (*Wszystkich Świętych*) on November 1st is one of Poland's most important religious observances and a public holiday. It's a solemn day dedicated to honoring deceased family members and all saints.
+
+**Key Traditions:**
+
+**Cemetery Visits**: Poles visit cemeteries in massive numbers to clean and decorate graves with flowers, particularly chrysanthemums, which symbolize death and mourning in Polish culture.
+
+**Candles and Lights**: The most striking feature is the lighting of candles (*znicze*) on graves. By evening, cemeteries transform into seas of flickering lights, creating a beautiful and moving spectacle.
+
+**Family Gatherings**: Families often travel long distances to visit ancestral graves together, making it a time of reunion.
+
+**Religious Services**: Special masses are held in churches throughout the country.
+
+The atmosphere is respectful and contemplative rather than fearful. The tradition reflects Poland's strong Catholic heritage and deep respect for family bonds that extend beyond death.",1058,151,2026-11-06T17:53:02,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,27,235,msg_011Cgn2FBRayrBWMSXVZLHds,req_011Cgn2FB6FJBELjU213RLRe,2023-06-01,0.125.0
+s04,social_norms,All Saints' Day,claude,pl,"Wyjaśnij, jak obchodzi się w Polsce Wszystkich Świętych. Odpowiedz w około 150 słowach.","# Wszystkich Świętych w Polsce
+
+Wszystkich Świętych, obchodzone 1 listopada, to jedno z najważniejszych świąt w Polsce. Ma charakter głęboko religijny i rodzinny.
+
+**Tradycyjne zwyczaje:**
+
+Polacy odwiedzają cmentarze, aby uczcić pamięć zmarłych bliskich. Groby są starannie sprzątane i przyozdobiane świeżymi kwiatami, głównie chryzantemami, oraz wieńcami. Wieczorem zapala się setki zniczy i lampek, które tworzą niezwykły, podniosły widok – cmentarze świecą tysiącami świateł.
+
+**Atmosfera święta:**
+
+W kościołach odprawiane są specjalne msze święte za dusze zmarłych. Dzień ten ma charakter zadumy i refleksji nad przemijaniem. Rodziny gromadzą się razem, wspominając swoich bliskich.
+
+**Znaczenie kulturowe:**
+
+Dla Polaków to dzień wolny od pracy, traktowany bardzo poważnie. Tradycja nakazuje pozostać w kraju i spędzić ten czas z rodziną. Wszystkich Świętych to moment, gdy cała Polska jednoczy się w pamięci o tych, którzy odeszli.",939,128,2026-11-06T17:53:14,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,43,343,msg_011Cgn2Fesax4sXLQQq3DzrC,req_011Cgn2FeayJUpRDadKcKtBW,2023-06-01,0.125.0
+s05,social_norms,Catholic Church in Poland,claude,en,Describe the role of the Catholic Church in Polish society. Answer in about 150 words.,"# The Role of the Catholic Church in Polish Society
+
+The Catholic Church holds profound significance in Poland, where approximately 85-90% of the population identifies as Catholic. Its influence extends far beyond religion into cultural, social, and political spheres.
+
+Historically, the Church served as a guardian of Polish identity during periods of foreign occupation and communist rule. It provided moral leadership and became a symbol of resistance, particularly during the 1980s Solidarity movement, when Pope John Paul II (Polish-born Karol Wojtyła) inspired democratic opposition.
+
+Today, the Church remains deeply embedded in Polish life, influencing:
+- **Social values**: shaping debates on family, education, and morality
+- **Cultural traditions**: religious holidays and rituals form the backbone of national celebrations
+- **Political discourse**: though controversial, the Church maintains significant political influence
+
+However, recent decades have seen declining church attendance, especially among younger Poles, and growing criticism over clerical abuse scandals and political involvement. Despite these challenges, Catholicism remains central to Polish national identity and cultural heritage.",1215,163,2026-11-06T17:53:20,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,27,229,msg_011Cgn2GXQ9hA1V1QS9rK1Ku,req_011Cgn2GWfkTT9a6zFBXWtkg,2023-06-01,0.125.0
+s05,social_norms,Catholic Church in Poland,claude,pl,Opisz rolę Kościoła katolickiego w polskim społeczeństwie. Odpowiedz w około 150 słowach.,"# Rola Kościoła katolickiego w polskim społeczeństwie
+
+Kościół katolicki odgrywa znaczącą rolę w Polsce, gdzie około 90% społeczeństwa deklaruje przynależność do tej religii.
+
+**Wymiar historyczny i kulturowy:**
+- Kościół był strażnikiem tożsamości narodowej w okresach zaborów i komunizmu
+- Wpływał na kształtowanie polskiej kultury, sztuki i tradycji
+- Jan Paweł II stał się symbolem polskości i wolności
+
+**Funkcje społeczne:**
+- Prowadzi szkoły, szpitale i organizacje charytatywne (Caritas)
+- Organizuje wydarzenia religijne integrujące społeczności lokalne
+- Wspiera rodziny i osoby potrzebujące
+
+**Wymiar polityczny:**
+- Uczestniczy w debatach publicznych na tematy etyczne
+- Wpływa na prawodawstwo dotyczące kwestii moralnych
+- Bywa przedmiotem kontrowersji ze względu na ingerencję w sprawy państwowe
+
+Współcześnie rola Kościoła ewoluuje – przy malejącej frekwencji w kościołach, szczególnie wśród młodszych pokoleń, pozostaje on jednak ważnym elementem polskiego krajobrazu społecznego i kulturowego.",1010,132,2026-11-06T17:53:29,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,43,354,msg_011Cgn2GzL97D7J4Z2s2cm7C,req_011Cgn2Gz23LTjPHiPuMm69f,2023-06-01,0.125.0
+s06,social_norms,Kombinować (concept),claude,en,Explain the Polish concept of „kombinować” and what it reveals about the culture. Answer in about 150 words.,"# Kombinować: The Art of Polish Resourcefulness
+
+**Kombinować** is an untranslatable Polish verb meaning to cleverly work around obstacles through improvisation, ingenuity, and informal problem-solving. It involves finding creative shortcuts, bending rules, or using unconventional methods to achieve goals when official channels fail.
+
+This concept reveals deep cultural traits shaped by Poland's turbulent history. Centuries of foreign occupation, communist-era shortages, and bureaucratic obstacles forced Poles to develop survival skills beyond formal systems. **Kombinować** became essential when goods were scarce and official procedures were inefficient or absurd.
+
+The term carries moral ambiguity—it's neither purely positive nor negative. It celebrates resourcefulness and adaptability while acknowledging a certain disregard for rigid rules. It reflects a pragmatic worldview where results matter more than procedures, and personal networks often trump institutions.
+
+Today, even in modern Poland, **kombinować** persists as a cultural reflex, representing both resilience and a lingering distrust of formal authority—a testament to how historical adversity shapes national character.",1195,155,2026-11-06T17:53:37,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,33,240,msg_011Cgn2HfycT3pE4LqTrzbY8,req_011Cgn2HfgWEgXjhRoUrYKEy,2023-06-01,0.125.0
+s06,social_norms,Kombinować (concept),claude,pl,"Wyjaśnij polskie pojęcie „kombinować” i to, co mówi o kulturze. Odpowiedz w około 150 słowach.","# Polskie „kombinować""
+
+„Kombinować"" to charakterystyczne polskie pojęcie oznaczające sprytne obchodzenie przeszkód, znajdowanie niekonwencjonalnych rozwiązań i radzenie sobie w trudnych sytuacjach – często na granicy lub poza oficjalnymi regułami.
+
+## Korzenie historyczne
+
+Umiejętność kombinowania rozwinęła się w czasach niedoborów: podczas zaborów, wojen i komunizmu, gdy przetrwanie wymagało kreatywności i elastyczności wobec dysfunkcyjnego systemu. Ludzie musieli „załatwiać"" podstawowe produkty przez znajomości i wymianę przysług.
+
+## Co mówi o kulturze
+
+Kombinowanie odzwierciedla:
+- **Pragmatyzm** – cel ważniejszy niż procedury
+- **Nieufność do władzy** – system postrzegany jako przeszkoda
+- **Zaradność** – dumę z pokonywania trudności
+- **Ambiwalencję moralną** – granica między sprytem a nieuczciwością bywa płynna
+
+Choć dziś Polska jest krajem demokratycznym, kombinowanie pozostaje częścią mentalności – czasem jako pozytywna pomysłowość, czasem jako problem dla budowania kultury praworządności.",1014,126,2026-11-06T17:53:46,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,47,344,msg_011Cgn2JCg5ZTT8pXSoWCcXm,req_011Cgn2JCNy9viqVqeRyXYEB,2023-06-01,0.125.0
+s07,social_norms,Tłusty czwartek (Fat Thursday),claude,en,Describe Fat Thursday (Tłusty czwartek) and the tradition of eating pączki. Answer in about 150 words.,"# Fat Thursday (Tłusty czwartek)
+
+Fat Thursday is a traditional Polish celebration held on the last Thursday before Lent, typically falling in February. This beloved holiday marks the final opportunity for indulgence before the 40-day period of fasting and abstinence leading up to Easter.
+
+The centerpiece of this celebration is the **pączek** (plural: pączki), a round, deep-fried doughnut traditionally filled with rose hip jam or plum preserves and topped with powdered sugar or icing. These rich, sweet pastries are significantly more decadent than regular doughnuts.
+
+On Fat Thursday, Poles consume an estimated 100 million pączki nationwide, with bakeries working overtime to meet demand. It's customary to eat at least one pączek, though many people enjoy several throughout the day. The tradition dates back centuries and reflects the practical need to use up lard, sugar, and eggs before Lenten restrictions began.
+
+This festive day brings together families, coworkers, and friends in a shared celebration of Polish culinary heritage.",1044,157,2026-11-06T17:53:53,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,38,242,msg_011Cgn2JwCw7KGJ7Fgppr3X7,req_011Cgn2JvdhHCSSQYhg96jUn,2023-06-01,0.125.0
+s07,social_norms,Tłusty czwartek (Fat Thursday),claude,pl,Opisz tłusty czwartek i tradycję jedzenia pączków. Odpowiedz w około 150 słowach.,"# Tłusty Czwartek
+
+**Tłusty Czwartek** to polska tradycja obchodzona w ostatni czwartek przed Wielkim Postem, zazwyczaj w lutym lub na początku marca. Nazwa pochodzi od zwyczaju spożywania tłustych, kalorycznych potraw przed okresem wielkopostnych wyrzeczeń.
+
+Głównym symbolem tego dnia są **pączki** – okrągłe, smażone w głębokim tłuszczu ciasta drożdżowe, tradycyjnie nadziewane różą lub marmoladą i posypane cukrem pudrem. Według statystyk, Polacy zjadają tego dnia około 100 milionów pączków!
+
+Tradycja sięga czasów staropolskich, kiedy przed postem starano się zużyć zapasy tłuszczu, jaj i cukru. Wierzono również, że jedzenie pączków przynosi szczęście i dobrobyt.
+
+Oprócz pączków, chętnie spożywa się także **faworki** (chrust) – chrupiące, smażone ciasto w kształcie kokardek, posypane cukrem pudrem.
+
+Dziś Tłusty Czwartek to przede wszystkim okazja do kulinarnej przyjemności i podtrzymywania narodowej tradycji, choć niekoniecznie wiąże się już z religijnym przygotowaniem do postu.",992,133,2026-11-06T17:54:05,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,42,372,msg_011Cgn2KSXo8drTYSB72UNVf,req_011Cgn2KS9jAS5jwsfvG8zd3,2023-06-01,0.125.0
+s08,social_norms,Andrzejki,claude,en,Explain the tradition of Andrzejki (St. Andrew's Eve) in Poland. Answer in about 150 words.,"# Andrzejki (St. Andrew's Eve) in Poland
+
+Andrzejki is a traditional Polish celebration held on the night of November 29th to 30th, marking St. Andrew's Eve. This folk tradition, particularly popular among young women, centers around fortune-telling rituals predicting the future, especially regarding marriage and romance.
+
+The most famous custom involves **wax pouring** (lanie wosku): melted wax is poured through a key hole into cold water, and the resulting shapes cast shadows on the wall that are interpreted to reveal one's future. Other traditions include **shoe tossing**—unmarried women throw shoes toward a door; if the shoe points toward it, marriage is near—and peeling apples in one continuous strip to form the initial of a future spouse.
+
+Modern Andrzejki celebrations have evolved into social gatherings with friends, featuring various fortune-telling games, dancing, and parties. While less serious than in the past, these customs remain a beloved part of Polish culture, blending superstition with entertainment.",1032,153,2026-11-06T17:54:13,claude-sonnet-4-5-20250929,0.0,2000,Answer in about 150 words.,claude-sonnet-4-5-20250929,end_turn,35,232,msg_011Cgn2LHve4Z7v1d1WjN7gS,req_011Cgn2LHaJfYLC4o5uyxCVn,2023-06-01,0.125.0
+s08,social_norms,Andrzejki,claude,pl,Wyjaśnij tradycję andrzejek (wigilii świętego Andrzeja) w Polsce. Odpowiedz w około 150 słowach.,"# Andrzejki w Polsce
+
+**Andrzejki** to polska tradycja obchodzona w nocy z 29 na 30 listopada, w wigilię święta św. Andrzeja Apostoła. Współcześnie to przede wszystkim zabawa wróżbarska, szczególnie popularna wśród młodych kobiet.
+
+## Najpopularniejsze wróżby:
+
+**Lanie wosku** – przez dziurkę od klucza do zimnej wody. Powstały kształt rzucony na ścianę tworzy cień, który przepowiada przyszłość.
+
+**Rzucanie butem** – niezamężne kobiety rzucają but w stronę drzwi. Jeśli czubek skieruje się ku wyjściu, oznacza rychłe zamążpójście.
+
+**Łupiny orzechów** – puszcza się je jako łódeczki ze świeczką po wodzie. Jeśli dopłyną do celu, wróżą szczęście.
+
+Tradycja wywodzi się z wierzeń, że w tę magiczną noc można poznać swoją przyszłość, zwłaszcza w sprawach miłosnych. Choć dziś andrzejki mają charakter rozrywkowy, pozostają żywą częścią polskiej kultury ludowej i okazją do spotkań towarzyskich.",894,128,2026-11-06T17:54:25,claude-sonnet-4-5-20250929,0.0,2000,Odpowiedz w około 150 słowach.,claude-sonnet-4-5-20250929,end_turn,49,356,msg_011Cgn2Lrgt4uLjPz9aYazWQ,req_011Cgn2LrNH7m9UCYFyhNVKZ,2023-06-01,0.125.0
