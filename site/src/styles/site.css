@@ -192,6 +192,10 @@ html {
 }
 .panel--cloud {
   padding: clamp(12px, 2vw, 20px);
+  min-height: 640px; /* reserved for the lazily loaded 3D view (less layout shift) */
+}
+#histogram {
+  min-height: 720px; /* reserved for the lazily loaded Tatoeba chart */
 }
 .split {
   display: grid;
@@ -720,4 +724,37 @@ pre.code {
     padding: 8px 4px;
     letter-spacing: 0.04em;
   }
+}
+
+/* ---------- dot histogram (chapter 06) ---------- */
+.hist {
+  position: relative;
+}
+.hist__canvas {
+  display: block;
+}
+.hist__overlay {
+  position: absolute;
+  inset: 0;
+}
+.chart__side--row {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+@media (min-width: 900px) {
+  .chart__side--row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: var(--space-6);
+    align-items: start;
+  }
+  .chart__side--row > .pair {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+}
+.select--small {
+  max-width: 230px;
+  padding: 6px 34px 6px 12px;
+  font-size: 13px;
 }

@@ -249,7 +249,7 @@ function cosineStats(meta: Meta, results: ResultRow[]) {
 
 const minus = (v: number) => (v < 0 ? `−${Math.abs(v)}` : String(v))
 
-function nativePull(topics: Topic[], results: ResultRow[]) {
+function nativePull(topics: Topic[], results: ResultRow[], onOpen: (id: string) => void) {
   const withBase = topics.filter((t) => t.wikipedia)
   const values = withBase.flatMap((t) => (['v1', 'v2'] as const).flatMap((r) => [t.runs[r].native_pull.en ?? 0, t.runs[r].native_pull.pl ?? 0]))
   const [lo0, hi0] = extent(values) as [number, number]
@@ -294,11 +294,12 @@ function nativePull(topics: Topic[], results: ResultRow[]) {
       'Native pull: how much closer an answer is to the Wikipedia lead in its own language than to the lead in the other language ' +
       '(LaBSE cosine). Topic s06 has no Wikipedia article and is left out (n = 24).',
     tableCaption: 'native pull per topic',
+    onOpen,
     reducedMotion,
   })
 }
 
-function lengths(meta: Meta, topics: Topic[], results: ResultRow[]) {
+function lengths(meta: Meta, topics: Topic[], results: ResultRow[], onOpen: (id: string) => void) {
   const instruction = meta.runs.v2.length_instruction?.en ?? ''
   const target = Number(instruction.match(/\d+/)?.[0] ?? Number.NaN)
   const max = Math.max(...topics.flatMap((t) => (['v1', 'v2'] as const).flatMap((r) => [t.runs[r].answers.en.words, t.runs[r].answers.pl.words])))
@@ -340,6 +341,7 @@ function lengths(meta: Meta, topics: Topic[], results: ResultRow[]) {
       `v1 capped answers at max_tokens = ${meta.runs.v1.max_tokens}; v2 asked for about ${target} words in the prompt ` +
       `(max_tokens = ${meta.runs.v2.max_tokens}). Word counts without markdown are in the answer explorer.`,
     tableCaption: 'words per answer',
+    onOpen,
     reducedMotion,
   })
 }
@@ -423,23 +425,55 @@ loadSiteData((done, total) => {
   .then(({ meta, topics, results, points }) => {
     void hero.finish() // content never waits for an animation
 
+    // every chart can open a topic in the answer explorer (chapter 09)
+    const explorer = mountExplorer($('#explorer'), { topics, meta })
+    const openTopic = (id: string) => {
+      explorer.show(id)
+      // finish the chapter's reveal now: an element that is still invisible cannot take focus
+      for (const t of gsap.getTweensOf('#answers .reveal')) t.progress(1).kill()
+      const target = $('#answers')
+      const focus = () => explorer.focusPicker()
+      // lazy chapters may grow the page during the scroll, so land again precisely at the end
+      if (lenis)
+        lenis.scrollTo(target, {
+          offset: -40,
+          onComplete: () => {
+            lenis?.scrollTo(target, { offset: -40, immediate: true, force: true })
+            focus()
+          },
+        })
+      else {
+        target.scrollIntoView()
+        focus()
+      }
+    }
+
     counters(topics, results)
     mountCards($('#cards'), topics, { lang: 'en', lengthInstruction: meta.runs.v2.length_instruction, all: true, domains: meta.domains })
     settings(meta)
     cosineStats(meta, results)
     whenNear($('#cloud'), '900px 0px', async () => {
       const { mountCloud } = await import('../components/cloud')
-      mountCloud($('#cloud'), { topics, points, meta, reducedMotion, direction: 'orbit' })
+      mountCloud($('#cloud'), { topics, points, meta, reducedMotion, direction: 'orbit', onOpenTopic: openTopic })
     })
-    mountScatter($('#scatter'), { topics, results, meta, views: ['v2', 'v1'], initial: 'v2', wide: true, reducedMotion })
-    mountScatter($('#scatter-wiki'), { topics, results, meta, views: ['v2', 'wiki'], initial: 'v2', showGapTest: true, wide: true, reducedMotion })
+    mountScatter($('#scatter'), { topics, results, meta, views: ['v2', 'v1'], initial: 'v2', wide: true, onOpen: openTopic, reducedMotion })
+    mountScatter($('#scatter-wiki'), {
+      topics,
+      results,
+      meta,
+      views: ['v2', 'wiki'],
+      initial: 'v2',
+      showGapTest: true,
+      wide: true,
+      onOpen: openTopic,
+      reducedMotion,
+    })
     whenNear($('#histogram'), '1200px 0px', async () => {
       const data = await loadTatoeba()
       mountHistogram($('#histogram'), { data, results, reducedMotion })
     })
-    nativePull(topics, results)
-    lengths(meta, topics, results)
-    mountExplorer($('#explorer'), { topics, meta })
+    nativePull(topics, results, openTopic)
+    lengths(meta, topics, results, openTopic)
     underTheHood(meta)
     about()
     footer(meta)

@@ -117,6 +117,8 @@ export interface ScatterOptions {
   showGapTest?: boolean
   /** plot on the left, legend/notes/table on the right on wide screens */
   wide?: boolean
+  /** click / Enter on a topic: open it in the answer explorer */
+  onOpen?: (id: string) => void
   reducedMotion: boolean
 }
 
@@ -376,6 +378,7 @@ export function mountScatter(root: HTMLElement, opts: ScatterOptions): { setView
       vals,
       el('div', { class: 'tt__label', text: d.topic }),
       el('div', { class: 'tt__meta', text: `${d.domainLabel} · PL − EN ${signed(d.pl - d.en)}` }),
+      ...(opts.onOpen ? [el('div', { class: 'tt__hint', text: announce ? 'Enter: read both answers' : 'Click to read both answers' })] : []),
     )
     const left = Math.min(Math.max(cx, 110), size - 110)
     tooltip.style.left = `${left}px`
@@ -397,8 +400,16 @@ export function mountScatter(root: HTMLElement, opts: ScatterOptions): { setView
     const [px, py] = d3.pointer(ev)
     const i = delaunay.find(px, py)
     const d = data[i]
-    if (d && Math.hypot(x(d.en) - px, y(d.pl) - py) <= HIT_RADIUS) show(i, false)
+    const near = d && Math.hypot(x(d.en) - px, y(d.pl) - py) <= HIT_RADIUS
+    if (near) show(i, false)
     else hide()
+    svg.style('cursor', near && opts.onOpen ? 'pointer' : '')
+  })
+  svg.on('click', (ev: PointerEvent) => {
+    if (!entered || !delaunay || !opts.onOpen) return
+    const [px, py] = d3.pointer(ev)
+    const d = data[delaunay.find(px, py)]
+    if (d && Math.hypot(x(d.en) - px, y(d.pl) - py) <= HIT_RADIUS) opts.onOpen(d.id)
   })
   svg.on('pointerleave', hide)
   svg.on('focus', () => {
@@ -419,6 +430,10 @@ export function mountScatter(root: HTMLElement, opts: ScatterOptions): { setView
     else if (ev.key === 'End') nextPos = order.length - 1
     else if (ev.key === 'Escape') {
       hide()
+      return
+    } else if (ev.key === 'Enter' && opts.onOpen && focusIdx >= 0 && data[focusIdx]) {
+      ev.preventDefault()
+      opts.onOpen(data[focusIdx].id)
       return
     } else return
     ev.preventDefault()

@@ -49,6 +49,8 @@ export interface DumbbellOptions {
   caption: string
   tableCaption: string
   wide?: boolean
+  /** click / Enter on a row: open the topic in the answer explorer */
+  onOpen?: (id: string) => void
   reducedMotion: boolean
 }
 
@@ -354,6 +356,7 @@ export function mountDumbbell(root: HTMLElement, opts: DumbbellOptions): { setVi
       ]),
       el('div', { class: 'tt__label', text: r.topic }),
       el('div', { class: 'tt__meta', text: `${r.domainLabel} · PL − EN ${opts.format(r.pl - r.en)}` }),
+      ...(opts.onOpen ? [el('div', { class: 'tt__hint', text: announce ? 'Enter: read both answers' : 'Click to read both answers' })] : []),
     )
     const cx = (x(r.en) + x(r.pl)) / 2
     tooltip.style.left = `${Math.min(Math.max(cx, 120), width - 120)}px`
@@ -375,6 +378,12 @@ export function mountDumbbell(root: HTMLElement, opts: DumbbellOptions): { setVi
     for (const [id, y] of layout.y) if (Math.abs(y - py) <= ROW_H / 2) best = id
     if (best) show(best, false)
     else hide()
+    svg.style('cursor', best && opts.onOpen ? 'pointer' : '')
+  })
+  svg.on('click', (ev: PointerEvent) => {
+    if (!entered || !opts.onOpen) return
+    const [, py] = d3.pointer(ev)
+    for (const [id, y] of layout.y) if (Math.abs(y - py) <= ROW_H / 2) return opts.onOpen(id)
   })
   svg.on('pointerleave', hide)
   svg.on('focus', () => {
@@ -395,6 +404,10 @@ export function mountDumbbell(root: HTMLElement, opts: DumbbellOptions): { setVi
     else if (ev.key === 'End') k = order.length - 1
     else if (ev.key === 'Escape') {
       hide()
+      return
+    } else if (ev.key === 'Enter' && opts.onOpen && focusIdx >= 0) {
+      ev.preventDefault()
+      opts.onOpen(order[focusIdx])
       return
     } else return
     ev.preventDefault()

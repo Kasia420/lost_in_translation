@@ -617,3 +617,89 @@ html[data-motion='reduced'] .pcard[aria-pressed='true'] .pcard__face--en {
   font-size: 13px;
   color: var(--text-3);
 }
+
+/* ---------- 3D cloud: focus card ---------- */
+.cloud__card {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  z-index: 4;
+  display: grid;
+  gap: var(--space-2);
+  width: min(320px, calc(100% - 32px));
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.cloud__close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 4px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text-2);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.cloud__close:hover {
+  color: var(--text);
+}
+.cloud__title {
+  padding-right: 24px;
+  color: var(--text);
+  font: 600 17px/1.3 var(--font-body);
+}
+.cloud__cos {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+.cloud__cos .figure {
+  font-size: 30px;
+}
+.cloud__cos small {
+  color: var(--text-3);
+  font-size: 12px;
+}
+.cloud__excerpt {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin: 0;
+  color: var(--text-2);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.cloud__excerpt .key {
+  flex: none;
+  transform: translateY(1px);
+}
+@media (max-width: 600px) {
+  .cloud__card {
+    position: static;
+    width: auto;
+    margin: var(--space-3);
+  }
+}
+
+/* ---------- tooltip extras ---------- */
+.tt__excerpt {
+  margin-top: 6px;
+  color: var(--text-2);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.tt__hint {
+  margin-top: 6px;
+  color: var(--text-3);
+  font: 500 11px var(--font-mono);
+  letter-spacing: 0.04em;
+}
+.key--zero {
+  background: var(--text-3);
+}

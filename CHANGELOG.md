@@ -2,6 +2,23 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website: motion and 3D, M4 (2026-11-07)
+
+- Chapter 06: the Tatoeba chart is now a unit histogram, one dot per pair (canvas), in the
+  same 0.05 bins; all bins hold the same number of dots per row, so stack height stays
+  proportional to the count. On first view the dots fall into place (deterministic seed);
+  with reduced motion they are drawn in place. Hover a dot for its sentence pair; arrow keys
+  move between bins and pairs; “Drop the pairs again” replays the fall.
+- Chapter 03, 3D map: points assemble into their positions on first view; far points are drawn
+  dimmer and smaller; clicking a point or choosing a topic in the new “Focus” list highlights
+  that topic’s pair, moves the camera to it and shows a card with the cosine and the opening
+  words of both answers. The tooltip shows the opening words too.
+- Scatter, native-pull and word-count charts and the 3D card link to the answer explorer
+  (click or Enter); the jump moves keyboard focus to the explorer’s topic picker.
+- Space reserved for the lazily loaded chapters (less layout shift).
+- No data, results or analysis code changed; every value shown is still read from
+  `site/public/data/*.json`.
+
 ## Website: first full version, M3 (2026-11-07)
 
 - `site/index.html` + `site/src/site/`: the scroll story in direction A (Orbit), 12 chapters.

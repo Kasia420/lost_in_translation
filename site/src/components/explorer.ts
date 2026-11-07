@@ -11,7 +11,10 @@ import { renderMarkdown } from '../lib/markdown'
 const DOMAIN_ORDER: DomainId[] = ['contested_history', 'literature', 'social_norms']
 const LANG_NAME: Record<Lang, string> = { en: 'English', pl: 'Polish' }
 
-export function mountExplorer(root: HTMLElement, opts: { topics: Topic[]; meta: Meta }): { show(id: string): void } {
+export function mountExplorer(
+  root: HTMLElement,
+  opts: { topics: Topic[]; meta: Meta },
+): { show(id: string): void; focusPicker(): void } {
   let run: RunId = 'v2'
   let index = 0
   const topics = DOMAIN_ORDER.flatMap((d) => opts.topics.filter((t) => t.domain === d))
@@ -124,5 +127,5 @@ export function mountExplorer(root: HTMLElement, opts: { topics: Topic[]; meta: 
   }
 
   render()
-  return { show }
+  return { show, focusPicker: () => select.focus({ preventScroll: true }) }
 }
