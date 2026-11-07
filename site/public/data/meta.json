@@ -1,0 +1,69 @@
+{
+ "schema_version": 1,
+ "source_commit": "82f8731",
+ "title": "Lost in Translation",
+ "author": "Katarzyna Frąckowiak",
+ "repository": "https://github.com/Kasia420/lost_in_translation",
+ "runs": {
+  "v1": {
+   "model": "claude-sonnet-4-5",
+   "temperature": 0.0,
+   "max_tokens": 600,
+   "length_instruction": null,
+   "jitter_seed": null
+  },
+  "v2": {
+   "model": "claude-sonnet-4-5-20250929",
+   "temperature": 0.0,
+   "max_tokens": 2000,
+   "length_instruction": {
+    "en": "Answer in about 150 words.",
+    "pl": "Odpowiedz w około 150 słowach."
+   },
+   "jitter_seed": 2026
+  }
+ },
+ "run_notes": {
+  "v1": "course submission; l02-en and l08-pl end mid-sentence (stop_reason not logged)",
+  "v2": "re-run; all 50 answers stop_reason=end_turn; exploratory"
+ },
+ "models": {
+  "embedding": "sentence-transformers/LaBSE",
+  "sentiment": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "sentiment_polarity": "P(positive) - P(negative); primary: input truncated at 512 tokens"
+ },
+ "domains": [
+  {
+   "id": "contested_history",
+   "label": "Contested history"
+  },
+  {
+   "id": "literature",
+   "label": "Literature"
+  },
+  {
+   "id": "social_norms",
+   "label": "Social norms"
+  }
+ ],
+ "statistics": "paired Wilcoxon signed-rank (scipy defaults); matched-pairs rank-biserial of A - B",
+ "projection": {
+  "method": "PCA (scikit-learn), 3 components, fitted on all points in this file",
+  "input": "L2-normalised sentence-transformers/LaBSE embeddings (768 dimensions)",
+  "n_points": 148,
+  "explained_variance_ratio": [
+   0.11750707030296326,
+   0.10704884678125381,
+   0.07768934965133667
+  ],
+  "scaling": "divided by the largest absolute coordinate",
+  "note": "For display only. Distances in 3D are approximate; the cosines reported in the study are in topics.json.",
+  "max_abs_diff_recomputed_vs_stored_cosine": 4.175775909498469e-07
+ },
+ "attribution": {
+  "wikipedia": "Wikipedia lead sections, CC BY-SA 4.0; titles and URLs in topics.json",
+  "tatoeba": "Tatoeba sentences, CC BY 2.0 FR; sentence ids in tatoeba.json",
+  "answers": "generated with Claude through the Anthropic API",
+  "data_licence": "CC BY-SA 4.0"
+ }
+}

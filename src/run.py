@@ -9,6 +9,7 @@
     python -m src.run extended [--run v1]   clean word count, Wikipedia + chunked sentiment
     python -m src.run calibrate             classifier check on Tatoeba EN-PL sentence pairs
     python -m src.run table                 results/results_table.{csv,md}, word counts, fig5-fig7
+    python -m src.run site-data [--out DIR] JSON for the website (default site/public/data/)
 
 Collection steps are resumable: rows already collected are skipped.
 `analyze` refuses to overwrite existing results unless --overwrite is given;
@@ -43,11 +44,12 @@ def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m src.run", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("command", choices=["build", "collect", "wiki", "analyze", "all",
-                                            "extended", "calibrate", "table"])
+                                            "extended", "calibrate", "table", "site-data"])
     parser.add_argument("--run", default="v1", choices=list(RUNS),
                         help="which run's settings and data folders to use (default: v1)")
     parser.add_argument("--out", type=Path, default=None,
-                        help="analyze: write processed data, stats and figures to this directory")
+                        help="analyze: write processed data, stats and figures to this directory; "
+                             "site-data: write the JSON files to this directory")
     parser.add_argument("--overwrite", action="store_true",
                         help="analyze: allow replacing existing results for the run")
     parser.add_argument("--dry-run", action="store_true",
@@ -56,7 +58,7 @@ def main(argv=None):
 
     _load_dotenv()
     paths = RunPaths(args.run)
-    if args.out is not None:
+    if args.out is not None and args.command != "site-data":
         paths.with_output_dir(args.out)
 
     # imported lazily so `build` works without the analysis / API dependencies
@@ -83,6 +85,9 @@ def main(argv=None):
     if args.command == "table":
         from .tables import build_tables
         build_tables()
+    if args.command == "site-data":
+        from .site_export import export_site_data
+        export_site_data(args.out)
 
 
 if __name__ == "__main__":

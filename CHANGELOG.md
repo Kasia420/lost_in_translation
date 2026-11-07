@@ -2,6 +2,19 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website data export (2026-11-07)
+
+- New command `python -m src.run site-data [--out DIR]` (`src/site_export.py`): writes
+  `site/public/data/{meta,topics,results,word_counts,embeddings3d,tatoeba}.json` for the website.
+- Per-topic metrics are copied from `data/processed/<run>/`; tables from `results/`.
+- LaBSE embeddings of all 100 answers and 48 Wikipedia leads recomputed with the
+  `src/analyze.py` code; recomputed cosines match the stored values (max diff 4.2e-07).
+  Projected to 3D with PCA for display only (explained variance 0.118 + 0.107 + 0.078 = 0.302).
+- Check at the end of the export: all 51 rows of `results/results_table.csv` are rebuilt
+  from the JSON files alone with the `src/tables.py` statistics code (max abs diff 9.9e-17);
+  `word_counts.json` equals `results/word_counts.csv`.
+- No data, results or analysis code changed.
+
 ## Documentation and licence (2026-11-07)
 
 - `docs/portfolio_report.md`: short report (author's text).

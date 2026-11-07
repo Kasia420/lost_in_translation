@@ -1,0 +1,90 @@
+[
+ {
+  "run": "v1",
+  "subset": "all",
+  "n": 25.0,
+  "n_words_en": 211.0,
+  "n_words_pl": 165.0,
+  "n_words_gap_en_minus_pl": 46.0,
+  "words_clean_en": 200.0,
+  "words_clean_pl": 145.0,
+  "words_clean_gap_en_minus_pl": 53.0
+ },
+ {
+  "run": "v1",
+  "subset": "Contested history",
+  "n": 9.0,
+  "n_words_en": 211.0,
+  "n_words_pl": 181.0,
+  "n_words_gap_en_minus_pl": 36.0,
+  "words_clean_en": 198.0,
+  "words_clean_pl": 157.0,
+  "words_clean_gap_en_minus_pl": 48.0
+ },
+ {
+  "run": "v1",
+  "subset": "Literature",
+  "n": 8.0,
+  "n_words_en": 213.5,
+  "n_words_pl": 165.0,
+  "n_words_gap_en_minus_pl": 49.0,
+  "words_clean_en": 201.5,
+  "words_clean_pl": 141.5,
+  "words_clean_gap_en_minus_pl": 61.0
+ },
+ {
+  "run": "v1",
+  "subset": "Social norms",
+  "n": 8.0,
+  "n_words_en": 208.5,
+  "n_words_pl": 157.0,
+  "n_words_gap_en_minus_pl": 55.5,
+  "words_clean_en": 196.0,
+  "words_clean_pl": 137.5,
+  "words_clean_gap_en_minus_pl": 63.0
+ },
+ {
+  "run": "v2",
+  "subset": "all",
+  "n": 25.0,
+  "n_words_en": 155.0,
+  "n_words_pl": 128.0,
+  "n_words_gap_en_minus_pl": 29.0,
+  "words_clean_en": 154.0,
+  "words_clean_pl": 120.0,
+  "words_clean_gap_en_minus_pl": 34.0
+ },
+ {
+  "run": "v2",
+  "subset": "Contested history",
+  "n": 9.0,
+  "n_words_en": 156.0,
+  "n_words_pl": 129.0,
+  "n_words_gap_en_minus_pl": 28.0,
+  "words_clean_en": 155.0,
+  "words_clean_pl": 120.0,
+  "words_clean_gap_en_minus_pl": 33.0
+ },
+ {
+  "run": "v2",
+  "subset": "Literature",
+  "n": 8.0,
+  "n_words_en": 153.5,
+  "n_words_pl": 123.0,
+  "n_words_gap_en_minus_pl": 29.5,
+  "words_clean_en": 151.5,
+  "words_clean_pl": 115.0,
+  "words_clean_gap_en_minus_pl": 36.0
+ },
+ {
+  "run": "v2",
+  "subset": "Social norms",
+  "n": 8.0,
+  "n_words_en": 155.5,
+  "n_words_pl": 129.0,
+  "n_words_gap_en_minus_pl": 27.0,
+  "words_clean_en": 154.5,
+  "words_clean_pl": 122.5,
+  "words_clean_gap_en_minus_pl": 31.0
+ }
+]
