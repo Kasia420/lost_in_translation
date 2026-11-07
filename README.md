@@ -4,6 +4,7 @@
 A small, fully reproducible study of 25 Polish cultural topics, asked in both languages,
 with English and Polish Wikipedia as a human-written reference point.
 
+> **Interactive website: [kasia420.github.io/lost_in_translation](https://kasia420.github.io/lost_in_translation/)**
 > Short report: [docs/portfolio_report.md](docs/portfolio_report.md).
 > The v1 numbers below are copied from `results/v1/stats/stats_summary.txt`.
 
@@ -174,8 +175,10 @@ Tested with Python 3.12 on macOS (Intel); see the comments in `requirements.txt`
 
 ### Website
 
-`site/` is an interactive version of the study. It reads only the exported JSON in
-`site/public/data/` and the text of `docs/portfolio_report.md` (verbatim). Node.js 26:
+`site/` is an interactive version of the study, published at
+<https://kasia420.github.io/lost_in_translation/> by `.github/workflows/pages.yml` on every push
+that changes it. It reads only the exported JSON in `site/public/data/` and the text of
+`docs/portfolio_report.md` (verbatim). Node.js 26:
 
 ```bash
 python -m src.run site-data          # refresh site/public/data/*.json; stops if any row of results_table.csv differs

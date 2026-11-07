@@ -2,6 +2,13 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website published (2026-11-07)
+
+- GitHub Pages enabled for the repository (source: GitHub Actions, HTTPS enforced); the site is
+  live at https://kasia420.github.io/lost_in_translation/ and redeploys on every push that
+  changes `site/`, the report, the README or `requirements.txt`.
+- README and the repository's About section link to the site.
+
 ## Website: motion and 3D, M4 (2026-11-07)
 
 - Chapter 06: the Tatoeba chart is now a unit histogram, one dot per pair (canvas), in the
