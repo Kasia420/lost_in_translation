@@ -123,6 +123,7 @@ src/                  pipeline code (python -m src.run ...)
   extended.py         clean word count, Wikipedia + chunked sentiment
   calibration.py      Tatoeba EN-PL classifier check
   tables.py           results table, word counts, fig5-fig7
+  site_export.py      JSON for the website -> site/public/data/ (checked against the results table)
 data/raw/v1/          collected data exactly as used for the course submission
 data/raw/v2/          v2 prompts and answers
 data/raw/calibration/ Tatoeba sample (with sentence ids)
@@ -131,6 +132,8 @@ results/v1/           stats_summary.txt + figures, as submitted
 results/v2/           stats_summary.txt + figures for v2
 results/              results_table, word_counts, baseline/, calibration/, comparison/
 docs/                 portfolio report, paper (v1) and Wikipedia attribution
+site/                 interactive website (Vite + TypeScript); text comes from docs/portfolio_report.md
+.github/workflows/    builds the website and publishes it to GitHub Pages
 ```
 
 Each run keeps its own `data/raw/<run>/`, `data/processed/<run>/` and `results/<run>/`;
@@ -168,6 +171,16 @@ v1 answers cannot be collected again exactly: `temperature=0` is not guaranteed 
 deterministic, and the v1 model alias is retired on 2026-11-30.
 
 Tested with Python 3.12 on macOS (Intel); see the comments in `requirements.txt`.
+
+### Website
+
+`site/` is an interactive version of the study. It reads only the exported JSON in
+`site/public/data/` and the text of `docs/portfolio_report.md` (verbatim). Node.js 26:
+
+```bash
+python -m src.run site-data          # refresh site/public/data/*.json; stops if any row of results_table.csv differs
+cd site && npm ci && npm run dev     # http://localhost:5173/lost_in_translation/
+```
 
 ## Limitations
 

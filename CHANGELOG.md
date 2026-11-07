@@ -2,6 +2,41 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website: first full version, M3 (2026-11-07)
+
+- `site/index.html` + `site/src/site/`: the scroll story in direction A (Orbit), 12 chapters.
+  All narrative text is read from `docs/portfolio_report.md` (and the AI-assistance paragraph
+  from `README.md`) at build time and shown verbatim; only bold lead-ins that duplicate a page
+  label (“Research question.”) are not shown. Non-breaking spaces keep “p = …” on one line.
+- New charts: native pull and word counts per topic (EN and PL dots per row, medians from
+  `results.json`), Tatoeba histogram of PL − EN differences (bins of 0.05; the same-label count
+  is computed from `tatoeba.json` and must equal the note in `results.json`), an answer explorer
+  (both answers, prompts as sent, all metrics, Wikipedia leads).
+- Code split: three.js loads only near the 3D chapter; `tatoeba.json` only near chapter 06.
+- `d3-transition` imported directly (d3's package is marked side-effect-free, which dropped
+  `selection.transition()` from production builds); `fsevents` install script denied
+  (`allowScripts` in `site/package.json`).
+- `.github/workflows/pages.yml`: builds `site/` with Node 26 and deploys to GitHub Pages;
+  actions pinned to commit SHAs. Not active until GitHub Pages is enabled for the repository.
+- README: repository layout and how to run the website.
+- No data, results or analysis code changed.
+
+## Website: design review, M2 (2026-11-07)
+
+- `site/`: Vite 8 + TypeScript 7 project (exact-pinned dependencies in `site/package.json`
+  and `package-lock.json`; `npm audit`: 0 vulnerabilities). Fonts self-hosted from
+  Fontsource (SIL Open Font License), no requests to Google Fonts.
+- `site/design/`: design review page with three directions (Orbit, Archive, Lab), a style
+  sheet, and a storyboard of 13 chapters. Five chapters are live prototypes reading
+  `site/public/data/*.json`; chart numbers come from `results.json`, never typed by hand.
+- `site/index.html`: placeholder root page.
+- `site/public/data/meta.json`: `source_commit` updated to `0d8cb36` (re-export; the other
+  five JSON files are byte-identical).
+- Data colours (EN `#3987e5`, PL `#d95926`, reserve `#199e70`) checked with the dataviz palette
+  validator on the three surfaces, all pairs: worst CVD ΔE 9.4, normal-vision ΔE 20.9,
+  contrast ≥ 3:1. Text tokens ≥ 5.3:1 contrast.
+- No data, results or analysis code changed.
+
 ## Website data export (2026-11-07)
 
 - New command `python -m src.run site-data [--out DIR]` (`src/site_export.py`): writes

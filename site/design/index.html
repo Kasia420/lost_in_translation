@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en" data-direction="orbit">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="Design review (milestone M2) for the Lost in Translation website." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Lost in Translation · design review (M2)</title>
+    <script type="module" src="/src/design/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="topbar">
+      <a class="brand" href="#hero">Lost in Translation <span class="label">design review · M2</span></a>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Design direction">
+          <button type="button" data-set-direction="orbit" aria-pressed="true">A · Orbit</button>
+          <button type="button" data-set-direction="archive" aria-pressed="false">B · Archive</button>
+          <button type="button" data-set-direction="lab" aria-pressed="false">C · Lab</button>
+        </div>
+        <div class="seg" role="group" aria-label="Language">
+          <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-set-lang="pl" aria-pressed="false">PL</button>
+        </div>
+        <div class="seg">
+          <button type="button" id="motion-toggle" aria-pressed="false">Motion: full</button>
+          <button type="button" disabled title="Sound arrives in milestone M6">Sound · M6</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- 00 + 01: loading screen and hero (live) -->
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="preloader" aria-hidden="true">
+          <div class="preloader__num"><span class="preloader__count">0</span><span class="preloader__pct">%</span></div>
+          <div class="preloader__bar"><span></span></div>
+          <span class="label" data-i18n="loading">loading data</span>
+        </div>
+        <div class="container hero__inner">
+          <p class="label" data-i18n="kicker">One model · two languages · 25 Polish topics</p>
+          <h1 class="display hero__title" id="hero-title">
+            <span class="sr-only hero__title-sr">Lost in Translation</span>
+            <span class="hero__title-anim" aria-hidden="true"></span>
+          </h1>
+          <p class="hero__question" lang="en">
+            Does English-language dominance in LLM training data cause a model to reframe culturally significant Polish
+            topics through an Anglophone lens, even when responding in Polish?
+          </p>
+          <p class="hero__note"><span class="tag tag--source">Kasia’s text · README</span> <span data-i18n="questionNote"></span></p>
+          <div class="hero__actions">
+            <a class="btn" href="#directions" data-i18n="begin">Scroll to begin</a>
+            <button class="btn btn--ghost" type="button" id="replay" data-i18n="replay">Replay intro</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- directions -->
+      <section class="section" id="directions" aria-labelledby="directions-title">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="label">Step 1 · pick a direction</p>
+            <h2 class="display section__title" id="directions-title">Three directions, same data</h2>
+            <p class="section__lede">
+              All three are dark and cinematic, as decided. They differ in typography, texture and mood. The switch in
+              the top bar restyles this whole page, including the live prototypes further down. Mixing is fine, for
+              example the Archive fonts on the Orbit background.
+            </p>
+          </div>
+          <div class="directions">
+            <button class="dir reveal" type="button" data-set-direction="orbit" aria-pressed="true">
+              <span class="label">A</span>
+              <span class="dir__name" style="font-family: 'Space Grotesk Variable'; font-weight: 300; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text)">Orbit</span>
+              <span class="dir__sample" style="background: #0a0a0a; color: #f2f2f2; font-family: 'Space Grotesk Variable'; font-weight: 300; text-transform: uppercase; letter-spacing: 0.08em">Zażółć gęślą jaźń</span>
+              <ul class="dir__list">
+                <li>Near-black, soft EN-blue and PL-orange glow, light grain</li>
+                <li>Space Grotesk (wide, light, uppercase) + JetBrains Mono labels</li>
+                <li>Closest to the Edolus feel: space, scale, motion</li>
+              </ul>
+            </button>
+            <button class="dir reveal" type="button" data-set-direction="archive" aria-pressed="false">
+              <span class="label">B</span>
+              <span class="dir__name" style="font-family: 'Fraunces Variable'; font-weight: 380; color: var(--text)">Archive</span>
+              <span class="dir__sample" style="background: #15120f; color: #f3ece2; font-family: 'Fraunces Variable'">Zażółć gęślą jaźń</span>
+              <ul class="dir__list">
+                <li>Warm dark, paper grain, framed rules, § numbering</li>
+                <li>Fraunces (literary serif) + Inter body + IBM Plex Mono labels</li>
+                <li>Feels like a library: history and literature first</li>
+              </ul>
+            </button>
+            <button class="dir reveal" type="button" data-set-direction="lab" aria-pressed="false">
+              <span class="label">C</span>
+              <span class="dir__name" style="font-family: 'JetBrains Mono Variable'; font-weight: 700; color: var(--text)">Lab</span>
+              <span class="dir__sample" style="background: #0b0f14; color: #e8eef5; font-family: 'JetBrains Mono Variable'; font-weight: 700">Zażółć gęślą jaźń</span>
+              <ul class="dir__list">
+                <li>Cool dark, measuring grid, crosshairs, corner ticks</li>
+                <li>JetBrains Mono (bold) + Inter body</li>
+                <li>Feels like an evaluation instrument: AI and tooling first</li>
+              </ul>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- style tile -->
+      <section class="section" id="style" aria-labelledby="style-title">
+        <div class="container tile">
+          <div class="section__head reveal">
+            <p class="label">Step 2 · the style sheet</p>
+            <h2 class="display section__title" id="style-title">Colour, type, numbers, motion</h2>
+            <p class="section__lede">Values below are read live from the current direction.</p>
+          </div>
+
+          <div class="reveal">
+            <h3>Colour</h3>
+            <div class="swatches" id="swatches"></div>
+            <ul class="rules">
+              <li><strong>Colour always means language:</strong> blue = English, orange = Polish, on every chart and every page. Domains are told apart by shape (● contested history, ■ literature, ▲ social norms), never by colour.</li>
+              <li>The data colours passed the colour-blind check on all three backgrounds (all pairs: worst ΔE 9.4 under colour-blindness simulation, 20.9 in normal vision; minimum 8 and 15).</li>
+              <li>Text never takes a data colour; a coloured dot or line beside it carries the identity.</li>
+              <li>Every text colour reaches at least 5.3:1 contrast (WCAG body-text minimum: 4.5:1).</li>
+            </ul>
+          </div>
+
+          <div class="reveal">
+            <h3>Typography (all fonts self-hosted, with full Polish letters)</h3>
+            <div class="specimen">
+              <div class="specimen__row">
+                <span class="label">Display</span>
+                <span class="display specimen__display" lang="pl">Zażółć gęślą jaźń</span>
+              </div>
+              <div class="specimen__row">
+                <span class="label">Display, caps</span>
+                <span class="display specimen__display" lang="pl">ZAŻÓŁĆ GĘŚLĄ JAŹŃ</span>
+              </div>
+              <div class="specimen__row">
+                <span class="label">Body</span>
+                <p class="specimen__body" lang="pl">
+                  Pchnąć w tę łódź jeża lub ośm skrzyń fig.
+                  <span lang="en">Each answer was scored by the same classifier in both languages.</span>
+                </p>
+              </div>
+              <div class="specimen__row">
+                <span class="label">Labels, code</span>
+                <span class="specimen__mono">python -m src.run site-data · p = .0015 · r = +.70 · −.122</span>
+              </div>
+              <div class="specimen__row">
+                <span class="label">Numbers</span>
+                <span class="specimen__body">
+                  p: two significant digits, no leading zero (.0015, .015, .53) · r: signed, 2 decimals (+.70) · values:
+                  signed, 3 decimals, true minus sign (−.122) · cosine: .810. Big numbers use the sans face, never the
+                  display serif.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <h3>Stat tiles (numbers read from results.json)</h3>
+            <div class="stats" id="stats"></div>
+          </div>
+
+          <div class="reveal">
+            <h3>Motion</h3>
+            <div class="motion-demos" id="motion-demos"></div>
+            <table class="motion-table" style="margin-top: 24px">
+              <thead>
+                <tr><th scope="col">Token</th><th scope="col">Value</th><th scope="col">Used for</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>UI</td><td>200 ms</td><td>hover, pressed states, colour changes</td></tr>
+                <tr><td>Reveal</td><td>700–800 ms, expo-out</td><td>text and frames entering on scroll</td></tr>
+                <tr><td>Scene</td><td>1.0–1.4 s, ease-in-out</td><td>chart and 3D transitions between states</td></tr>
+                <tr><td>Reduced motion</td><td>off</td><td>OS setting or the “Motion” button: no smooth scroll, no morphs, no rotation; charts drawn in place</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- storyboard -->
+      <section class="section" id="storyboard" aria-labelledby="storyboard-title">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="label">Step 3 · the storyboard</p>
+            <h2 class="display section__title" id="storyboard-title">Thirteen chapters</h2>
+            <p class="section__lede">
+              Five chapters are live prototypes with the real data; the rest are wireframes. Chapter titles are working
+              titles: the final titles and all narrative text (EN and PL) are Kasia’s to write.
+            </p>
+          </div>
+          <div class="frames" id="frames"></div>
+        </div>
+      </section>
+
+      <!-- review -->
+      <section class="section" id="review" aria-labelledby="review-title">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="label">Step 4 · your decisions</p>
+            <h2 class="display section__title" id="review-title">What to decide</h2>
+          </div>
+          <ol class="review reveal">
+            <li><strong>Direction:</strong> A Orbit, B Archive or C Lab, or a mix (for example “B fonts, A background”).</li>
+            <li>
+              <strong>Polish title</strong> for the site. Draft used here: “Zagubione w tłumaczeniu”. Alternatives:
+              “Stracone w przekładzie”, or “Między słowami”, the Polish release title of the 2003 film <i>Lost in
+              Translation</i>, which is itself a non-literal translation.
+            </li>
+            <li><strong>Polish UI drafts</strong> to correct: “Jeden model · dwa języki · 25 polskich tematów”, “Przewiń, aby zacząć”, “Odtwórz intro”, “wczytywanie danych”.</li>
+            <li><strong>Text you write</strong> (EN and PL): the hero line under the question, a 1–3 sentence intro per chapter, the final chapter titles.</li>
+            <li><strong>Anything that feels off:</strong> motion too much or too little, the 3D cloud, the chart style, the frame order.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        Data: site/public/data/*.json, exported from commit <span id="source-commit">…</span> and checked against
+        results/results_table.csv. Design review page, not indexed. Fonts: Space Grotesk, Fraunces, Inter, JetBrains
+        Mono, IBM Plex Mono (SIL Open Font License).
+      </div>
+    </footer>
+  </body>
+</html>

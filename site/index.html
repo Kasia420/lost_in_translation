@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" data-direction="orbit">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Lost in Translation · Katarzyna Frąckowiak</title>
+    <meta
+      name="description"
+      content="An interactive study of how one language model answers the same questions about Polish culture in English and in Polish. By Katarzyna Frąckowiak."
+    />
+    <link rel="canonical" href="https://kasia420.github.io/lost_in_translation/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lost in Translation" />
+    <meta
+      property="og:description"
+      content="An interactive study of how one language model answers the same questions about Polish culture in English and in Polish."
+    />
+    <meta property="og:url" content="https://kasia420.github.io/lost_in_translation/" />
+    <meta property="og:image" content="https://kasia420.github.io/lost_in_translation/social_preview.png" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <script type="module" src="/src/site/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
+
+    <header class="nav">
+      <a class="nav__brand" href="#top">Lost in Translation</a>
+      <span class="nav__chapter" aria-live="off"></span>
+      <nav class="nav__links" aria-label="Site">
+        <a class="nav__link nav__link--wide" href="#contents">Contents</a>
+        <a class="nav__link" id="nav-report" href="#" target="_blank" rel="noopener">Report</a>
+        <a class="nav__link nav__link--wide" href="https://github.com/Kasia420/lost_in_translation" target="_blank" rel="noopener">GitHub</a>
+        <button class="nav__link nav__motion" type="button" id="motion-toggle" aria-pressed="false">Motion on</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- 01 · hero (with the loading screen) -->
+      <section class="hero" id="top" aria-labelledby="hero-title" data-chapter="Introduction">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="preloader" aria-hidden="true">
+          <div class="preloader__num"><span class="preloader__count">0</span><span class="preloader__pct">%</span></div>
+          <div class="preloader__bar"><span></span></div>
+          <span class="label">loading data</span>
+        </div>
+        <div class="container hero__inner">
+          <p class="label" id="hero-kicker"></p>
+          <h1 class="display hero__title" id="hero-title">
+            <span class="sr-only hero__title-sr">Lost in Translation</span>
+            <span class="hero__title-anim" aria-hidden="true"></span>
+          </h1>
+          <div class="hero__question">
+            <p class="label">Research question</p>
+            <p id="hero-question"></p>
+          </div>
+          <div class="hero__actions">
+            <a class="btn" href="#short">Scroll to begin</a>
+            <a class="btn btn--ghost" id="hero-report" href="#" target="_blank" rel="noopener">Read the report</a>
+          </div>
+        </div>
+        <div class="hero__cue" aria-hidden="true"><span></span></div>
+      </section>
+
+      <!-- in short + contents -->
+      <section class="chapter chapter--short" id="short" aria-labelledby="short-title" data-chapter="In short">
+        <div class="container short">
+          <div>
+            <p class="label">In short</p>
+            <h2 class="sr-only" id="short-title">In short</h2>
+            <div class="prose prose--lead reveal" id="abstract"></div>
+          </div>
+          <nav class="contents reveal" id="contents" aria-label="Chapters">
+            <p class="label">Contents</p>
+            <ol id="contents-list"></ol>
+          </nav>
+        </div>
+      </section>
+
+      <section class="chapter" id="experiment" aria-labelledby="experiment-title" data-chapter="02 · The experiment">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">02</span><h2 class="display chapter__title" id="experiment-title">The experiment</h2></header>
+          <div class="prose reveal" id="design-text"></div>
+          <div class="counters reveal" id="counters"></div>
+          <div class="panel reveal" id="cards"></div>
+          <div class="panel reveal" id="settings"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="homogenization" aria-labelledby="homogenization-title" data-chapter="03 · Inside the model’s head">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">03</span><h2 class="display chapter__title" id="homogenization-title">Inside the model’s head</h2></header>
+          <p class="hypothesis reveal" id="h1"></p>
+          <div class="prose reveal" id="similarity-text"></div>
+          <div class="stats-row reveal" id="cosine-stats"></div>
+          <div class="panel panel--cloud reveal" id="cloud"><p class="caption">Loading the 3D view…</p></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="tone" aria-labelledby="tone-title" data-chapter="04 · Tone">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">04</span><h2 class="display chapter__title" id="tone-title">Tone</h2></header>
+          <p class="hypothesis reveal" id="h3"></p>
+          <div class="prose reveal" id="sentiment-text"></div>
+          <div class="panel reveal" id="scatter"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="sources" aria-labelledby="sources-title" data-chapter="05 · Model or sources?">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">05</span><h2 class="display chapter__title" id="sources-title">Model or sources?</h2></header>
+          <div class="prose reveal" id="wiki-text"></div>
+          <div class="panel reveal" id="scatter-wiki"></div>
+          <div class="prose prose--after reveal" id="wiki-interpretation"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="calibration" aria-labelledby="calibration-title" data-chapter="06 · Is the classifier biased?">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">06</span><h2 class="display chapter__title" id="calibration-title">Is the classifier biased?</h2></header>
+          <div class="prose reveal" id="calibration-text"></div>
+          <div class="panel reveal" id="histogram"><p class="caption">Loading 1,000 sentence pairs…</p></div>
+          <div class="prose prose--after reveal" id="calibration-interpretation"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="anchoring" aria-labelledby="anchoring-title" data-chapter="07 · Tug of war">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">07</span><h2 class="display chapter__title" id="anchoring-title">Tug of war</h2></header>
+          <p class="hypothesis reveal" id="h2"></p>
+          <div class="prose reveal" id="anchoring-text"></div>
+          <div class="panel reveal" id="native-pull"></div>
+          <div class="prose prose--after reveal" id="anchoring-interpretation"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="length" aria-labelledby="length-title" data-chapter="08 · How long is an answer?">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">08</span><h2 class="display chapter__title" id="length-title">How long is an answer?</h2></header>
+          <div class="panel reveal" id="lengths"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="answers" aria-labelledby="answers-title" data-chapter="09 · Read the answers">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">09</span><h2 class="display chapter__title" id="answers-title">Read the answers</h2></header>
+          <div class="panel reveal" id="explorer"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="meaning" aria-labelledby="meaning-title" data-chapter="10 · What it means">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">10</span><h2 class="display chapter__title" id="meaning-title">What it means</h2></header>
+          <div class="prose prose--lead reveal" id="conclusion"></div>
+          <h3 class="subhead reveal">Limitations</h3>
+          <div class="prose reveal" id="limitations"></div>
+        </div>
+      </section>
+
+      <section class="chapter" id="hood" aria-labelledby="hood-title" data-chapter="11 · Under the hood">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">11</span><h2 class="display chapter__title" id="hood-title">Under the hood</h2></header>
+          <div class="prose reveal" id="measures"></div>
+          <ol class="pipeline reveal" id="pipeline"></ol>
+          <div class="split">
+            <div class="reveal">
+              <h3 class="subhead">Reproducibility</h3>
+              <div class="prose" id="repro"></div>
+            </div>
+            <div class="reveal">
+              <h3 class="subhead">Data behind every chart</h3>
+              <ul class="files" id="files"></ul>
+              <h3 class="subhead">Built with</h3>
+              <ul class="stack" id="stack"></ul>
+              <h3 class="subhead">AI assistance</h3>
+              <div class="prose" id="ai-note"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter" id="about" aria-labelledby="about-title" data-chapter="12 · About">
+        <div class="container">
+          <header class="chapter__head reveal"><span class="chapter__no">12</span><h2 class="display chapter__title" id="about-title">About</h2></header>
+          <div class="prose prose--lead reveal" id="byline"></div>
+          <ul class="links reveal" id="links"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner" id="footer"></div>
+    </footer>
+
+    <noscript>
+      <div class="container">
+        <p>This site needs JavaScript for its charts. The full study is in the
+          <a href="https://github.com/Kasia420/lost_in_translation/blob/main/docs/portfolio_report.md">report</a> and the
+          <a href="https://github.com/Kasia420/lost_in_translation">repository</a>.</p>
+      </div>
+    </noscript>
+  </body>
+</html>

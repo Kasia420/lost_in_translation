@@ -1,0 +1,112 @@
+/*
+ * Design tokens.
+ *
+ * Data colours are identical in every direction and were checked with the
+ * dataviz palette validator on all three surfaces (all pairs, colour-blind
+ * simulation): worst CVD ΔE 9.4, worst normal-vision ΔE 20.9, contrast >= 3:1.
+ * Rule: colour always means language (blue = English, orange = Polish).
+ * Domains are told apart by shape, never by colour.
+ *
+ * Text tokens: WCAG contrast on the darkest surface (checked): text >= 15.9,
+ * text-2 >= 9.4, text-3 >= 5.7 (all above the 4.5:1 body-text minimum).
+ */
+:root {
+  --en: #3987e5;
+  --pl: #d95926;
+  --accent-3: #199e70; /* reserve, third series only */
+
+  --radius-s: 4px;
+  --radius-m: 10px;
+  --radius-l: 14px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --space-9: 120px;
+
+  --container: 1200px;
+  --gutter: clamp(16px, 4vw, 48px);
+
+  --dur-ui: 200ms;
+  --dur-reveal: 700ms;
+  --dur-scene: 1400ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* A: Orbit (cinematic, near-black, wide geometric type) */
+:root,
+[data-direction='orbit'] {
+  color-scheme: dark;
+  --surface: #0a0a0a;
+  --surface-2: #141414;
+  --line: #262626;
+  --text: #f2f2f2;
+  --text-2: #b8b8b8;
+  --text-3: #8a8a8a;
+  --font-display: 'Space Grotesk Variable', system-ui, sans-serif;
+  --font-body: 'Space Grotesk Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, Menlo, monospace;
+  --font-figure: 'Space Grotesk Variable', system-ui, sans-serif;
+  --display-weight: 300;
+  --display-transform: uppercase;
+  --display-tracking: 0.04em;
+  --display-leading: 0.95;
+  --label-tracking: 0.14em;
+  --frame-radius: var(--radius-l);
+  --grain-opacity: 0.05;
+  --grid-opacity: 0;
+  --glow: 1;
+}
+
+/* B: Archive (editorial, warm dark, literary serif) */
+[data-direction='archive'] {
+  --surface: #15120f;
+  --surface-2: #1f1b17;
+  --line: #332d26;
+  --text: #f3ece2;
+  --text-2: #c9bfb1;
+  --text-3: #9a8f80;
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-body: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --font-figure: 'Inter Variable', system-ui, sans-serif;
+  --display-weight: 380;
+  --display-transform: none;
+  --display-tracking: -0.015em;
+  --display-leading: 1;
+  --label-tracking: 0.1em;
+  --frame-radius: var(--radius-s);
+  --grain-opacity: 0.09;
+  --grid-opacity: 0;
+  --glow: 0;
+}
+
+/* C: Lab (evaluation instrument, cool dark, monospace) */
+[data-direction='lab'] {
+  --surface: #0b0f14;
+  --surface-2: #121821;
+  --line: #1f2a36;
+  --text: #e8eef5;
+  --text-2: #aab7c4;
+  --text-3: #8292a3;
+  --font-display: 'JetBrains Mono Variable', ui-monospace, Menlo, monospace;
+  --font-body: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, Menlo, monospace;
+  --font-figure: 'Inter Variable', system-ui, sans-serif;
+  --display-weight: 700;
+  --display-transform: none;
+  --display-tracking: -0.03em;
+  --display-leading: 1;
+  --label-tracking: 0.08em;
+  --frame-radius: 2px;
+  --grain-opacity: 0;
+  --grid-opacity: 1;
+  --glow: 0;
+}
