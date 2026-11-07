@@ -2,6 +2,17 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Documentation and licence (2026-11-07)
+
+- `docs/portfolio_report.md`: short report (author's text).
+- README: research question and hypotheses, v2 interpretation, conclusion and AI assistance
+  sections (author's text) in place of the TODO placeholders; link to the report.
+- `LICENSE`: MIT for the code. README states CC BY-SA 4.0 for `data/` (includes Wikipedia
+  text) and CC BY 2.0 FR for the Tatoeba sentences.
+- `results/social_preview.png`: 1280×640 image for the GitHub social preview, built from
+  `results/v2/figures/fig2_sentiment.png`.
+- No code, data or results changed.
+
 ## v2 run (2026-11)
 
 ### Collection settings (step 3a/3b)
