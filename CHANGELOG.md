@@ -2,6 +2,11 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website: link to the author's site (2026-11-12)
+
+- The top bar has an “Author” link and the About chapter a “kasia420.github.io” button, both to
+  https://kasia420.github.io/.
+
 ## Website: justified text (2026-11-12)
 
 - Running text is justified, with hyphenation in the text's own language (English, or Polish where

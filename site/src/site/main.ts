@@ -402,6 +402,7 @@ function about() {
     ['Report', REPORT_URL],
     ['README', README_URL],
     ['GitHub profile', 'https://github.com/Kasia420'],
+    ['kasia420.github.io', 'https://kasia420.github.io/'],
   ]
   $('#links').replaceChildren(...links.map(([t, href]) => el('li', {}, [el('a', { class: 'btn btn--ghost', href, target: '_blank', rel: 'noopener', text: t })])))
 }
