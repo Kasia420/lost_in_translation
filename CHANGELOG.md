@@ -54,7 +54,7 @@ Factual record of changes to code, data and methods. No interpretation of result
   sheet, and a storyboard of 13 chapters. Five chapters are live prototypes reading
   `site/public/data/*.json`; chart numbers come from `results.json`, never typed by hand.
 - `site/index.html`: placeholder root page.
-- `site/public/data/meta.json`: `source_commit` updated to `0d8cb36` (re-export; the other
+- `site/public/data/meta.json`: `source_commit` updated to `031d182` (re-export; the other
   five JSON files are byte-identical).
 - Data colours (EN `#3987e5`, PL `#d95926`, reserve `#199e70`) checked with the dataviz palette
   validator on the three surfaces, all pairs: worst CVD ΔE 9.4, normal-vision ΔE 20.9,
