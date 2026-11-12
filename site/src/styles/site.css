@@ -154,6 +154,27 @@ html {
 .prose p {
   margin: 0;
 }
+/* running text is justified (both edges straight), hyphenated in its own language: the page is
+   lang="en", and the Polish answers, prompts and Wikipedia leads carry lang="pl".
+   Headings, labels, buttons (the prompt cards too), tables and code stay left. */
+.hero__question p:last-child,
+.prose p,
+.prose li,
+.hypothesis,
+.caption,
+.cards-note,
+.answer__prompt,
+.md p,
+.md li,
+.wiki__lead,
+.pipeline__step p:not(.pipeline__files),
+.files li,
+.stack li,
+.footer__inner p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 .prose strong {
   color: var(--text);
   font-weight: 600;
@@ -617,6 +638,14 @@ details.wiki summary {
   color: var(--text-2);
   font-size: 15px;
   line-height: 1.65;
+}
+/* on phones an opened Wikipedia lead's long address must wrap: unbroken, it widened the whole
+   explorer column past its panel and cut off both answers */
+details.wiki a {
+  overflow-wrap: anywhere;
+}
+.explorer > * {
+  min-width: 0;
 }
 
 /* ---------- under the hood ---------- */

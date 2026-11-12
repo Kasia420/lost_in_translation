@@ -2,6 +2,16 @@
 
 Factual record of changes to code, data and methods. No interpretation of results.
 
+## Website: justified text (2026-11-12)
+
+- Running text is justified, with hyphenation in the text's own language (English, or Polish where
+  marked): report paragraphs, the research question, hypotheses, chart captions, the note above
+  the prompt cards, the model's answers and prompts, Wikipedia leads, pipeline steps, the file
+  and package lists and the footer. Headings, labels, buttons (the prompt cards included),
+  tables and code stay left-aligned.
+- Phones: the address under an opened Wikipedia lead now wraps. Unbroken, it widened the answer
+  explorer past its panel, and the right edge of both answers was cut off.
+
 ## Website published (2026-11-07)
 
 - GitHub Pages enabled for the repository (source: GitHub Actions, HTTPS enforced); the site is
